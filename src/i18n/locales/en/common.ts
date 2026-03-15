@@ -3,8 +3,47 @@ import { TRANSLATION_KEYS } from "@/i18n/keys";
 const { COMMON, MONSTER } = TRANSLATION_KEYS;
 
 export const common = {
+  // COMMON
   [COMMON.HOME]: "Home",
   [COMMON.NOT_FOUND]: "Page not found",
   [COMMON.BACK_TO_HOME]: "Back to home",
+  // MONSTER
   [MONSTER.DETAIL]: "Monster detail",
+  [MONSTER.HATCHABLE]: "Hatchable",
+  // EGG GROUP
+  [MONSTER.EGG_GROUP.birdWyvern]: "Bird Wyvern",
+  [MONSTER.EGG_GROUP.bruteWyvern]: "Brute Wyvern",
+  [MONSTER.EGG_GROUP.elderDragon]: "Elder Dragon",
+  [MONSTER.EGG_GROUP.fangedBeast]: "Fanged Beast",
+  [MONSTER.EGG_GROUP.flyingWyvern]: "Flying Wyvern",
+  [MONSTER.EGG_GROUP.herbivore]: "Herbivore",
+  [MONSTER.EGG_GROUP.leviathan]: "Leviathan",
+  [MONSTER.EGG_GROUP.lynian]: "Lynian",
+  [MONSTER.EGG_GROUP.neopteron]: "Neopteron",
+  [MONSTER.EGG_GROUP.piscineWyvern]: "Piscine Wyvern",
+  [MONSTER.EGG_GROUP.snakeWyvern]: "Snake Wyvern",
+  [MONSTER.EGG_GROUP.temnoceran]: "Temnoceran",
+  // ELEMENT
+  [MONSTER.ELEMENT.fire]: "Fire",
+  [MONSTER.ELEMENT.water]: "Water",
+  [MONSTER.ELEMENT.ice]: "Ice",
+  [MONSTER.ELEMENT.thunder]: "Thunder",
+  [MONSTER.ELEMENT.dragon]: "Dragon",
+  [MONSTER.ELEMENT.nonElemental]: "Non-elemental",
+  // ATTACK TYPE
+  [MONSTER.ATTACK_TYPE.power]: "Power",
+  [MONSTER.ATTACK_TYPE.speed]: "Speed",
+  [MONSTER.ATTACK_TYPE.technical]: "Technical",
+  // WEAPON TYPE
+  [MONSTER.WEAPON_TYPE.slash]: "Slash",
+  [MONSTER.WEAPON_TYPE.blunt]: "Blunt",
+  [MONSTER.WEAPON_TYPE.pierce]: "Pierce",
+  // STATUS EFFECT
+  [MONSTER.STATUS_EFFECT.poison]: "Poison",
+  [MONSTER.STATUS_EFFECT.fireblight]: "Fireblight",
+  [MONSTER.STATUS_EFFECT.paralysis]: "Paralysis",
+  [MONSTER.STATUS_EFFECT.sleep]: "Sleep",
+  [MONSTER.STATUS_EFFECT.blast]: "Blast",
+  [MONSTER.STATUS_EFFECT.bleeding]: "Bleeding",
+  [MONSTER.STATUS_EFFECT.blind]: "Blind",
 };

@@ -3,8 +3,47 @@ import { TRANSLATION_KEYS } from "@/i18n/keys";
 const { COMMON, MONSTER } = TRANSLATION_KEYS;
 
 export const common = {
+  // COMMON
   [COMMON.HOME]: "Home",
   [COMMON.NOT_FOUND]: "Pagina non trovata",
   [COMMON.BACK_TO_HOME]: "Torna alla home",
+  // MONSTER
   [MONSTER.DETAIL]: "Dettaglio mostro",
+  [MONSTER.HATCHABLE]: "Schiudibile",
+  // EGG GROUP
+  [MONSTER.EGG_GROUP.birdWyvern]: "Wyvern Rapace",
+  [MONSTER.EGG_GROUP.bruteWyvern]: "Wyvern Brutale",
+  [MONSTER.EGG_GROUP.elderDragon]: "Drago Anziano",
+  [MONSTER.EGG_GROUP.fangedBeast]: "Bestia Zannuta",
+  [MONSTER.EGG_GROUP.flyingWyvern]: "Wyvern Volante",
+  [MONSTER.EGG_GROUP.herbivore]: "Erbivoro",
+  [MONSTER.EGG_GROUP.leviathan]: "Leviathan",
+  [MONSTER.EGG_GROUP.lynian]: "Lynian",
+  [MONSTER.EGG_GROUP.neopteron]: "Neottero",
+  [MONSTER.EGG_GROUP.piscineWyvern]: "Wyvern Pesce",
+  [MONSTER.EGG_GROUP.snakeWyvern]: "Wyvern Serpente",
+  [MONSTER.EGG_GROUP.temnoceran]: "Temnoceran",
+  // ELEMENT
+  [MONSTER.ELEMENT.fire]: "Fuoco",
+  [MONSTER.ELEMENT.water]: "Acqua",
+  [MONSTER.ELEMENT.ice]: "Ghiaccio",
+  [MONSTER.ELEMENT.thunder]: "Tuono",
+  [MONSTER.ELEMENT.dragon]: "Drago",
+  [MONSTER.ELEMENT.nonElemental]: "Non elementale",
+  // ATTACK TYPE
+  [MONSTER.ATTACK_TYPE.power]: "Potenza",
+  [MONSTER.ATTACK_TYPE.speed]: "Velocità",
+  [MONSTER.ATTACK_TYPE.technical]: "Tecnica",
+  // WEAPON TYPE
+  [MONSTER.WEAPON_TYPE.slash]: "Tagliente",
+  [MONSTER.WEAPON_TYPE.blunt]: "Contundente",
+  [MONSTER.WEAPON_TYPE.pierce]: "Perforante",
+  // STATUS EFFECT
+  [MONSTER.STATUS_EFFECT.poison]: "Veleno",
+  [MONSTER.STATUS_EFFECT.fireblight]: "Scottatura",
+  [MONSTER.STATUS_EFFECT.paralysis]: "Paralisi",
+  [MONSTER.STATUS_EFFECT.sleep]: "Sonno",
+  [MONSTER.STATUS_EFFECT.blast]: "Scoppio",
+  [MONSTER.STATUS_EFFECT.bleeding]: "Sanguinamento",
+  [MONSTER.STATUS_EFFECT.blind]: "Cecità",
 };
