@@ -4,9 +4,12 @@ const { COMMON, MONSTER } = TRANSLATION_KEYS;
 
 export const common = {
   // COMMON
+  [COMMON.APP_TITLE]: "StoriesCompanion",
+  [COMMON.APP_SUBTITLE]: "Monster Hunter Stories 3",
   [COMMON.HOME]: "Home",
   [COMMON.NOT_FOUND]: "Pagina non trovata",
   [COMMON.BACK_TO_HOME]: "Torna alla home",
+  [COMMON.APP_FOOTER]: " StoriesCompanion MHS3 — Un'enciclopedia per i Cacciatori",
   // MONSTER
   [MONSTER.DETAIL]: "Dettaglio mostro",
   [MONSTER.HATCHABLE]: "Schiudibile",

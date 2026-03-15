@@ -1,5 +1,8 @@
 export const TRANSLATION_KEYS = {
   COMMON: {
+    APP_TITLE: "common.appTitle",
+    APP_SUBTITLE: "common.appSubtitle",
+    APP_FOOTER: "common.appFooter",
     HOME: "common.home",
     NOT_FOUND: "common.notFound",
     BACK_TO_HOME: "common.backToHome",
