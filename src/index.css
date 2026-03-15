@@ -60,10 +60,15 @@ body {
   margin: 0;
 }
 
+@layer base {
+  h1 {
+    @apply text-2xl font-medium text-center;
+  }
+}
+
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
   color: var(--text-h);
 }
 

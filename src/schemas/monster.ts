@@ -1,12 +1,16 @@
-export type AttackType = "power" | "speed" | "technical";
+import { TRANSLATION_KEYS } from "@/i18n/keys";
 
-export type WeaponType = "slash" | "blunt" | "pierce";
+export type AttackType = keyof typeof TRANSLATION_KEYS.MONSTER.ATTACK_TYPE;
 
-export type Element = "fire" | "water" | "ice" | "thunder" | "dragon";
+export type WeaponType = keyof typeof TRANSLATION_KEYS.MONSTER.WEAPON_TYPE;
 
-export type MonsterElement = Element | "non-elemental";
+export type Element = Exclude<keyof typeof TRANSLATION_KEYS.MONSTER.ELEMENT, "nonElemental">;
 
-export type StatusEffect = "poison" | "paralysis" | "sleep" | "blast";
+export type MonsterElement = keyof typeof TRANSLATION_KEYS.MONSTER.ELEMENT;
+
+export type EggGroup = keyof typeof TRANSLATION_KEYS.MONSTER.EGG_GROUP;
+
+export type StatusEffect = keyof typeof TRANSLATION_KEYS.MONSTER.STATUS_EFFECT;
 
 export type MonsterLocation = {
   type: string;
@@ -17,7 +21,7 @@ export type MonsterLocation = {
 export type MonsterCombatData = {
   attackPatterns: Record<string, AttackType>;
   parts: Record<string, WeaponType[]>;
-  elementalResistance: Record<Element, number>;
+  elementalResistance: Record<MonsterElement, number>;
   statusResistance: Record<StatusEffect, number | "-">;
 };
 
@@ -45,7 +49,7 @@ export type Monster = {
   habitat: string;
   locations: MonsterLocation[];
   rarity: number;
-  eggGroup: string;
+  eggGroup: EggGroup;
   element: MonsterElement;
   combatData: MonsterCombatData;
   hatchable?: boolean;
