@@ -23,6 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
+# Project
+src/assets/data/raw
+scripts/
+
 # Claude
 CLAUDE.md
 docs/claude

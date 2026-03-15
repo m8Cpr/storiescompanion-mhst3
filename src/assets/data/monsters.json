@@ -1,0 +1,4444 @@
+[
+  {
+    "id": 1,
+    "name": "Almudron",
+    "habitat": "Tarkuan",
+    "locations": [],
+    "rarity": 0,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "thecnical",
+        "temp3": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Anjanath",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "bruteWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ],
+        "Body": [
+          "pierce"
+        ],
+        "Nose": [
+          "slash",
+          "blunt",
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "Anja Assault",
+      "eggColors": [
+        "pink",
+        "black"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Aptonoth",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "herbivore",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": -1,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 2,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": 2,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Slip 'n Slam",
+      "eggColors": [
+        "green",
+        "brown",
+        "gray"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Arzuros",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "fangedBeast",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Stomach": [
+          "slash",
+          "blunt"
+        ],
+        "Legs": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Hunter's Claw",
+      "eggColors": [
+        "blue",
+        "green"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Astalos",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Electrified": "power",
+        "Flying": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Stomach": [
+          "slash",
+          "blunt"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash",
+          "blunt"
+        ],
+        "Wings": [
+          "slash",
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 1,
+        "water": 2,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Astalos Pulse",
+      "eggColors": [
+        "green",
+        "black"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Azure Rathalos",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Flying": "speed"
+      },
+      "parts": {
+        "Head": [
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Wings": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 1,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Sky-High Dive",
+      "eggColors": [
+        "blue"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Barioth",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "flyingWyvern",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "pierce"
+        ],
+        "Stomach": [
+          "slash",
+          "pierce"
+        ],
+        "Spikes": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": -1,
+        "ice": 2,
+        "thunder": 1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 2,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Ground Cyclone",
+      "eggColors": [
+        "white",
+        "yellow",
+        "orange"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Barrel Felyne",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "lynian",
+    "element": "nonElemental",
+    "combatData": {
+      "elementalResistance": {
+        "fire": 2,
+        "water": 2,
+        "ice": 2,
+        "thunder": 2,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Barroth",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "bruteWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Covered In Mud": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Body": [
+          "slash"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Tail": [
+          "pierce"
+        ],
+        "Legs": [
+          "slash",
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 0,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "regular",
+      "kinshipSkill": "Rushing Charge",
+      "eggColors": [
+        "brown",
+        "orange"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Black Diablos",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower - 5F"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z3"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ],
+        "Horn": [
+          "blunt"
+        ],
+        "Legs": [
+          "slash",
+          "blunt",
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 0,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "Fiendish Cyclone",
+      "eggColors": [
+        "green",
+        "brown"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Black Gravios",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "Stomach": [
+          "blunt"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Legs": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 0,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": "-",
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 2,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Magma Surge",
+      "eggColors": [
+        "gray",
+        "orange"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Blue Yian Kut-Ku",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 1,
+        "water": -1,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Fireball Expulsion",
+      "eggColors": [
+        "green",
+        "yellow"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Brachydios",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "bruteWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Body": [
+          "slash"
+        ],
+        "Head": [
+          "slash"
+        ],
+        "Tail": [
+          "pierce"
+        ],
+        "Fists": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 0,
+        "ice": -1,
+        "thunder": -2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": "-",
+        "bleeding": -1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Brachy Blow",
+      "eggColors": [
+        "blue",
+        "green"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Brute Tigrex",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Head": [
+          "slash"
+        ],
+        "Legs": [
+          "slash",
+          "blunt",
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": -1,
+        "ice": 1,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 2,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "Rock Smash",
+      "eggColors": [
+        "orange",
+        "brown"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Cephalos",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "piscineWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -2,
+        "ice": 1,
+        "thunder": 1,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 1,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Deviljho",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "bruteWyvern",
+    "element": "dragon",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt",
+          "pierce"
+        ],
+        "Body": [
+          "slash",
+          "blunt",
+          "pierce"
+        ],
+        "Head": [
+          "slash",
+          "blunt",
+          "pierce"
+        ],
+        "Legs": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": -2,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 2,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "slow",
+      "kinshipSkill": "Hunger Rage",
+      "eggColors": [
+        "green",
+        "orange",
+        "red"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Diablos",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower Front"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ],
+        "Horn": [
+          "blunt"
+        ],
+        "Legs": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 1,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "Fiendish Cyclone",
+      "eggColors": [
+        "brown"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Fulgur Anjanath",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "bruteWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "Body": [
+          "pierce"
+        ],
+        "Nose": [
+          "slash",
+          "blunt",
+          "pierce"
+        ],
+        "Legs": [
+          "slash",
+          "blunt"
+        ],
+        "Tails": [
+          "slash",
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 2,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "Anja Assault",
+      "eggColors": [
+        "gray",
+        "white",
+        "orange",
+        "red"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Gargwa",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": -1,
+        "ice": -1,
+        "thunder": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 2,
+        "paralysis": 2,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Glavenus",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "bruteWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "After Blaze": "speed",
+        "After Fire Chakram": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ],
+        "Body": [
+          "blunt"
+        ],
+        "Head": [
+          "slash",
+          "pierce"
+        ],
+        "Tail": []
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 1,
+        "ice": -1,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 2,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "X Blaze",
+      "eggColors": [
+        "blue",
+        "red"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Gravios",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "Stomach": [
+          "blunt"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Legs": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 1,
+        "water": 0,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": "-",
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 2,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Magma Surge",
+      "eggColors": [
+        "yellow",
+        "white",
+        "gray",
+        "orange"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Great Dracophage Bug",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "neopteron",
+    "element": "dragon",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 1,
+        "water": -2,
+        "ice": 0,
+        "thunder": -1,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 2,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 2,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Great Thunderbug",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "neopteron",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 2,
+        "ice": -1,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 2,
+        "paralysis": -2,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 2,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Green Nargacuga",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ],
+        "Stomach": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -2,
+        "ice": 1,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Dark Thrash",
+      "eggColors": [
+        "green",
+        "yellow"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Green Plesioth",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "piscineWyvern",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ],
+        "Body": [
+          "blunt"
+        ],
+        "Back": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -2,
+        "ice": 1,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": 2,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Gypceros",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Stomach": [
+          "slash"
+        ],
+        "Head": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Venom Flash",
+      "eggColors": [
+        "blue",
+        "pink"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Ivory Lagiacrus",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "leviathan",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power",
+        "Electrified": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ],
+        "Body": [
+          "blunt"
+        ],
+        "Tail": [
+          "pierce"
+        ],
+        "Back": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": 2,
+        "ice": 0,
+        "thunder": 1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "Thunderous Blast",
+      "eggColors": [
+        "yellow",
+        "blue"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "Jade Barroth",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "bruteWyvern",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed",
+        "Covered In Snow": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Body": [
+          "slash"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Tail": [
+          "pierce"
+        ],
+        "Legs": [
+          "slash",
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -1,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Rushing Charge",
+      "eggColors": [
+        "blue",
+        "green"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "Kelbi",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "herbivore",
+    "element": "nonElemental",
+    "combatData": {
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 2,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": 2,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "Khezu",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "flyingWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 2,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "regular",
+      "kinshipSkill": "Spark Surprise",
+      "eggColors": [
+        "blue",
+        "white",
+        "pink"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Kulu-Ya-Ku",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Holding a rock": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "pierce"
+        ],
+        "Rock": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 1,
+        "water": 0,
+        "ice": -1,
+        "thunder": -2,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "regular",
+      "kinshipSkill": "Eggsplosion",
+      "eggColors": [
+        "yellow",
+        "white",
+        "orange"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "Lagiacrus",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "leviathan",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "speed",
+        "Electrified": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Body": [
+          "slash"
+        ],
+        "Tail": [
+          "blunt"
+        ],
+        "Back": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 2,
+        "ice": 0,
+        "thunder": 1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "quick",
+      "kinshipSkill": "Thunderous Blast",
+      "eggColors": [
+        "blue",
+        "red"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Legiana",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "flyingWyvern",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power",
+        "Flying": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Head": [
+          "slash"
+        ],
+        "Wings": [
+          "slash",
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -2,
+        "ice": 2,
+        "thunder": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Icicle Realm",
+      "eggColors": [
+        "yellow",
+        "white",
+        "blue",
+        "black"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Ludroth",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": -1,
+        "ice": 0,
+        "thunder": 1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 2,
+        "paralysis": 2,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": 1
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Mizutsune",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Legs": [
+          "slash",
+          "blunt"
+        ],
+        "Tail": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": -2,
+        "ice": 1,
+        "thunder": 2,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Moonlight Transience",
+      "eggColors": [
+        "red",
+        "pink",
+        "white",
+        "gray"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "Nargacuga",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ],
+        "Stomach": [
+          "pierce"
+        ],
+        "Tail": [
+          "pierce"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -2,
+        "ice": 1,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Dark Thrash",
+      "eggColors": [
+        "pink",
+        "purple",
+        "blue"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "Nerscylla",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "temnoceran",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Stomach": [
+          "slash"
+        ],
+        "Chest": [
+          "pierce"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Needle": [
+          "pierce"
+        ],
+        "Legs": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 2,
+        "paralysis": -1,
+        "sleep": "-",
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "regular",
+      "kinshipSkill": "Predator Needle",
+      "eggColors": [
+        "purple",
+        "red",
+        "pink"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Paolumu",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Wendwood"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Inflated": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Neck Pouch": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": -1,
+        "ice": 1,
+        "thunder": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": 1,
+        "sleep": 2,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Jet Balloon",
+      "eggColors": [
+        "white",
+        "pink"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "Pink Rathian",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power"
+      },
+      "parts": {
+        "Body": [
+          "slash"
+        ],
+        "Tail": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": -1,
+        "ice": 0,
+        "thunder": 1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Scorching Slice",
+      "eggColors": [
+        "pink",
+        "red"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "Plesioth",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "piscineWyvern",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "pierce"
+        ],
+        "Body": [
+          "slash",
+          "pierce"
+        ],
+        "Back": [
+          "pierce"
+        ],
+        "Tail": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -2,
+        "ice": 0,
+        "thunder": 2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": 2,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "Pukei-Pukei",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash",
+          "blunt",
+          "pierce"
+        ],
+        "Body": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": -2,
+        "ice": -1,
+        "thunder": 2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Venom Surprise",
+      "eggColors": [
+        "green",
+        "yellow",
+        "white"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "Purple Gypceros",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower Front"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Stomach": [
+          "slash"
+        ],
+        "Head": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 2,
+        "ice": -1,
+        "thunder": 1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Venom Flash",
+      "eggColors": [
+        "purple",
+        "green"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "Purple Ludroth",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Stomach": [
+          "slash"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": -1,
+        "ice": 0,
+        "thunder": 2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 2,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Moonsault Splash",
+      "eggColors": [
+        "pink"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "Rathalos",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Flying": "speed"
+      },
+      "parts": {
+        "Head": [
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Wings": [
+          "slash",
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": -1,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Sky-High Dive",
+      "eggColors": [
+        "red",
+        "blue"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "Rathian",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Body": [
+          "slash"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": -1,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Scorching Slice",
+      "eggColors": [
+        "yellow",
+        "white",
+        "green"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "Red Khezu",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "flyingWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "power",
+        "Charged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 1,
+        "water": 2,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "regular",
+      "kinshipSkill": "Spark Surprise",
+      "eggColors": [
+        "pink",
+        "red"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Remobra",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "snakeWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 1,
+        "ice": 0,
+        "thunder": -1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": -2,
+        "fireblight": 1,
+        "paralysis": 2,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "Royal Ludroth",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "power",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Stomach": [
+          "slash"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": -1,
+        "ice": 0,
+        "thunder": 2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "regular",
+      "kinshipSkill": "Moonsault Splash",
+      "eggColors": [
+        "green",
+        "yellow"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "Sand Barioth",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "technical"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "pierce"
+        ],
+        "Stomach": [
+          "slash",
+          "pierce"
+        ],
+        "Spikes": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": -1,
+        "ice": -2,
+        "thunder": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Ground Cyclone",
+      "eggColors": [
+        "orange",
+        "red",
+        "pink"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Seregios",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Stomach": [
+          "slash"
+        ],
+        "Head": [
+          "pierce"
+        ],
+        "Legs": [
+          "slash",
+          "blunt"
+        ],
+        "Wings": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": -2,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -2,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "regular",
+      "kinshipSkill": "Piercing Stars",
+      "eggColors": [
+        "yellow",
+        "orange",
+        "red"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Shrouded Nerscylla",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "rarity": 4,
+    "eggGroup": "temnoceran",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Stomach": [
+          "slash"
+        ],
+        "Chest": [
+          "pierce"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Needle": [
+          "pierce"
+        ],
+        "Legs": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -2,
+        "water": 1,
+        "ice": -1,
+        "thunder": 0,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": -2,
+        "fireblight": 2,
+        "paralysis": -2,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "regular",
+      "kinshipSkill": "Predator Needle",
+      "eggColors": [
+        "white",
+        "gray",
+        "yellow"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Stygian Zinogre",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "rarity": 6,
+    "eggGroup": "fangedBeast",
+    "element": "dragon",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ],
+        "Body": [
+          "pierce"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 2,
+        "ice": 2,
+        "thunder": 2,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Voltage Crash",
+      "eggColors": [
+        "blue",
+        "yellow",
+        "white"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Tigrex",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Harzgai Hill - Inner"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Head": [
+          "slash"
+        ],
+        "Legs": [
+          "slash",
+          "blunt",
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": -2,
+        "ice": 1,
+        "thunder": 0,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 2,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Rock Smash",
+      "eggColors": [
+        "orange",
+        "blue"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Tobi-Kadachi",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "fangedBeast",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "technical",
+        "Overcharged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Legs": [
+          "slash"
+        ],
+        "Tail": [
+          "slash",
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": 2,
+        "ice": 0,
+        "thunder": -2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Kadachi Fury",
+      "eggColors": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "Velkhana",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Loloska"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Terga"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Velkhana"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den",
+        "finalNest": true
+      }
+    ],
+    "rarity": 7,
+    "eggGroup": "elderDragon",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Ice Mantle": "technical",
+        "Flying": "power"
+      },
+      "parts": {
+        "Head": [
+          "slash",
+          "blunt"
+        ],
+        "Body": [
+          "slash",
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Wings": [
+          "pierce"
+        ],
+        "Frost Scale": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -1,
+        "ice": 2,
+        "thunder": 1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 2,
+        "bleeding": -1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "slow",
+      "kinshipSkill": "Calamity Glacier",
+      "eggColors": [
+        "blue",
+        "white",
+        "gray"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "Velocidrome",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": 0,
+        "ice": -2,
+        "thunder": 0,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 2,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "regular",
+      "kinshipSkill": "Velocirush",
+      "eggColors": [
+        "blue",
+        "orange"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Velociprey",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 1,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash",
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": -1,
+        "water": -1,
+        "ice": -2,
+        "thunder": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": 2,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": 2,
+        "blind": 2
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Yian Garuga",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "rarity": 3,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "slash"
+        ],
+        "Head": [
+          "slash"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 2,
+        "water": 1,
+        "ice": -1,
+        "thunder": -2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 2,
+        "bleeding": -1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Barrel Charge",
+      "eggColors": [
+        "purple",
+        "pink"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Yian Kut-Ku",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "rarity": 2,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "technical",
+        "Enraged": "speed"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ],
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 1,
+        "water": -1,
+        "ice": -2,
+        "thunder": 0,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "quick",
+      "kinshipSkill": "Fireball Expulsion",
+      "eggColors": [
+        "pink",
+        "blue"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "Zinogre",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      }
+    ],
+    "rarity": 5,
+    "eggGroup": "fangedBeast",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "DEFAULT": "speed",
+        "Charged": "technical",
+        "Supercharged": "power"
+      },
+      "parts": {
+        "DEFAULT": [
+          "pierce"
+        ],
+        "Body": [
+          "pierce"
+        ],
+        "Head": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 2,
+        "ice": -2,
+        "thunder": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": 2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "quick",
+      "kinshipSkill": "Voltage Crash",
+      "eggColors": [
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    }
+  }
+]
