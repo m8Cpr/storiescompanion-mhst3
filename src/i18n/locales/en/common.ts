@@ -1,6 +1,6 @@
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 
-const { COMMON, MONSTER } = TRANSLATION_KEYS;
+const { COMMON, MONSTER, FILTER } = TRANSLATION_KEYS;
 
 export const common = {
   // COMMON
@@ -59,4 +59,14 @@ export const common = {
   [MONSTER.STATUS_EFFECT.blast]: "Blast",
   [MONSTER.STATUS_EFFECT.bleeding]: "Bleeding",
   [MONSTER.STATUS_EFFECT.blind]: "Blind",
+  // FILTER
+  [FILTER.TITLE]: "Filter Monsters",
+  [FILTER.DESCRIPTION]: "Refine your search by habitat, element, attack type, and more.",
+  [FILTER.HABITAT]: "Habitat",
+  [FILTER.EGG_GROUP]: "Egg Group",
+  [FILTER.ATTACK_TYPE]: "Attack Type",
+  [FILTER.ELEMENT]: "Element",
+  [FILTER.HIDE_ELDER_DRAGONS]: "Hide Elder Dragons",
+  [FILTER.CLEAR_ALL]: "Clear All",
+  [FILTER.ALL_PLACEHOLDER]: "All",
 };

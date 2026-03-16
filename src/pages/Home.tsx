@@ -2,11 +2,11 @@ import { Trans, useTranslation } from "react-i18next";
 
 import MonsterCard from "@/components/MonsterCard";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
-import { useMonsterStore } from "@/stores/monsterStore";
+import { useFilteredMonsters } from "@/hooks/useFilteredMonsters";
 
 export default function Home() {
   const { t } = useTranslation("common");
-  const monsterList = useMonsterStore((s) => s.monsterList);
+  const monsterList = useFilteredMonsters();
 
   return (
     <>

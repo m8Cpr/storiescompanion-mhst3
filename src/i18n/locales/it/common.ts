@@ -1,6 +1,6 @@
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 
-const { COMMON, MONSTER } = TRANSLATION_KEYS;
+const { COMMON, MONSTER, FILTER } = TRANSLATION_KEYS;
 
 export const common = {
   // COMMON
@@ -59,4 +59,14 @@ export const common = {
   [MONSTER.STATUS_EFFECT.blast]: "Scoppio",
   [MONSTER.STATUS_EFFECT.bleeding]: "Sanguinamento",
   [MONSTER.STATUS_EFFECT.blind]: "Cecità",
+  // FILTER
+  [FILTER.TITLE]: "Filtra Mostri",
+  [FILTER.DESCRIPTION]: "Affina la ricerca per habitat, elemento, tipo di attacco e altro.",
+  [FILTER.HABITAT]: "Habitat",
+  [FILTER.EGG_GROUP]: "Gruppo Uova",
+  [FILTER.ATTACK_TYPE]: "Tipo di Attacco",
+  [FILTER.ELEMENT]: "Elemento",
+  [FILTER.HIDE_ELDER_DRAGONS]: "Nascondi Draghi Anziani",
+  [FILTER.CLEAR_ALL]: "Cancella Tutto",
+  [FILTER.ALL_PLACEHOLDER]: "Tutti",
 };

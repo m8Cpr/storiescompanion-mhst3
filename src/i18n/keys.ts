@@ -62,4 +62,15 @@ export const TRANSLATION_KEYS = {
       blind: "monster.statusEffect.blind",
     },
   },
+  FILTER: {
+    TITLE: "filter.title",
+    DESCRIPTION: "filter.description",
+    HABITAT: "filter.habitat",
+    EGG_GROUP: "filter.eggGroup",
+    ATTACK_TYPE: "filter.attackType",
+    ELEMENT: "filter.element",
+    HIDE_ELDER_DRAGONS: "filter.hideElderDragons",
+    CLEAR_ALL: "filter.clearAll",
+    ALL_PLACEHOLDER: "filter.allPlaceholder",
+  },
 } as const;
