@@ -9,6 +9,7 @@ export const TRANSLATION_KEYS = {
     HOME_DESCRIPTION: "common.homeDescription",
     SPOILER_WARNING: "common.spoilerWarning",
     DISCLAIMER: "common.disclaimer",
+    NO_RESULTS: "common.noResults",
   },
   MONSTER: {
     DETAIL: "monster.detail",
