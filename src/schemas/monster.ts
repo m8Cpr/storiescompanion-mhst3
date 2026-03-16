@@ -10,12 +10,19 @@ export type MonsterElement = keyof typeof TRANSLATION_KEYS.MONSTER.ELEMENT;
 
 export type EggGroup = keyof typeof TRANSLATION_KEYS.MONSTER.EGG_GROUP;
 
+export type Habitat = keyof typeof TRANSLATION_KEYS.MONSTER.HABITAT;
+
 export type StatusEffect = keyof typeof TRANSLATION_KEYS.MONSTER.STATUS_EFFECT;
 
 export type MonsterLocation = {
   type: string;
   main: string;
   sub?: string;
+};
+
+export type HabitatLocation = {
+  habitat: Habitat;
+  coordinates?: { x: number; y: number };
 };
 
 export type MonsterCombatData = {
@@ -46,7 +53,7 @@ export type MonstieData = {
 export type Monster = {
   id: number;
   name: string;
-  habitat: string;
+  habitats: Habitat[];
   locations: MonsterLocation[];
   rarity: number;
   eggGroup: EggGroup;

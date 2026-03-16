@@ -2,7 +2,9 @@
   {
     "id": 1,
     "name": "Almudron",
-    "habitat": "Tarkuan",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [],
     "rarity": 0,
     "eggGroup": "leviathan",
@@ -35,7 +37,10 @@
   {
     "id": 2,
     "name": "Anjanath",
-    "habitat": "Loloska",
+    "habitats": [
+      "azuria",
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -108,7 +113,9 @@
   {
     "id": 3,
     "name": "Aptonoth",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -170,7 +177,9 @@
   {
     "id": 4,
     "name": "Arzuros",
-    "habitat": "Alcala",
+    "habitats": [
+      "canaltaTimberland"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -243,7 +252,7 @@
   {
     "id": 5,
     "name": "Astalos",
-    "habitat": "Terga",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -333,7 +342,7 @@
   {
     "id": 6,
     "name": "Azure Rathalos",
-    "habitat": "Hakolo Island",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -431,7 +440,7 @@
   {
     "id": 7,
     "name": "Barioth",
-    "habitat": "Loloska",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -520,7 +529,7 @@
   {
     "id": 8,
     "name": "Barrel Felyne",
-    "habitat": null,
+    "habitats": [],
     "locations": [
       {
         "type": "eldersLair",
@@ -552,7 +561,9 @@
   {
     "id": 9,
     "name": "Barroth",
-    "habitat": "Loloska",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -626,7 +637,9 @@
   {
     "id": 10,
     "name": "Black Diablos",
-    "habitat": "Lamure",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -710,7 +723,9 @@
   {
     "id": 11,
     "name": "Black Gravios",
-    "habitat": "Terga",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -793,7 +808,9 @@
   {
     "id": 12,
     "name": "Blue Yian Kut-Ku",
-    "habitat": "Alcala",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -865,7 +882,9 @@
   {
     "id": 13,
     "name": "Brachydios",
-    "habitat": "Terga",
+    "habitats": [
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -950,7 +969,7 @@
   {
     "id": 14,
     "name": "Brute Tigrex",
-    "habitat": "Terga",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -1031,7 +1050,7 @@
   {
     "id": 15,
     "name": "Cephalos",
-    "habitat": "Lamure",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -1072,7 +1091,10 @@
   {
     "id": 16,
     "name": "Deviljho",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "canaltaTimberland",
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1173,7 +1195,9 @@
   {
     "id": 17,
     "name": "Diablos",
-    "habitat": "Lamure",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1250,7 +1274,9 @@
   {
     "id": 18,
     "name": "Fulgur Anjanath",
-    "habitat": "Loloska",
+    "habitats": [
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1346,7 +1372,7 @@
   {
     "id": 19,
     "name": "Gargwa",
-    "habitat": "Alcala",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -1387,7 +1413,9 @@
   {
     "id": 20,
     "name": "Glavenus",
-    "habitat": "Alcala",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1473,7 +1501,9 @@
   {
     "id": 21,
     "name": "Gravios",
-    "habitat": "Terga",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1550,7 +1580,9 @@
   {
     "id": 22,
     "name": "Great Dracophage Bug",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1595,7 +1627,7 @@
   {
     "id": 23,
     "name": "Great Thunderbug",
-    "habitat": "Terga",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -1636,7 +1668,7 @@
   {
     "id": 24,
     "name": "Green Nargacuga",
-    "habitat": "Lamure",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -1718,7 +1750,9 @@
   {
     "id": 25,
     "name": "Green Plesioth",
-    "habitat": "Terga",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1769,7 +1803,9 @@
   {
     "id": 26,
     "name": "Gypceros",
-    "habitat": "Loloska",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -1847,7 +1883,7 @@
   {
     "id": 27,
     "name": "Ivory Lagiacrus",
-    "habitat": "Terga",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -1938,7 +1974,9 @@
   {
     "id": 28,
     "name": "Jade Barroth",
-    "habitat": "Loloska",
+    "habitats": [
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2021,7 +2059,7 @@
   {
     "id": 29,
     "name": "Kelbi",
-    "habitat": "Hakolo Island",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -2054,7 +2092,9 @@
   {
     "id": 30,
     "name": "Khezu",
-    "habitat": "Loloska",
+    "habitats": [
+      "canaltaTimberland"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2136,7 +2176,9 @@
   {
     "id": 31,
     "name": "Kulu-Ya-Ku",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2206,7 +2248,7 @@
   {
     "id": 32,
     "name": "Lagiacrus",
-    "habitat": "Lamure",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -2289,7 +2331,9 @@
   {
     "id": 33,
     "name": "Legiana",
-    "habitat": "Loloska",
+    "habitats": [
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2377,7 +2421,9 @@
   {
     "id": 34,
     "name": "Ludroth",
-    "habitat": "Alcala",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2422,7 +2468,7 @@
   {
     "id": 35,
     "name": "Mizutsune",
-    "habitat": "Lamure",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -2513,7 +2559,7 @@
   {
     "id": 36,
     "name": "Nargacuga",
-    "habitat": "Alcala",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -2588,7 +2634,9 @@
   {
     "id": 37,
     "name": "Nerscylla",
-    "habitat": "Loloska",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2673,7 +2721,9 @@
   {
     "id": 38,
     "name": "Paolumu",
-    "habitat": "Alcala",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2746,7 +2796,7 @@
   {
     "id": 39,
     "name": "Pink Rathian",
-    "habitat": "Lamure",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -2834,7 +2884,9 @@
   {
     "id": 40,
     "name": "Plesioth",
-    "habitat": "Lamure",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2891,7 +2943,9 @@
   {
     "id": 41,
     "name": "Pukei-Pukei",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "canaltaTimberland"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -2968,7 +3022,9 @@
   {
     "id": 42,
     "name": "Purple Gypceros",
-    "habitat": "Lamure",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3038,7 +3094,9 @@
   {
     "id": 43,
     "name": "Purple Ludroth",
-    "habitat": "Lamure",
+    "habitats": [
+      "canaltaTimberland"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3112,7 +3170,7 @@
   {
     "id": 44,
     "name": "Rathalos",
-    "habitat": "Hakolo Island",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -3192,7 +3250,7 @@
   {
     "id": 45,
     "name": "Rathian",
-    "habitat": "Alcala",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -3268,7 +3326,10 @@
   {
     "id": 46,
     "name": "Red Khezu",
-    "habitat": "Loloska",
+    "habitats": [
+      "canaltaTimberland",
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3346,7 +3407,10 @@
   {
     "id": 47,
     "name": "Remobra",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "serathis",
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3391,7 +3455,9 @@
   {
     "id": 48,
     "name": "Royal Ludroth",
-    "habitat": "Alcala",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3466,7 +3532,7 @@
   {
     "id": 49,
     "name": "Sand Barioth",
-    "habitat": "Hakolo Island",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -3551,7 +3617,9 @@
   {
     "id": 50,
     "name": "Seregios",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "canaltaTimberland"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3646,7 +3714,9 @@
   {
     "id": 51,
     "name": "Shrouded Nerscylla",
-    "habitat": "Terga",
+    "habitats": [
+      "tarkuan"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3723,7 +3793,7 @@
   {
     "id": 52,
     "name": "Stygian Zinogre",
-    "habitat": "Hakolo Island",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -3822,7 +3892,7 @@
   {
     "id": 53,
     "name": "Tigrex",
-    "habitat": "Alcala",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",
@@ -3903,7 +3973,10 @@
   {
     "id": 54,
     "name": "Tobi-Kadachi",
-    "habitat": "Loloska",
+    "habitats": [
+      "azuria",
+      "canaltaTimberland"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -3990,7 +4063,9 @@
   {
     "id": 55,
     "name": "Velkhana",
-    "habitat": "Loloska",
+    "habitats": [
+      "serathis"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -4102,7 +4177,9 @@
   {
     "id": 56,
     "name": "Velocidrome",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -4167,7 +4244,9 @@
   {
     "id": 57,
     "name": "Velociprey",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -4213,7 +4292,9 @@
   {
     "id": 58,
     "name": "Yian Garuga",
-    "habitat": "Alcala",
+    "habitats": [
+      "canaltaTimberland"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -4292,7 +4373,9 @@
   {
     "id": 59,
     "name": "Yian Kut-Ku",
-    "habitat": "Hakolo Island",
+    "habitats": [
+      "azuria"
+    ],
     "locations": [
       {
         "type": "catavanStand",
@@ -4360,7 +4443,7 @@
   {
     "id": 60,
     "name": "Zinogre",
-    "habitat": "Loloska",
+    "habitats": [],
     "locations": [
       {
         "type": "catavanStand",

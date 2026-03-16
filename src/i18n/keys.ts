@@ -32,6 +32,12 @@ export const TRANSLATION_KEYS = {
       snakeWyvern: "monster.eggGroup.snakeWyvern",
       temnoceran: "monster.eggGroup.temnoceran",
     },
+    HABITAT: {
+      azuria: "monster.habitat.azuria",
+      canaltaTimberland: "monster.habitat.canaltaTimberland",
+      serathis: "monster.habitat.serathis",
+      tarkuan: "monster.habitat.tarkuan",
+    },
     ATTACK_TYPE: {
       power: "monster.attackType.power",
       speed: "monster.attackType.speed",

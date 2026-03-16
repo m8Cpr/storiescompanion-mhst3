@@ -26,6 +26,11 @@ export const common = {
   [MONSTER.EGG_GROUP.piscineWyvern]: "Piscine Wyvern",
   [MONSTER.EGG_GROUP.snakeWyvern]: "Snake Wyvern",
   [MONSTER.EGG_GROUP.temnoceran]: "Temnoceran",
+  // HABITAT
+  [MONSTER.HABITAT.azuria]: "Azuria",
+  [MONSTER.HABITAT.canaltaTimberland]: "Canalta Timberland",
+  [MONSTER.HABITAT.serathis]: "Serathis",
+  [MONSTER.HABITAT.tarkuan]: "Tarkuan",
   // ELEMENT
   [MONSTER.ELEMENT.fire]: "Fire",
   [MONSTER.ELEMENT.water]: "Water",

@@ -86,10 +86,23 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
           >
             {t(MONSTER.ATTACK_TYPE[baseAttack])}
           </p>
-          {monster.habitat && (
-            <p className="rounded bg-(--code-bg) px-2 py-1">
-              {monster.habitat}
-            </p>
+          {monster.habitats.length > 0 && (
+            <span className="relative">
+              <p className="rounded bg-(--code-bg) px-2 py-1">
+                {t(MONSTER.HABITAT[monster.habitats[0]])}
+              </p>
+              {monster.habitats.length > 1 && (
+                <span
+                  className={cn(
+                    "absolute -right-3 -top-3",
+                    "flex size-5 items-center justify-center",
+                    "rounded-full bg-(--accent) text-[10px] font-bold text-(--bg)"
+                  )}
+                >
+                  +{monster.habitats.length - 1}
+                </span>
+              )}
+            </span>
           )}
         </div>
       </div>
