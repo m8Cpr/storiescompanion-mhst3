@@ -6,6 +6,9 @@ export const TRANSLATION_KEYS = {
     HOME: "common.home",
     NOT_FOUND: "common.notFound",
     BACK_TO_HOME: "common.backToHome",
+    HOME_DESCRIPTION: "common.homeDescription",
+    SPOILER_WARNING: "common.spoilerWarning",
+    DISCLAIMER: "common.disclaimer",
   },
   MONSTER: {
     DETAIL: "monster.detail",

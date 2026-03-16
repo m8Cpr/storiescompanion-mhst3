@@ -62,7 +62,7 @@ body {
 
 @layer base {
   h1 {
-    @apply text-2xl font-medium text-center;
+    @apply text-3xl font-bold text-center;
   }
 }
 

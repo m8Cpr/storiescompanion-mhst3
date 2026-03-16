@@ -8,11 +8,12 @@ export default function MainLayout() {
   return (
     <>
       <Header />
-      <main className="mx-auto w-full min-h-dvh max-w-4xl px-4 py-6 space-y-4">
+      <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-6 flex flex-col gap-4">
         <Outlet />
       </main>
-      <footer className="w-full border-t text-center py-2 border-(--border)">
-        {t(TRANSLATION_KEYS.COMMON.APP_FOOTER)}
+      <footer className="w-full border-t flex items-center text-center gap-2 flex-col py-2 border-(--border)">
+        <p className="text-sm">{t(TRANSLATION_KEYS.COMMON.APP_FOOTER)}</p>
+        <p className="text-xs">{t(TRANSLATION_KEYS.COMMON.DISCLAIMER)}</p>
       </footer>
     </>
   );

@@ -6,7 +6,10 @@ export const common = {
   // COMMON
   [COMMON.APP_TITLE]: "StoriesCompanion",
   [COMMON.APP_SUBTITLE]: "Monster Hunter Stories 3",
-  [COMMON.HOME]: "Home",
+  [COMMON.HOME]: "Monsterpedia",
+  [COMMON.HOME_DESCRIPTION]: "Browse monsters, monsties, habitats, and combat data for MH Stories 3: Twisted Reflection.",
+  [COMMON.SPOILER_WARNING]: "<strong>Spoiler warning</strong><br/>you'll find names, locations, and combat data here. If you'd rather discover things yourself, proceed at your own pace.",
+  [COMMON.DISCLAIMER]: "StoriesCompanion is a fan-made companion app and it is not affiliated with or endorsed by Capcom. All trademarks are the property of their respective owners.",
   [COMMON.NOT_FOUND]: "Page not found",
   [COMMON.BACK_TO_HOME]: "Back to home",
   [COMMON.APP_FOOTER]: " StoriesCompanion MHS3 — A local-first encyclopedia for monster hunters",
