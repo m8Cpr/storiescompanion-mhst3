@@ -10,6 +10,7 @@ export const TRANSLATION_KEYS = {
   MONSTER: {
     DETAIL: "monster.detail",
     HATCHABLE: "monster.hatchable",
+    ATTACK_PATTERN_COUNT: "monster.attackPatternCount",
     ELEMENT: {
       fire: "monster.element.fire",
       water: "monster.element.water",

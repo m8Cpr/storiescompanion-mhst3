@@ -1,11 +1,11 @@
-import { Droplet, Flame, Mountain, Snowflake, Zap } from "lucide-react";
-import type { LucideIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
+import Badge from "@/components/Badge";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
-import type { Monster, MonsterElement } from "@/schemas/monster";
+import type { Monster } from "@/schemas/monster";
 import { cn } from "@/utils/lib";
+import { ATTACK_TYPE_ICONS, ELEMENT_ICONS } from "@/utils/records";
 
 const { MONSTER } = TRANSLATION_KEYS;
 
@@ -13,33 +13,12 @@ type MonsterCardProps = {
   monster: Monster;
 };
 
-const ELEMENT_ICONS: Partial<Record<MonsterElement, LucideIcon>> = {
-  fire: Flame,
-  water: Droplet,
-  thunder: Zap,
-  ice: Snowflake,
-  dragon: Mountain,
-};
-
-const ELEMENT_COLORS: Record<MonsterElement, string> = {
-  fire: "text-orange-500",
-  water: "text-blue-500",
-  thunder: "text-yellow-500",
-  ice: "text-cyan-500",
-  dragon: "text-purple-500",
-  nonElemental: "text-(--text)",
-};
-
-const ATTACK_TYPE_COLORS: Record<string, string> = {
-  power: "text-red-600 dark:text-red-400",
-  speed: "text-blue-600 dark:text-blue-400",
-  technical: "text-green-600 dark:text-green-400",
-};
-
 export default function MonsterCard({ monster }: MonsterCardProps) {
   const { t } = useTranslation("common");
   const baseAttack = monster.combatData.attackPatterns.DEFAULT;
   const ElementIcon = ELEMENT_ICONS[monster.element];
+  const AttackIcon = ATTACK_TYPE_ICONS[baseAttack];
+  const patternCount = Object.keys(monster.combatData.attackPatterns).length;
 
   return (
     <Link to={`/monster/${monster.id}`} className="group block">
@@ -64,45 +43,27 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
             </p>
           </span>
 
-          <span
-            className={cn(
-              "flex items-center gap-1.5",
-              ELEMENT_COLORS[monster.element]
-            )}
-          >
-            {ElementIcon && <ElementIcon className="size-4" />}
-            <p className="text-sm text-right">
-              {t(MONSTER.ELEMENT[monster.element])}
-            </p>
+          <span className="flex items-center gap-1.5">
+            <ElementIcon className="size-5 lg:size-4" />
+            <AttackIcon className="size-5 lg:size-4" />
           </span>
         </div>
 
-        <div className="flex items-center gap-2 text-xs text-(--text)">
-          <p
-            className={cn(
-              "rounded bg-(--code-bg) px-2 py-1 font-medium",
-              ATTACK_TYPE_COLORS[baseAttack]
-            )}
-          >
-            {t(MONSTER.ATTACK_TYPE[baseAttack])}
-          </p>
+        <div className="grid grid-cols-7 items-center gap-2 text-xs text-(--text)">
+          <Badge className="col-span-3 lg:col-span-4">
+            {t(MONSTER.ATTACK_PATTERN_COUNT, { count: patternCount })}
+          </Badge>
           {monster.habitats.length > 0 && (
-            <span className="relative">
-              <p className="rounded bg-(--code-bg) px-2 py-1">
-                {t(MONSTER.HABITAT[monster.habitats[0]])}
-              </p>
-              {monster.habitats.length > 1 && (
-                <span
-                  className={cn(
-                    "absolute -right-3 -top-3",
-                    "flex size-5 items-center justify-center",
-                    "rounded-full bg-(--accent) text-[10px] font-bold text-(--bg)"
-                  )}
-                >
-                  +{monster.habitats.length - 1}
-                </span>
-              )}
-            </span>
+            <Badge
+              className="col-span-2"
+              count={
+                monster.habitats.length > 1
+                  ? monster.habitats.length - 1
+                  : undefined
+              }
+            >
+              {t(MONSTER.HABITAT[monster.habitats[0]])}
+            </Badge>
           )}
         </div>
       </div>

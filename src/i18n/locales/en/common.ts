@@ -13,6 +13,8 @@ export const common = {
   // MONSTER
   [MONSTER.DETAIL]: "Monster detail",
   [MONSTER.HATCHABLE]: "Hatchable",
+  [MONSTER.ATTACK_PATTERN_COUNT + "_one"]: "{{count}} attack pattern",
+  [MONSTER.ATTACK_PATTERN_COUNT + "_other"]: "{{count}} attack patterns",
   // EGG GROUP
   [MONSTER.EGG_GROUP.birdWyvern]: "Bird Wyvern",
   [MONSTER.EGG_GROUP.bruteWyvern]: "Brute Wyvern",
