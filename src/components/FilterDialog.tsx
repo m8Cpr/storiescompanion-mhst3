@@ -93,6 +93,7 @@ export default function FilterDialog() {
             ({ key, labelKey, options, translationMap }) => (
               <FilterSelect
                 key={key}
+                filterKey={key}
                 label={t(labelKey)}
                 value={store[key] ?? ""}
                 onChange={(v) => store.setFilter(key, v || null)}
@@ -135,6 +136,7 @@ export default function FilterDialog() {
 }
 
 type FilterSelectProps<K extends string> = {
+  filterKey: string;
   label: string;
   value: string;
   onChange: (value: string) => void;
@@ -144,6 +146,7 @@ type FilterSelectProps<K extends string> = {
 };
 
 function FilterSelect<K extends string>({
+  filterKey,
   label,
   value,
   onChange,
@@ -152,11 +155,16 @@ function FilterSelect<K extends string>({
   placeholder,
 }: FilterSelectProps<K>) {
   const { t } = useTranslation("common");
+  const id = `filter-${filterKey}`;
 
   return (
     <>
-      <label className="mb-2 block text-sm font-medium">{label}</label>
+      <label htmlFor={id} className="mb-2 block text-sm font-medium">
+        {label}
+      </label>
       <select
+        id={id}
+        name={filterKey}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className={cn(
