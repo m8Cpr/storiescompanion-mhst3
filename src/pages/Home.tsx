@@ -1,6 +1,7 @@
 import { Trans, useTranslation } from "react-i18next";
 
 import MonsterCard from "@/components/MonsterCard";
+import SearchBar from "@/components/SearchBar";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 import { useFilteredMonsters } from "@/hooks/useFilteredMonsters";
 import { cn } from "@/utils/lib";
@@ -11,7 +12,7 @@ export default function Home() {
 
   return (
     <>
-      <span className="flex flex-col text-center gap-2">
+      <section className="flex flex-col text-center gap-2">
         <h1>{t(TRANSLATION_KEYS.COMMON.HOME)}</h1>
         <p>
           <Trans
@@ -19,10 +20,15 @@ export default function Home() {
             components={{ br: <br /> }}
           />
         </p>
-      </span>
+      </section>
 
       <section>
-        <p className="text-center">Search bar</p>
+        <form
+          onSubmit={(e) => e.preventDefault()}
+          className="block max-w-xl relative mx-auto"
+        >
+          <SearchBar />
+        </form>
       </section>
 
       <section

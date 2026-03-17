@@ -16,11 +16,13 @@ type FilterState = {
   attackType: AttackType | null;
   element: MonsterElement | null;
   hideElderDragons: boolean;
+  searchQuery: string;
 };
 
 type FilterStore = FilterState & {
   setFilter: (key: FilterKey, value: string | null) => void;
   setHideElderDragons: (value: boolean) => void;
+  setSearchQuery: (value: string) => void;
   clearFilters: () => void;
   hasActiveFilters: () => boolean;
 };
@@ -31,6 +33,7 @@ const defaults: FilterState = {
   attackType: null,
   element: null,
   hideElderDragons: false,
+  searchQuery: "",
 };
 
 const initialState: FilterState = {
@@ -45,7 +48,8 @@ export const useFilterStore = create<FilterStore>()(
       ...initialState,
       setFilter: (key, value) => set({ [key]: value }),
       setHideElderDragons: (value) => set({ hideElderDragons: value }),
-      clearFilters: () => set(defaults),
+      setSearchQuery: (value) => set({ searchQuery: value }),
+      clearFilters: () => set({ ...defaults, searchQuery: get().searchQuery }),
       hasActiveFilters: () => {
         const s = get();
         return (

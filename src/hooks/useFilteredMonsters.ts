@@ -11,9 +11,13 @@ export function useFilteredMonsters() {
   const attackType = useFilterStore((s) => s.attackType);
   const element = useFilterStore((s) => s.element);
   const hideElderDragons = useFilterStore((s) => s.hideElderDragons);
+  const searchQuery = useFilterStore((s) => s.searchQuery);
 
   return useMemo(() => {
+    const query = searchQuery.toLowerCase();
+
     return monsterList.filter((monster) => {
+      if (query && !monster.name.toLowerCase().includes(query)) return false;
       if (habitat && !monster.habitats.includes(habitat)) return false;
       if (eggGroup && monster.eggGroup !== eggGroup) return false;
       if (
@@ -25,5 +29,5 @@ export function useFilteredMonsters() {
       if (hideElderDragons && monster.eggGroup === "elderDragon") return false;
       return true;
     });
-  }, [monsterList, habitat, eggGroup, attackType, element, hideElderDragons]);
+  }, [monsterList, searchQuery, habitat, eggGroup, attackType, element, hideElderDragons]);
 }

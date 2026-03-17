@@ -11,6 +11,7 @@ export const common = {
   [COMMON.SPOILER_WARNING]: "<strong>Spoiler warning</strong><br/>Qui troverai nomi, luoghi e informazioni sui dati di combattimento. Se preferisci scoprire tutto da solo, procedi al tuo ritmo.",
   [COMMON.DISCLAIMER]: "StoriesCompanion è un'applicazione creata dalla community e non affiliata né approvata da Capcom. Tutti i marchi appartengono ai rispettivi proprietari.",
   [COMMON.NO_RESULTS]: "Nessun mostro corrisponde ai criteri di ricerca.",
+  [COMMON.SEARCH_PLACEHOLDER]: "Cerca mostri per nome...",
   [COMMON.NOT_FOUND]: "Pagina non trovata",
   [COMMON.BACK_TO_HOME]: "Torna alla home",
   [COMMON.APP_FOOTER]: " StoriesCompanion MHS3 — Un'enciclopedia per i Cacciatori",

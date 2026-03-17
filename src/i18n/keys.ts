@@ -10,6 +10,7 @@ export const TRANSLATION_KEYS = {
     SPOILER_WARNING: "common.spoilerWarning",
     DISCLAIMER: "common.disclaimer",
     NO_RESULTS: "common.noResults",
+    SEARCH_PLACEHOLDER: "common.searchPlaceholder",
   },
   MONSTER: {
     DETAIL: "monster.detail",

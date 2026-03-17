@@ -8,7 +8,7 @@ export default function MainLayout() {
   return (
     <>
       <Header />
-      <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-6 flex flex-col gap-4">
+      <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-6 flex flex-col gap-6 lg:gap-12">
         <Outlet />
       </main>
       <footer className="w-full border-t flex items-center text-center gap-2 flex-col py-2 border-(--border)">
