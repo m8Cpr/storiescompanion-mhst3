@@ -21,7 +21,7 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
   const patternCount = Object.keys(monster.combatData.attackPatterns).length;
 
   return (
-    <Link to={`/monster/${monster.id}`} className="group block">
+    <Link to={`/monster/${monster.id}`} className="group block content-auto">
       <div
         className={cn(
           "rounded-lg border border-(--border) bg-(--bg) p-5",
@@ -30,14 +30,14 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
       >
         <div className="mb-3 flex items-start justify-between gap-3">
           <span>
-            <h3
+            <h2
               className={cn(
                 "font-medium text-(--text-h)",
                 "transition-colors group-hover:text-(--accent)"
               )}
             >
               {monster.name}
-            </h3>
+            </h2>
             <p className="text-sm text-(--text)">
               {t(MONSTER.EGG_GROUP[monster.eggGroup])}
             </p>

@@ -76,3 +76,8 @@ h2 {
 p {
   margin: 0;
 }
+
+@utility content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto;
+}
