@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/monster/:id" element={<MonsterDetail />} />
+          <Route path="/monster/:slug" element={<MonsterDetail />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

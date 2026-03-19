@@ -2,21 +2,34 @@ import { create } from "zustand";
 
 import monstersData from "@/assets/data/monsters.json";
 import type { Monster } from "@/schemas/monster";
+import { toSlug } from "@/utils/lib";
+import { logger } from "@/utils/logger";
 
-const allMonsters = (monstersData as unknown as Monster[]).filter(
-  (m) => m.combatData.attackPatterns?.default
-);
+const rawMonsters = monstersData as unknown as Monster[];
 
-const monsterMap = new Map<number, Monster>(allMonsters.map((m) => [m.id, m]));
+const allMonsters = rawMonsters.filter((m) => {
+  const hasPatterns = !!m.combatData.attackPatterns?.default;
+  if (!hasPatterns) {
+    logger.warn(`Monster filtered out (no default attack pattern): ${m.name}`);
+  }
+  return hasPatterns;
+});
+
+const monsterMap = new Map<string, Monster>();
+for (const m of allMonsters) {
+  const slug = toSlug(m.name);
+  if (monsterMap.has(slug)) {
+    logger.warn(`Duplicate monster slug: "${slug}" (${m.name})`);
+  }
+  monsterMap.set(slug, m);
+}
 
 type MonsterStore = {
-  monsters: Map<number, Monster>;
   monsterList: Monster[];
-  getById: (id: number) => Monster | undefined;
+  getBySlug: (slug: string) => Monster | undefined;
 };
 
 export const useMonsterStore = create<MonsterStore>(() => ({
-  monsters: monsterMap,
   monsterList: [...monsterMap.values()],
-  getById: (id) => monsterMap.get(id),
+  getBySlug: (slug) => monsterMap.get(slug),
 }));

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Badge from "@/components/Badge";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 import type { Monster } from "@/schemas/monster";
-import { cn } from "@/utils/lib";
+import { cn, toSlug } from "@/utils/lib";
 import { ATTACK_TYPE_ICONS, ELEMENT_ICONS } from "@/utils/records";
 
 const { MONSTER } = TRANSLATION_KEYS;
@@ -21,7 +21,10 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
   const patternCount = Object.keys(monster.combatData.attackPatterns).length;
 
   return (
-    <Link to={`/monster/${monster.id}`} className="group block content-auto">
+    <Link
+      to={`/monster/${toSlug(monster.name)}`}
+      className="group block content-auto"
+    >
       <div
         className={cn(
           "rounded-lg border border-(--border) bg-(--bg) p-5",
