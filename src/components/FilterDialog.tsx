@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { cva } from "class-variance-authority";
 import { Filter, X } from "lucide-react";
 
 import {
@@ -11,10 +12,13 @@ import {
 } from "@/components/ui/dialog";
 import { SingleSelectDropdown } from "@/components/ui/SingleSelectDropdown";
 import { MultiSelectDropdown } from "@/components/ui/MultiSelectDropdown";
-import { useFilterStore, type FilterKey } from "@/stores/filterStore";
+import {
+  useFilterStore,
+  type FilterKey,
+  type HideCategory,
+} from "@/stores/filterStore";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 import { getObjectKeys, cn } from "@/utils/lib";
-import type { BossCategory } from "@/schemas/monster";
 
 const { MONSTER, FILTER } = TRANSLATION_KEYS;
 
@@ -55,21 +59,41 @@ const filterSelectConfigs: FilterSelectConfig[] = [
 export default function FilterDialog() {
   const { t } = useTranslation("common");
 
+  const dialogVariants = cva("", {
+    variants: {
+      size: {
+        sm: "max-w-[calc(100%-8rem)] md:max-w-sm",
+        md: "max-w-[calc(100%-4rem)] md:max-w-md",
+        lg: "max-w-[calc(100%-2rem)] md:max-w-lg",
+      },
+      height: {
+        sm: "max-h-[50svh]",
+        md: "max-h-[60svh]",
+        lg: "max-h-[75svh]",
+        xl: "max-h-[90svh]",
+        full: "max-h-[100vh] sm:max-h-[95vh]",
+      },
+    },
+    defaultVariants: {
+      size: "md",
+      height: "md",
+    },
+  });
+
+  const dimensionClass = dialogVariants({ size: "md", height: "xl" });
+
   const store = useFilterStore();
 
-  const hiddenBossCategories = useFilterStore((s) => s.hiddenBossCategories);
+  const hiddenCategories = useFilterStore((s) => s.hiddenCategories);
   const isActive = useFilterStore((s) => s.hasActiveFilters());
-  const setHiddenBossCategories = useFilterStore(
-    (s) => s.setHiddenBossCategories
-  );
+  const setHiddenCategories = useFilterStore((s) => s.setHiddenCategories);
   const clearFilters = useFilterStore((s) => s.clearFilters);
 
-  const bossItems: { value: BossCategory; label: string }[] = getObjectKeys(
-    MONSTER.BOSS_CATEGORY
-  ).map((key) => ({
-    value: key,
-    label: t(MONSTER.BOSS_CATEGORY[key]),
-  }));
+  const hideCategoryItems: { value: HideCategory; label: string }[] =
+    getObjectKeys(FILTER.HIDE_CATEGORY).map((key) => ({
+      value: key,
+      label: t(FILTER.HIDE_CATEGORY[key]),
+    }));
 
   return (
     <Dialog>
@@ -94,13 +118,13 @@ export default function FilterDialog() {
         </button>
       </DialogTrigger>
 
-      <DialogContent>
-        <DialogHeader>
+      <DialogContent className={cn(dimensionClass, "flex flex-col")}>
+        <DialogHeader className="border-b border-gray-200 p-4">
           <DialogTitle>{t(FILTER.TITLE)}</DialogTitle>
           <DialogDescription>{t(FILTER.DESCRIPTION)}</DialogDescription>
         </DialogHeader>
 
-        <section className="space-y-4 py-2">
+        <section className="space-y-4 no-scrollbar overflow-y-auto py-2 px-4">
           {filterSelectConfigs.map(
             ({ key, labelKey, options, translationMap }) => (
               <SingleSelectDropdown
@@ -118,29 +142,32 @@ export default function FilterDialog() {
           )}
 
           <MultiSelectDropdown
-            label={t(FILTER.HIDE_BOSSES)}
+            label={t(FILTER.HIDE_CATEGORIES)}
             placeholder={t(FILTER.ALL_PLACEHOLDER)}
-            items={bossItems}
-            selectedValues={hiddenBossCategories}
-            onChange={setHiddenBossCategories}
+            items={hideCategoryItems}
+            selectedValues={hiddenCategories}
+            onChange={setHiddenCategories}
             selectedCountLabel={(count) =>
               t(FILTER.SELECTED_COUNT, { count })
             }
           />
         </section>
 
-        <button
-          type="button"
-          onClick={clearFilters}
-          className={cn(
-            "flex items-center gap-2 self-start ml-auto",
-            "rounded-lg border border-(--border) px-3 py-1.5 text-sm",
-            "transition-colors hover:bg-(--accent-bg)"
-          )}
-        >
-          <X className="size-4" />
-          <p>{t(FILTER.CLEAR_ALL)}</p>
-        </button>
+        <footer className="border-t border-gray-200 p-4">
+          <button
+            type="button"
+            onClick={clearFilters}
+            className={cn(
+              "flex items-center gap-2 self-start ml-auto",
+              "rounded-lg border border-(--border) px-3 py-1.5 text-sm",
+              "transition-colors hover:bg-(--accent-bg)"
+            )}
+          >
+            <X className="size-4" />
+            <p>{t(FILTER.CLEAR_ALL)}</p>
+          </button>
+        </footer>
+
       </DialogContent>
     </Dialog>
   );

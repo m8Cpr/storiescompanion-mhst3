@@ -15,9 +15,9 @@ type MonsterCardProps = {
 
 export default function MonsterCard({ monster }: MonsterCardProps) {
   const { t } = useTranslation("common");
-  const baseAttack = monster.combatData.attackPatterns.default;
+  const baseAttack = monster.monstie?.attackType;
   const ElementIcon = ELEMENT_ICONS[monster.element];
-  const AttackIcon = ATTACK_TYPE_ICONS[baseAttack];
+  const AttackIcon = baseAttack && ATTACK_TYPE_ICONS[baseAttack];
   const patternCount = Object.keys(monster.combatData.attackPatterns).length;
 
   return (
@@ -45,7 +45,7 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
 
           <span className="flex items-center gap-1.5">
             <ElementIcon className="size-5 lg:size-4" />
-            <AttackIcon className="size-5 lg:size-4" />
+            {AttackIcon && <AttackIcon className="size-5 lg:size-4" />}
           </span>
         </div>
 
