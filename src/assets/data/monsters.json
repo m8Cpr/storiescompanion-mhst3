@@ -30,7 +30,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -90,7 +89,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -164,7 +162,6 @@
         "region": "Tarkuan"
       }
     ],
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -216,7 +213,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -273,7 +269,6 @@
         "blind": 2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -321,7 +316,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -383,7 +377,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -453,7 +446,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -518,7 +510,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -579,7 +570,6 @@
         "blind": 1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -639,7 +629,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -739,7 +728,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "regular",
@@ -796,7 +784,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -870,7 +857,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -935,7 +921,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -992,7 +977,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -1052,7 +1036,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -1108,7 +1091,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -1165,7 +1147,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -1225,7 +1206,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -1325,7 +1305,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -1388,7 +1367,6 @@
         "blind": 2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -1441,7 +1419,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -1531,7 +1508,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -1594,7 +1570,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -1653,7 +1628,6 @@
         "blind": 2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "slow",
@@ -1707,7 +1681,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -1767,7 +1740,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -1820,7 +1792,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -1907,7 +1878,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -1965,7 +1935,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -2662,7 +2631,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -2720,7 +2688,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -2819,7 +2786,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -2881,7 +2847,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -2943,7 +2908,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -3039,7 +3003,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -3102,7 +3065,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -3197,7 +3159,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -3270,7 +3231,6 @@
         "region": "Tarkuan"
       }
     ],
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -3317,7 +3277,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -3377,7 +3336,6 @@
         "blind": 1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -3440,7 +3398,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -3850,7 +3807,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -3911,7 +3867,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -3998,7 +3953,6 @@
         "blind": 2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "regular",
@@ -4061,7 +4015,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "regular",
@@ -4124,7 +4077,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "quick",
@@ -4199,7 +4151,6 @@
         "blind": 1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -4288,7 +4239,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -4346,7 +4296,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -4403,7 +4352,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -4489,7 +4437,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -4649,7 +4596,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -4717,7 +4663,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "regular",
@@ -4782,7 +4727,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -4846,7 +4790,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -4913,7 +4856,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -4985,7 +4927,6 @@
     "related": {
       "fights": [76]
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -5039,7 +4980,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -5105,7 +5045,6 @@
         "blind": 1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -5166,7 +5105,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -5228,7 +5166,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -5294,7 +5231,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -5358,7 +5294,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -5423,7 +5358,6 @@
         "blind": 2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "regular",
@@ -5511,7 +5445,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -5573,7 +5506,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
@@ -5639,7 +5571,6 @@
         "blind": 1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -5706,7 +5637,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "regular",
@@ -5767,7 +5697,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -5834,7 +5763,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "regular",
@@ -5890,7 +5818,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -5944,7 +5871,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "",
@@ -6007,7 +5933,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -6067,7 +5992,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -6122,7 +6046,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -6185,7 +6108,6 @@
         "blind": "-"
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "",
@@ -6244,7 +6166,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -6310,7 +6231,6 @@
         "blind": -2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",
@@ -6376,7 +6296,6 @@
         "blind": 1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "slow",
@@ -6426,7 +6345,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "regular",
@@ -6601,7 +6519,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -6669,7 +6586,6 @@
         "blind": -1
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
@@ -6739,7 +6655,6 @@
         "blind": 2
       }
     },
-    "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "quick",

@@ -17,7 +17,6 @@ export const common = {
   [COMMON.APP_FOOTER]: " StoriesCompanion MHS3 — A local-first encyclopedia for monster hunters",
   // MONSTER
   [MONSTER.DETAIL]: "Monster detail",
-  [MONSTER.HATCHABLE]: "Hatchable",
   [MONSTER.ATTACK_PATTERN_COUNT + "_one"]: "{{count}} attack pattern",
   [MONSTER.ATTACK_PATTERN_COUNT + "_other"]: "{{count}} attack patterns",
   // EGG GROUP

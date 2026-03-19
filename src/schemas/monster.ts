@@ -80,7 +80,6 @@ export type Monster = {
   eggGroup: EggGroup;
   element: MonsterElement;
   combatData: MonsterCombatData;
-  hatchable?: boolean;
   monstie?: MonstieData;
   description?: string;
   ridingActions?: RidingAction[];
