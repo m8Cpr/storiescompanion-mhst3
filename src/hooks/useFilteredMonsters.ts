@@ -36,5 +36,13 @@ export function useFilteredMonsters() {
       if (hideEndangered && monster.trait === "endangered") return false;
       return true;
     });
-  }, [monsterList, searchQuery, habitat, eggGroup, attackType, element, hiddenCategories]);
+  }, [
+    monsterList,
+    searchQuery,
+    habitat,
+    eggGroup,
+    attackType,
+    element,
+    hiddenCategories,
+  ]);
 }

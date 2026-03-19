@@ -7,14 +7,18 @@ export const common = {
   [COMMON.APP_TITLE]: "StoriesCompanion",
   [COMMON.APP_SUBTITLE]: "Monster Hunter Stories 3",
   [COMMON.HOME]: "Monsterpedia",
-  [COMMON.HOME_DESCRIPTION]: "Browse monsters, monsties, habitats, and combat data for MH Stories 3: Twisted Reflection.",
-  [COMMON.SPOILER_WARNING]: "<strong>Spoiler warning</strong><br/>you'll find names, locations, and combat data here. If you'd rather discover things yourself, proceed at your own pace.",
-  [COMMON.DISCLAIMER]: "StoriesCompanion is a fan-made companion app and it is not affiliated with or endorsed by Capcom. All trademarks are the property of their respective owners.",
+  [COMMON.HOME_DESCRIPTION]:
+    "Browse monsters, monsties, habitats, and combat data for MH Stories 3: Twisted Reflection.",
+  [COMMON.SPOILER_WARNING]:
+    "<strong>Spoiler warning</strong><br/>you'll find names, locations, and combat data here. If you'd rather discover things yourself, proceed at your own pace.",
+  [COMMON.DISCLAIMER]:
+    "StoriesCompanion is a fan-made companion app and it is not affiliated with or endorsed by Capcom. All trademarks are the property of their respective owners.",
   [COMMON.NO_RESULTS]: "No monsters found matching your criteria.",
   [COMMON.SEARCH_PLACEHOLDER]: "Search monsters by name...",
   [COMMON.NOT_FOUND]: "Page not found",
   [COMMON.BACK_TO_HOME]: "Back to home",
-  [COMMON.APP_FOOTER]: " StoriesCompanion MHS3 — A local-first encyclopedia for monster hunters",
+  [COMMON.APP_FOOTER]:
+    " StoriesCompanion MHS3 — A local-first encyclopedia for monster hunters",
   // MONSTER
   [MONSTER.DETAIL]: "Monster detail",
   [MONSTER.ATTACK_PATTERN_COUNT + "_one"]: "{{count}} attack pattern",
@@ -68,7 +72,8 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.balancing]: "Balancing",
   [MONSTER.ATTACK_PATTERN_STATE.bolt]: "Bolt",
   [MONSTER.ATTACK_PATTERN_STATE.bubbleMantle]: "Bubble Mantle",
-  [MONSTER.ATTACK_PATTERN_STATE.bubbleMantleSlippery]: "Bubble Mantle (Slippery)",
+  [MONSTER.ATTACK_PATTERN_STATE.bubbleMantleSlippery]:
+    "Bubble Mantle (Slippery)",
   [MONSTER.ATTACK_PATTERN_STATE.burrowed]: "Burrowed",
   [MONSTER.ATTACK_PATTERN_STATE.condenseHeat]: "Condense Heat",
   [MONSTER.ATTACK_PATTERN_STATE.dragonMantle]: "Dragon Mantle",
@@ -77,7 +82,8 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.enraged]: "Enraged",
   [MONSTER.ATTACK_PATTERN_STATE.enragedAirborne]: "Enraged (Airborne)",
   [MONSTER.ATTACK_PATTERN_STATE.enragedFrostBlade]: "Enraged (Frost Blade)",
-  [MONSTER.ATTACK_PATTERN_STATE.enragedFrostKnuckles]: "Enraged (Frost Knuckles)",
+  [MONSTER.ATTACK_PATTERN_STATE.enragedFrostKnuckles]:
+    "Enraged (Frost Knuckles)",
   [MONSTER.ATTACK_PATTERN_STATE.frenzied]: "Frenzied",
   [MONSTER.ATTACK_PATTERN_STATE.hellblightCritical]: "Hellfireblight Critical",
   [MONSTER.ATTACK_PATTERN_STATE.hellblightMantle]: "Hellfireblight Mantle",
@@ -106,8 +112,10 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.waterMantle]: "Water Mantle",
   [MONSTER.ATTACK_PATTERN_STATE.abyssalCharge]: "Abyssal Charge",
   [MONSTER.ATTACK_PATTERN_STATE.waterDepleted]: "Water Depleted",
-  [MONSTER.ATTACK_PATTERN_STATE.balancingStoringPowder]: "Balancing (Storing Powder)",
-  [MONSTER.ATTACK_PATTERN_STATE.battleBoundUnleashed]: "Battle-Bound (Unleashed)",
+  [MONSTER.ATTACK_PATTERN_STATE.balancingStoringPowder]:
+    "Balancing (Storing Powder)",
+  [MONSTER.ATTACK_PATTERN_STATE.battleBoundUnleashed]:
+    "Battle-Bound (Unleashed)",
   [MONSTER.ATTACK_PATTERN_STATE.bloodRiteActive]: "Blood Rite Active",
   [MONSTER.ATTACK_PATTERN_STATE.exposed]: "Exposed",
   [MONSTER.ATTACK_PATTERN_STATE.fulguriteMantleState]: "Fulgurite Mantle",
@@ -139,7 +147,8 @@ export const common = {
   [MONSTER.STATUS_EFFECT.blind]: "Blind",
   // FILTER
   [FILTER.TITLE]: "Filter Monsters",
-  [FILTER.DESCRIPTION]: "Refine your search by habitat, element, attack type, and more.",
+  [FILTER.DESCRIPTION]:
+    "Refine your search by habitat, element, attack type, and more.",
   [FILTER.HABITAT]: "Habitat",
   [FILTER.EGG_GROUP]: "Egg Group",
   [FILTER.ATTACK_TYPE]: "Attack Type",

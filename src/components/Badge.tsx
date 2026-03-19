@@ -30,9 +30,7 @@ export default function Badge({ children, className, count }: BadgeProps) {
   if (hasCount) {
     return (
       <span className={cn("relative", className)}>
-        <p className="rounded bg-(--code-bg) px-2 py-1 truncate">
-          {children}
-        </p>
+        <p className="rounded bg-(--code-bg) px-2 py-1 truncate">{children}</p>
         <SmallBadge count={count} />
       </span>
     );

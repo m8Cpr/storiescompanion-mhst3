@@ -9,7 +9,9 @@ export default function NotFound() {
   return (
     <>
       <h1>{t(TRANSLATION_KEYS.COMMON.NOT_FOUND)}</h1>
-      <Link className="block w-fit mx-auto" to="/">{t(TRANSLATION_KEYS.COMMON.BACK_TO_HOME)}</Link>
+      <Link className="block w-fit mx-auto" to="/">
+        {t(TRANSLATION_KEYS.COMMON.BACK_TO_HOME)}
+      </Link>
     </>
   );
 }

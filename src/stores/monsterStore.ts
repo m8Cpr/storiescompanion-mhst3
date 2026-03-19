@@ -7,9 +7,7 @@ const allMonsters = (monstersData as unknown as Monster[]).filter(
   (m) => m.combatData.attackPatterns?.default
 );
 
-const monsterMap = new Map<number, Monster>(
-  allMonsters.map((m) => [m.id, m])
-);
+const monsterMap = new Map<number, Monster>(allMonsters.map((m) => [m.id, m]));
 
 type MonsterStore = {
   monsters: Map<number, Monster>;

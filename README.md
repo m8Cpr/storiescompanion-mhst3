@@ -15,8 +15,8 @@ yarn dev
 
 ## Scripts
 
-| Command      | Description              |
-| ------------ | ------------------------ |
-| `yarn dev`   | Start dev server         |
-| `yarn build` | Type-check and build     |
-| `yarn lint`  | Run ESLint               |
+| Command      | Description          |
+| ------------ | -------------------- |
+| `yarn dev`   | Start dev server     |
+| `yarn build` | Type-check and build |
+| `yarn lint`  | Run ESLint           |

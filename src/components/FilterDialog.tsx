@@ -147,9 +147,7 @@ export default function FilterDialog() {
             items={hideCategoryItems}
             selectedValues={hiddenCategories}
             onChange={setHiddenCategories}
-            selectedCountLabel={(count) =>
-              t(FILTER.SELECTED_COUNT, { count })
-            }
+            selectedCountLabel={(count) => t(FILTER.SELECTED_COUNT, { count })}
           />
         </section>
 
@@ -167,7 +165,6 @@ export default function FilterDialog() {
             <p>{t(FILTER.CLEAR_ALL)}</p>
           </button>
         </footer>
-
       </DialogContent>
     </Dialog>
   );

@@ -4,7 +4,10 @@ export type AttackType = keyof typeof TRANSLATION_KEYS.MONSTER.ATTACK_TYPE;
 
 export type WeaponType = keyof typeof TRANSLATION_KEYS.MONSTER.WEAPON_TYPE;
 
-export type Element = Exclude<keyof typeof TRANSLATION_KEYS.MONSTER.ELEMENT, "nonElemental">;
+export type Element = Exclude<
+  keyof typeof TRANSLATION_KEYS.MONSTER.ELEMENT,
+  "nonElemental"
+>;
 
 export type MonsterElement = keyof typeof TRANSLATION_KEYS.MONSTER.ELEMENT;
 

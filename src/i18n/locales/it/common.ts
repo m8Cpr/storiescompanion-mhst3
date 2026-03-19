@@ -7,14 +7,18 @@ export const common = {
   [COMMON.APP_TITLE]: "StoriesCompanion",
   [COMMON.APP_SUBTITLE]: "Monster Hunter Stories 3",
   [COMMON.HOME]: "Mostropedia",
-  [COMMON.HOME_DESCRIPTION]: "Scopri mostri, monsties, habitat e dati di combattimento per MH Stories 3: Twisted Reflection.",
-  [COMMON.SPOILER_WARNING]: "<strong>Spoiler warning</strong><br/>Qui troverai nomi, luoghi e informazioni sui dati di combattimento. Se preferisci scoprire tutto da solo, procedi al tuo ritmo.",
-  [COMMON.DISCLAIMER]: "StoriesCompanion è un'applicazione creata dalla community e non affiliata né approvata da Capcom. Tutti i marchi appartengono ai rispettivi proprietari.",
+  [COMMON.HOME_DESCRIPTION]:
+    "Scopri mostri, monsties, habitat e dati di combattimento per MH Stories 3: Twisted Reflection.",
+  [COMMON.SPOILER_WARNING]:
+    "<strong>Spoiler warning</strong><br/>Qui troverai nomi, luoghi e informazioni sui dati di combattimento. Se preferisci scoprire tutto da solo, procedi al tuo ritmo.",
+  [COMMON.DISCLAIMER]:
+    "StoriesCompanion è un'applicazione creata dalla community e non affiliata né approvata da Capcom. Tutti i marchi appartengono ai rispettivi proprietari.",
   [COMMON.NO_RESULTS]: "Nessun mostro corrisponde ai criteri di ricerca.",
   [COMMON.SEARCH_PLACEHOLDER]: "Cerca mostri per nome...",
   [COMMON.NOT_FOUND]: "Pagina non trovata",
   [COMMON.BACK_TO_HOME]: "Torna alla home",
-  [COMMON.APP_FOOTER]: " StoriesCompanion MHS3 — Un'enciclopedia per i Cacciatori",
+  [COMMON.APP_FOOTER]:
+    " StoriesCompanion MHS3 — Un'enciclopedia per i Cacciatori",
   // MONSTER
   [MONSTER.DETAIL]: "Dettaglio mostro",
   [MONSTER.ATTACK_PATTERN_COUNT + "_one"]: "{{count}} pattern di attacco",
@@ -68,7 +72,8 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.balancing]: "In Equilibrio",
   [MONSTER.ATTACK_PATTERN_STATE.bolt]: "Scarica",
   [MONSTER.ATTACK_PATTERN_STATE.bubbleMantle]: "Manto di Bolle",
-  [MONSTER.ATTACK_PATTERN_STATE.bubbleMantleSlippery]: "Manto di Bolle (Scivoloso)",
+  [MONSTER.ATTACK_PATTERN_STATE.bubbleMantleSlippery]:
+    "Manto di Bolle (Scivoloso)",
   [MONSTER.ATTACK_PATTERN_STATE.burrowed]: "Sotterrato",
   [MONSTER.ATTACK_PATTERN_STATE.condenseHeat]: "Calore Condensato",
   [MONSTER.ATTACK_PATTERN_STATE.dragonMantle]: "Manto Drago",
@@ -76,8 +81,10 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.electrify]: "Elettrificato",
   [MONSTER.ATTACK_PATTERN_STATE.enraged]: "Infuriato",
   [MONSTER.ATTACK_PATTERN_STATE.enragedAirborne]: "Infuriato (In Volo)",
-  [MONSTER.ATTACK_PATTERN_STATE.enragedFrostBlade]: "Infuriato (Lama di Ghiaccio)",
-  [MONSTER.ATTACK_PATTERN_STATE.enragedFrostKnuckles]: "Infuriato (Pugni di Ghiaccio)",
+  [MONSTER.ATTACK_PATTERN_STATE.enragedFrostBlade]:
+    "Infuriato (Lama di Ghiaccio)",
+  [MONSTER.ATTACK_PATTERN_STATE.enragedFrostKnuckles]:
+    "Infuriato (Pugni di Ghiaccio)",
   [MONSTER.ATTACK_PATTERN_STATE.frenzied]: "Frenetico",
   [MONSTER.ATTACK_PATTERN_STATE.hellblightCritical]: "Fuoco Infernale Critico",
   [MONSTER.ATTACK_PATTERN_STATE.hellblightMantle]: "Manto Fuoco Infernale",
@@ -91,7 +98,8 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.overheated]: "Surriscaldato",
   [MONSTER.ATTACK_PATTERN_STATE.overheatedTail]: "Surriscaldato (Coda)",
   [MONSTER.ATTACK_PATTERN_STATE.poisonActiveCrunch]: "Veleno Attivo (Morso)",
-  [MONSTER.ATTACK_PATTERN_STATE.poisonActiveMunch]: "Veleno Attivo (Masticazione)",
+  [MONSTER.ATTACK_PATTERN_STATE.poisonActiveMunch]:
+    "Veleno Attivo (Masticazione)",
   [MONSTER.ATTACK_PATTERN_STATE.rockMantle]: "Manto di Roccia",
   [MONSTER.ATTACK_PATTERN_STATE.rockPrep]: "Preparazione Roccia",
   [MONSTER.ATTACK_PATTERN_STATE.shellSeashell]: "Guscio (Conchiglia)",
@@ -106,8 +114,10 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.waterMantle]: "Manto d'Acqua",
   [MONSTER.ATTACK_PATTERN_STATE.abyssalCharge]: "Carica Abissale",
   [MONSTER.ATTACK_PATTERN_STATE.waterDepleted]: "Acqua Esaurita",
-  [MONSTER.ATTACK_PATTERN_STATE.balancingStoringPowder]: "In Equilibrio (Accumulo Polvere)",
-  [MONSTER.ATTACK_PATTERN_STATE.battleBoundUnleashed]: "Vincolo di Battaglia (Scatenato)",
+  [MONSTER.ATTACK_PATTERN_STATE.balancingStoringPowder]:
+    "In Equilibrio (Accumulo Polvere)",
+  [MONSTER.ATTACK_PATTERN_STATE.battleBoundUnleashed]:
+    "Vincolo di Battaglia (Scatenato)",
   [MONSTER.ATTACK_PATTERN_STATE.bloodRiteActive]: "Rito di Sangue Attivo",
   [MONSTER.ATTACK_PATTERN_STATE.exposed]: "Esposto",
   [MONSTER.ATTACK_PATTERN_STATE.fulguriteMantleState]: "Manto di Fulgurite",
@@ -139,7 +149,8 @@ export const common = {
   [MONSTER.STATUS_EFFECT.blind]: "Cecità",
   // FILTER
   [FILTER.TITLE]: "Filtra Mostri",
-  [FILTER.DESCRIPTION]: "Affina la ricerca per habitat, elemento, tipo di attacco e altro.",
+  [FILTER.DESCRIPTION]:
+    "Affina la ricerca per habitat, elemento, tipo di attacco e altro.",
   [FILTER.HABITAT]: "Habitat",
   [FILTER.EGG_GROUP]: "Gruppo Uova",
   [FILTER.ATTACK_TYPE]: "Tipo di Attacco",

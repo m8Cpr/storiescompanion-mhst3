@@ -42,13 +42,7 @@ const defaults: FilterState = {
 const initialState: FilterState = {
   ...defaults,
   habitat: "azuria",
-  hiddenCategories: [
-    "story",
-    "invasive",
-    "feral",
-    "elderDragon",
-    "endangered",
-  ],
+  hiddenCategories: ["story", "invasive", "feral", "elderDragon", "endangered"],
 };
 
 export const useFilterStore = create<FilterStore>()(
@@ -84,6 +78,6 @@ export const useFilterStore = create<FilterStore>()(
           sessionStorage.removeItem(name);
         },
       },
-    },
-  ),
+    }
+  )
 );

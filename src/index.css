@@ -33,7 +33,7 @@
     font-size: 16px;
   }
 
-  @apply transition-colors 
+  @apply transition-colors;
 }
 
 :root.dark {

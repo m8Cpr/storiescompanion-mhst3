@@ -107,7 +107,8 @@ export const TRANSLATION_KEYS = {
       waterMantle: "monster.attackPatternState.waterMantle",
       abyssalCharge: "monster.attackPatternState.abyssalCharge",
       waterDepleted: "monster.attackPatternState.waterDepleted",
-      balancingStoringPowder: "monster.attackPatternState.balancingStoringPowder",
+      balancingStoringPowder:
+        "monster.attackPatternState.balancingStoringPowder",
       battleBoundUnleashed: "monster.attackPatternState.battleBoundUnleashed",
       bloodRiteActive: "monster.attackPatternState.bloodRiteActive",
       exposed: "monster.attackPatternState.exposed",

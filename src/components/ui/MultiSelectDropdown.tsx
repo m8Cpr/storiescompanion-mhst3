@@ -69,9 +69,7 @@ export function MultiSelectDropdown<T extends string>({
       {selectedValues.length > 0 && (
         <div className="mt-2 flex flex-wrap gap-2">
           {selectedValues.map((value) => {
-            const itemLabel = items.find(
-              (item) => item.value === value
-            )?.label;
+            const itemLabel = items.find((item) => item.value === value)?.label;
             return (
               <span
                 key={value}
