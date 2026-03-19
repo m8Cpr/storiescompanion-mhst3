@@ -14,6 +14,15 @@ export type Habitat = keyof typeof TRANSLATION_KEYS.MONSTER.HABITAT;
 
 export type StatusEffect = keyof typeof TRANSLATION_KEYS.MONSTER.STATUS_EFFECT;
 
+export type RidingAction = keyof typeof TRANSLATION_KEYS.MONSTER.RIDING_ACTION;
+
+export type MonsterTrait = keyof typeof TRANSLATION_KEYS.MONSTER.TRAIT;
+
+export type HabitatDetail = {
+  area: string;
+  region: string;
+};
+
 export type MonsterLocation = {
   type: string;
   main: string;
@@ -61,4 +70,9 @@ export type Monster = {
   combatData: MonsterCombatData;
   hatchable?: boolean;
   monstie?: MonstieData;
+  description?: string;
+  ridingActions?: RidingAction[];
+  trait?: MonsterTrait;
+  howToGet?: string;
+  habitatDetails?: HabitatDetail[];
 };

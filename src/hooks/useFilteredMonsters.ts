@@ -22,7 +22,7 @@ export function useFilteredMonsters() {
       if (eggGroup && monster.eggGroup !== eggGroup) return false;
       if (
         attackType &&
-        monster.combatData.attackPatterns.DEFAULT !== attackType
+        monster.combatData.attackPatterns.default !== attackType
       )
         return false;
       if (element && monster.element !== element) return false;

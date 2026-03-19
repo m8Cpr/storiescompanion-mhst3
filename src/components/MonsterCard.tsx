@@ -15,7 +15,7 @@ type MonsterCardProps = {
 
 export default function MonsterCard({ monster }: MonsterCardProps) {
   const { t } = useTranslation("common");
-  const baseAttack = monster.combatData.attackPatterns.DEFAULT;
+  const baseAttack = monster.combatData.attackPatterns.default;
   const ElementIcon = ELEMENT_ICONS[monster.element];
   const AttackIcon = ATTACK_TYPE_ICONS[baseAttack];
   const patternCount = Object.keys(monster.combatData.attackPatterns).length;

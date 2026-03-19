@@ -1,6 +1,141 @@
 [
   {
     "id": 1,
+    "name": "Ajarakan",
+    "habitats": [
+      "tarkuan"
+    ],
+    "locations": [],
+    "rarity": 5,
+    "eggGroup": "fangedBeast",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "overheated": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -2,
+        "fireblight": 1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "Ajarakan Tumble",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 5,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 5,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan",
+    "habitatDetails": [
+      {
+        "area": "Bountiful Dunes",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "This Fanged Beast affixes molten metals to its carapace, and the friction resulting from those minerals rubbing together allows it to accumulate heat and cause explosions."
+  },
+  {
+    "id": 2,
+    "name": "Aknosom",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 3,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "enraged": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": -1,
+        "ice": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "",
+      "eggColors": [],
+      "stats": {
+        "hp": 5,
+        "attack": 6,
+        "defense": 6,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 6,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "habitatDetails": [
+      {
+        "area": "Mt. Canalta",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Howlinyowl Forest",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "A Bird Wyvern often seen standing on one leg, giving it the unique appearance of a parasol. Highly territorial, it intimidates trespassers with outstretched wings and an eye-patterned crest."
+  },
+  {
+    "id": 3,
     "name": "Almudron",
     "habitats": [
       "tarkuan"
@@ -11,31 +146,47 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "thecnical",
-        "temp3": "speed"
+        "default": "power",
+        "enraged": "technical",
+        "largeMudbulb": "speed"
       },
       "parts": {},
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 0,
+        "water": 2,
+        "thunder": 0,
         "ice": -1,
-        "thunder": 2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 2,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": -1
+        "poison": -1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 1
       }
-    }
+    },
+    "ridingActions": [
+      "swim",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "groundDive"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "description": "A giant Leviathan believed to reside in marshlands deep in the mountains. Slipping between pools of mud, it stealthily approaches and then dispatches unsuspecting prey.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Anjanath",
     "habitats": [
       "azuria",
@@ -57,8 +208,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power"
+        "default": "power",
+        "condenseHeat": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -74,20 +225,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": 0,
+        "water": -2,
+        "thunder": 0,
         "ice": -1,
-        "thunder": -2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": -1,
-        "bleeding": 1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -100,18 +252,32 @@
         "black"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 7,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "A belligerent Brute Wyvern that tries to sink its fangs into anything that moves. It is recognizable by the large membranes on its hips and the downy fur that runs along its back and tail.",
+    "habitatDetails": [
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Aptonoth",
     "habitats": [
       "azuria"
@@ -128,7 +294,7 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power"
+        "default": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -175,7 +341,72 @@
     }
   },
   {
-    "id": 4,
+    "id": 6,
+    "name": "Arkveld",
+    "habitats": [
+      "serathis"
+    ],
+    "locations": [],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "dragon",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "dragonMantle": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -2,
+        "bleeding": 1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "Final Rampage",
+      "eggColors": [],
+      "stats": {
+        "hp": 8,
+        "attack": 8,
+        "defense": 6,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 6,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Defeat Arkveld.",
+    "habitatDetails": [
+      {
+        "area": "Sacrosanctum/Lazlion",
+        "region": "Serathis"
+      }
+    ],
+    "description": "A Flying Wyvern with chain-like wings that end in bladed tendrils. It can extend and retract these tendrils at will, dispatching prey with deadly efficiency."
+  },
+  {
+    "id": 7,
     "name": "Arzuros",
     "habitats": [
       "canaltaTimberland"
@@ -196,8 +427,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "technical"
+        "default": "power",
+        "enraged": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -213,20 +444,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 0,
+        "water": 1,
+        "thunder": 0,
         "ice": -1,
-        "thunder": 1,
         "dragon": 2
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -239,18 +471,35 @@
         "green"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 4,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "description": "Found in warm, humid environments, this Fanged Beast is known to gather fish and honey while standing on its hind legs. The sturdy, clawed forearms pose a real threat when used offensively.",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 5,
+    "id": 8,
     "name": "Astalos",
     "habitats": [],
     "locations": [
@@ -277,9 +526,8 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Electrified": "power",
-        "Flying": "speed"
+        "default": "speed",
+        "bolt": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -303,20 +551,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 1,
-        "water": 2,
+        "water": -1,
+        "thunder": 2,
         "ice": -2,
-        "thunder": -1,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 2,
-        "bleeding": 1,
-        "blind": 2
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": -1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -329,18 +578,104 @@
         "black"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 8,
+        "defense": 8,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 8,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "trait": "endangered",
+    "howToGet": "Force the Invasive Seregios to retreat to acquire an Astalos egg.",
+    "description": "Special internal organs allow this Flying Wyvern to generate high-voltage electricity. By shaking its crest, wings, or tail, it can charge that body part with stored electricity for an attack,",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      },
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 6,
+    "id": 9,
+    "name": "Aurora Somnacanth",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 5,
+    "eggGroup": "leviathan",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "enraged": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 1,
+        "thunder": -1,
+        "ice": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "Siren Storm",
+      "eggColors": [],
+      "stats": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath",
+      "swim"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "habitatDetails": [
+      {
+        "area": "Mt. Canalta",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "This subspecies of Somnacanth resembles a frighteningly beautiful phantasm veiled in frost. It uses the cold that emanates from its body to freeze surfaces, on which it swiftly chases down prey."
+  },
+  {
+    "id": 10,
     "name": "Azure Rathalos",
     "habitats": [],
     "locations": [
@@ -383,8 +718,7 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Flying": "speed"
+        "default": "power"
       },
       "parts": {
         "Head": [
@@ -402,10 +736,11 @@
         ]
       },
       "elementalResistance": {
-        "fire": 2,
-        "water": 1,
+        "nonElemental": 0,
+        "fire": 0,
+        "water": 0,
+        "thunder": 1,
         "ice": -1,
-        "thunder": 0,
         "dragon": -2
       },
       "statusResistance": {
@@ -427,18 +762,33 @@
         "blue"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 7,
+        "attack": 8,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank A for Rathalos in Habitat Restoration.",
+    "habitatDetails": [
+      {
+        "area": "Death's Maw",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 7,
+    "id": 11,
     "name": "Barioth",
     "habitats": [],
     "locations": [
@@ -469,8 +819,8 @@
     "element": "ice",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -489,20 +839,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": -1,
+        "water": 1,
+        "thunder": -1,
         "ice": 2,
-        "thunder": 1,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": 2,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 2,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": -2,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -516,18 +867,35 @@
         "orange"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 6,
+        "defense": 8,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 8,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "wallClimb",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "endangered",
+    "howToGet": "Repel Invasive Khezu to acquire a Barioth egg.",
+    "description": "A large Flying Wyvern found in torrid regions. It possesses a sturdy carapace and likes to consume minerals that contain explosive properties, such as volcanic rocks or Firestones.",
+    "habitatDetails": [
+      {
+        "area": "Glacial Caps",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 8,
+    "id": 12,
     "name": "Barrel Felyne",
     "habitats": [],
     "locations": [
@@ -559,7 +927,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 13,
     "name": "Barroth",
     "habitats": [
       "tarkuan"
@@ -576,8 +944,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Covered In Mud": "technical"
+        "default": "speed",
+        "mudMantle": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -598,44 +966,133 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 2,
         "fire": -2,
-        "water": 0,
+        "water": 1,
+        "thunder": 0,
         "ice": -1,
-        "thunder": 1,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "regular",
-      "kinshipSkill": "Rushing Charge",
+      "kinshipSkill": "Rushing Charge (Non-Elemental)",
       "eggColors": [
         "brown",
         "orange"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 4,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "groundDive"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "description": "A Brute Wyvern that lives in hot, arid environments. Mud is vital to its survival, as it often remains benath the mud to keep cool and sometimes uses it as a means of attack,",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 10,
+    "id": 14,
+    "name": "Bishaten",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 3,
+    "eggGroup": "fangedBeast",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "balancing": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 1,
+        "thunder": 0,
+        "ice": -2,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "Fruit Barrage",
+      "eggColors": [],
+      "stats": {
+        "hp": 5,
+        "attack": 6,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "wallClimb",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Howlinyowl Forest",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "This monster's winged arms enable versatile aerial movement and the prehensile tail allows it to spin liek a top. It can be described as both endearingly inquisitive and insufferably mischievous."
+  },
+  {
+    "id": 15,
     "name": "Black Diablos",
     "habitats": [
       "tarkuan"
@@ -664,8 +1121,9 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed"
+        "default": "power",
+        "enraged": "speed",
+        "burrowed": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -684,20 +1142,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": 0,
+        "water": -1,
+        "thunder": 0,
         "ice": -2,
-        "thunder": -1,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -710,18 +1169,35 @@
         "brown"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 8,
+        "attack": 8,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roarMeleeAttack",
+      "groundDive"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "description": "Once thought to be a Diablos subspecies, it is actually a female Diablos whose shell darkened for mating season. This color serves as a warning to other creatures, included male Diablos.",
+    "habitatDetails": [
+      {
+        "area": "Bountiful Dunes",
+        "region": "Tarkuan"
+      },
+      {
+        "area": "Rococo Rocks",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 11,
+    "id": 16,
     "name": "Black Gravios",
     "habitats": [
       "tarkuan"
@@ -754,8 +1230,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "technical"
+        "default": "power",
+        "enraged": "technical"
       },
       "parts": {
         "Stomach": [
@@ -769,20 +1245,21 @@
         ]
       },
       "elementalResistance": {
-        "fire": 2,
-        "water": 0,
+        "nonElemental": 1,
+        "fire": 1,
+        "water": -2,
+        "thunder": 0,
         "ice": 0,
-        "thunder": -2,
         "dragon": -1
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": "-",
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": 2,
-        "bleeding": -1,
-        "blind": 2
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -2,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -795,18 +1272,226 @@
         "orange"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 3,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "groundDive"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "description": "A subspecies of Gravios distinguished by its tough black carapace. The heat produced inside its body far surpasses that of regular Gravios and is thought to be the reason for this coloration. ",
+    "habitatDetails": [
+      {
+        "area": "Bountiful Dunes",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 12,
+    "id": 17,
+    "name": "Blangonga",
+    "habitats": [
+      "serathis"
+    ],
+    "locations": [],
+    "rarity": 3,
+    "eggGroup": "fangedBeast",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "enraged": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": 2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -2,
+        "fireblight": -2,
+        "paralysis": -2,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": -2,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Snow Dunk",
+      "eggColors": [],
+      "stats": {
+        "hp": 6,
+        "attack": 6,
+        "defense": 5,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 5,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "roar",
+      "meleeAttack",
+      "breath",
+      "jump"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "habitatDetails": [
+      {
+        "area": "Glacial Caps",
+        "region": "Serathis"
+      }
+    ],
+    "description": "This Blango pack leader is found on snowy peaks and is recognizable by its giant fangs and whiskers. Twice as large as a Blango, it has far greater strength and mobility."
+  },
+  {
+    "id": 18,
+    "name": "Blood Orange Bishaten",
+    "habitats": [
+      "tarkuan"
+    ],
+    "locations": [],
+    "rarity": 4,
+    "eggGroup": "fangedBeast",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "enraged": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": -1,
+        "ice": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 2,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 2,
+        "bleeding": -1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Pinecone Barrage",
+      "eggColors": [],
+      "stats": {
+        "hp": 5,
+        "attack": 7,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "wallClimb",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "habitatDetails": [
+      {
+        "area": "Bountiful Dunes",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "The subspecies shares the curved horns, beaked mouth, and winged arms of the regular Bishaten, but as the name suggests, its body is mottled with unique, fiery-red patches."
+  },
+  {
+    "id": 19,
+    "name": "Bloodbath Diablos",
+    "habitats": [],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 1,
+        "fire": 2,
+        "water": -2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Longhorn Upheaval",
+      "eggColors": [],
+      "stats": {
+        "hp": 9,
+        "attack": 10,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "groundDive"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S for Diablos in Habitat Restoration in Bountiful Dunes, Tarkuan.",
+    "habitatDetails": [
+      {
+        "area": "Bountiful Dunes",
+        "region": "Tarkuan"
+      }
+    ]
+  },
+  {
+    "id": 20,
     "name": "Blue Yian Kut-Ku",
     "habitats": [
       "azuria"
@@ -831,8 +1516,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -843,20 +1528,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 1,
-        "water": -1,
+        "water": -2,
+        "thunder": -1,
         "ice": 0,
-        "thunder": -2,
         "dragon": 2
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -869,18 +1555,103 @@
         "yellow"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 4,
+        "attack": 5,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "A Yian Kut-Ku subspecies with a blue coloration. It shares similar behavioral patterns with its pink counterpart, but boasts higher pyhsical capabilities.",
+    "habitatDetails": [
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      },
+      {
+        "area": "Blightstone Woods",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 13,
+    "id": 21,
+    "name": "Boltreaver Astalos",
+    "habitats": [
+      "azuria"
+    ],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "flyingWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "Astalos Saber",
+      "eggColors": [],
+      "stats": {
+        "hp": 6,
+        "attack": 9,
+        "defense": 8,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 8,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Restore Astalos in a Habitat with 3 Lightning Monsters and reach Rank S for Astalos in Habitat Restoration",
+    "habitatDetails": [
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      }
+    ],
+    "description": "An Astalos Deviant especially known for unleashing electric bolts as blue as the sky. Its highly developed shockshells produce spheres of electromagnetic energy to trap its foes."
+  },
+  {
+    "id": 22,
     "name": "Brachydios",
     "habitats": [
       "serathis"
@@ -909,8 +1680,9 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed"
+        "default": "power",
+        "slimeActive": "speed",
+        "slimeDepleted": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -930,20 +1702,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": 0,
+        "water": -2,
+        "thunder": 0,
         "ice": -1,
-        "thunder": -2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": "-",
-        "bleeding": -1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -956,18 +1729,31 @@
         "green"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 8,
+        "attack": 9,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "description": "An aggressive species of Brute Wyvern with a deep-blue carapace. The volatile green slime covering its head and powerful forearms can be primed to explode by a chemical agent in its saliva.",
+    "habitatDetails": [
+      {
+        "area": "Glacial Caps",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 14,
+    "id": 23,
     "name": "Brute Tigrex",
     "habitats": [],
     "locations": [
@@ -994,8 +1780,7 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed"
+        "default": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -1011,10 +1796,11 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": -1,
+        "water": -2,
+        "thunder": -1,
         "ice": 1,
-        "thunder": -2,
         "dragon": 0
       },
       "statusResistance": {
@@ -1037,18 +1823,98 @@
         "brown"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 9,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank A for Tigrex in Habitat Restoration.",
+    "description": "This black-scaled subspecies of the Tigrex possesses astounding strength and extreme ferociousness. The might of its terrible roar surpasses even that of the regular species.",
+    "habitatDetails": [
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 15,
+    "id": 24,
+    "name": "Canyne",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 5,
+    "eggGroup": "fangedBeast",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Rising Axel",
+      "eggColors": [],
+      "stats": {
+        "hp": 4,
+        "attack": 5,
+        "defense": 9,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 9,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "wallClimb",
+      "roar",
+      "groundDive"
+    ],
+    "trait": "endangered",
+    "howToGet": "Progress through the main story, up until the point where you must fight Arzuros, to acquire an egg.",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "A blue-furred Fanged Beast that is both clever and highly athletic. Relatively gentle for a Fanged Beast, it plays an integral role in Sheparden life as a hunting partner and means of transportation."
+  },
+  {
+    "id": 25,
     "name": "Cephalos",
     "habitats": [],
     "locations": [
@@ -1063,7 +1929,7 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power"
+        "default": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -1089,7 +1955,139 @@
     }
   },
   {
-    "id": 16,
+    "id": 26,
+    "name": "Chatacabra",
+    "habitats": [
+      "azuria"
+    ],
+    "locations": [],
+    "rarity": 1,
+    "eggGroup": "amphibian",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "rockMantle": "technical"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 0,
+        "water": 1,
+        "thunder": -2,
+        "ice": -1,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Cyclone Lariat",
+      "eggColors": [],
+      "stats": {
+        "hp": 5,
+        "attack": 4,
+        "defense": 4,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 4,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "habitatDetails": [
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      },
+      {
+        "area": "Blightstone Woods",
+        "region": "Azuria"
+      }
+    ],
+    "description": "Using its long tongue, this Amphibian can grab objects and food from a distance. Its adhesive saliva can also be used to attach rocks and debris to its forelegs, enhancing its combat abilities."
+  },
+  {
+    "id": 27,
+    "name": "Deadeye Yian Garuga",
+    "habitats": [],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Barrel Roll Shot",
+      "eggColors": [],
+      "stats": {
+        "hp": 6,
+        "attack": 8,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S in a habitat with 3 5-Star and above Monsters.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "From among the ferocious Yian Garuga species stands a Deviant with even more love for the fight. Its one remaining eye burns with the fervor of the countless life-and-death struggles it has endured."
+  },
+  {
+    "id": 28,
     "name": "Deviljho",
     "habitats": [
       "canaltaTimberland",
@@ -1131,8 +2129,8 @@
     "element": "dragon",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed"
+        "default": "power",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -1193,7 +2191,7 @@
     }
   },
   {
-    "id": 17,
+    "id": 29,
     "name": "Diablos",
     "habitats": [
       "tarkuan"
@@ -1218,8 +2216,9 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed"
+        "default": "power",
+        "enraged": "speed",
+        "burrowed": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -1236,20 +2235,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": 1,
+        "water": -1,
+        "thunder": 1,
         "ice": -2,
-        "thunder": -1,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -1261,18 +2261,296 @@
         "brown"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 8,
+        "attack": 7,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "groundDive"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "description": "A Fanged Wyvern easily recognized by its two curved horns. Fiercely territorial, it attacks any who dare stray into its domain, causing many to call it \"the tyrant of the desert\".",
+    "habitatDetails": [
+      {
+        "area": "Rococo Rocks",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 18,
+    "id": 30,
+    "name": "Dreadking Rathalos",
+    "habitats": [],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -1,
+        "thunder": -1,
+        "ice": 1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Meteor Strike",
+      "eggColors": [],
+      "stats": {
+        "hp": 8,
+        "attack": 9,
+        "defense": 6,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 6,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S for Rathalos in Habitat Restoration in a habitat with 4 or more Flying Wyverns",
+    "habitatDetails": [
+      {
+        "area": "Death's Maw",
+        "region": "Tarkuan"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Dreadqueen Rathian",
+    "habitats": [
+      "azuria"
+    ],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -1,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Dual Razor",
+      "eggColors": [],
+      "stats": {
+        "hp": 8,
+        "attack": 8,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Restore Rathian in a habitat with 3 or More Poisonous Monsters and reach Rank S for Rathian in Habitat Restoration",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      }
+    ],
+    "description": "The tail of this Rathian Deviant bears venom of the deadliest kind. When expelled, the venom forms a majestic purple cloud of miasma that suffocates any unfortunate prey."
+  },
+  {
+    "id": 32,
+    "name": "Ebony Odogaron",
+    "habitats": [
+      "serathis"
+    ],
+    "locations": [],
+    "rarity": 6,
+    "eggGroup": "fangedWyvern",
+    "element": "dragon",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "starving": "speed",
+        "frenzied": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": -1,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": -1,
+        "paralysis": 2,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Target Acquired (Dragon)",
+      "eggColors": [],
+      "stats": {
+        "hp": 6,
+        "attack": 9,
+        "defense": 8,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 8,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "habitatDetails": [
+      {
+        "area": "Sacrosanctum/Lazlion",
+        "region": "Serathis"
+      }
+    ],
+    "description": "A jet-black subspecies of Odogaron whose fangs and unique claws hold dragon energy, allowing it to reave elemental power from its target."
+  },
+  {
+    "id": 33,
+    "name": "Espinas",
+    "habitats": [
+      "tarkuan",
+      "azuria"
+    ],
+    "locations": [],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "sleep": "power",
+        "enraged": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 2,
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Burn It Down",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 8,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Defeat Espinas in a Hidden cave in Azuria.",
+    "habitatDetails": [
+      {
+        "area": "Bountiful Dunes",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "This fierce Flying Wyvern is distinguished by the red-violent thorns dotting its green carapace. Its blood contains properties that poison and paralyze, so most monsters steer clear of it."
+  },
+  {
+    "id": 34,
     "name": "Fulgur Anjanath",
     "habitats": [
       "serathis"
@@ -1309,8 +2587,9 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed"
+        "default": "power",
+        "electricCharge": "speed",
+        "highVoltageCharge": "speed"
       },
       "parts": {
         "Body": [
@@ -1331,20 +2610,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 0,
-        "water": 2,
+        "water": -1,
+        "thunder": 2,
         "ice": -2,
-        "thunder": -1,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": -1,
-        "bleeding": 1,
-        "blind": 2
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -1359,18 +2639,103 @@
         "red"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 7,
+        "attack": 8,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "description": "This savage subspecies of Anjanath electrifies its jaws and dorsal membranes with every attack, further enchancing its already powerful body.",
+    "habitatDetails": [
+      {
+        "area": "Old Capital Road",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 19,
+    "id": 35,
+    "name": "Garangolm",
+    "habitats": [
+      "canaltaTimberland",
+      "tarkuan"
+    ],
+    "locations": [],
+    "rarity": 4,
+    "eggGroup": "fangedBeast",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "lavaMantle": "speed",
+        "mossMantle": "technical"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 1,
+        "fire": 0,
+        "water": 0,
+        "thunder": -2,
+        "ice": -1,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Steam Burst",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 5,
+        "defense": 4,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 4,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "wallClimb",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "habitatDetails": [
+      {
+        "area": "Mt. Canalta",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "A giant Fanged Beast often mistaken for a pile of boulders. Its bodily fluids can promote plant growth, forming a unique symbiotic relationship with the flora that grows on its body."
+  },
+  {
+    "id": 36,
     "name": "Gargwa",
     "habitats": [],
     "locations": [
@@ -1385,7 +2750,7 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed"
+        "default": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -1411,7 +2776,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 37,
     "name": "Glavenus",
     "habitats": [
       "tarkuan"
@@ -1444,9 +2809,9 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "After Blaze": "speed",
-        "After Fire Chakram": "technical"
+        "default": "speed",
+        "enraged": "technical",
+        "overheatedTail": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -1462,20 +2827,21 @@
         "Tail": []
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": 1,
+        "water": -2,
+        "thunder": 1,
         "ice": -1,
-        "thunder": -2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 2,
-        "blast": -1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -2,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -1488,18 +2854,97 @@
         "red"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 8,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan",
+    "description": "A Brute Wyvern that brandishes its heavy blue tail like a blade. The combustible metals contained inside increase in temperature with every swing, sharpening the tail and making it red-hot.",
+    "habitatDetails": [
+      {
+        "area": "Rococo Rocks",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 21,
+    "id": 38,
+    "name": "Goss Harag",
+    "habitats": [
+      "serathis"
+    ],
+    "locations": [],
+    "rarity": 5,
+    "eggGroup": "fangedBeast",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "enragedFrostKnuckles": "technical",
+        "enragedFrostBlade": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 1,
+        "thunder": -1,
+        "ice": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Demonic Ice Spin",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 8,
+        "defense": 4,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 4,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "habitatDetails": [
+      {
+        "area": "Old Capital Road",
+        "region": "Serathis"
+      }
+    ],
+    "description": "This Fanged Beast thrives in harsh snowy regions with thick fur that staves off the bitter cold. Its aggressive hunting behavior and horned visage make it appear like some kind of arctic demon."
+  },
+  {
+    "id": 39,
     "name": "Gravios",
     "habitats": [
       "tarkuan"
@@ -1524,8 +2969,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "technical"
+        "default": "power",
+        "enraged": "technical"
       },
       "parts": {
         "Stomach": [
@@ -1539,20 +2984,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 2,
         "fire": 1,
-        "water": 0,
+        "water": -2,
+        "thunder": 0,
         "ice": 0,
-        "thunder": -2,
         "dragon": -1
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": "-",
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": 2,
-        "bleeding": -1,
-        "blind": 2
+        "poison": 1,
+        "fireblight": 2,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -2,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -1567,18 +3013,34 @@
         "orange"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 8,
+        "attack": 5,
+        "defense": 3,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 3,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath",
+      "groundDive"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "description": "A large Flying Wavern found in torrid regions. It possesses a sturdy carapace and likes to consume minerals that contain explosive properties, such as volcanic rocks or Firestones.",
+    "habitatDetails": [
+      {
+        "area": "Rococo Rocks",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 22,
+    "id": 40,
     "name": "Great Dracophage Bug",
     "habitats": [
       "serathis"
@@ -1599,7 +3061,7 @@
     "element": "dragon",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed"
+        "default": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -1625,7 +3087,137 @@
     }
   },
   {
-    "id": 23,
+    "id": 41,
+    "name": "Great Izuchi",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 1,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "enraged": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": -2,
+        "sleep": -2,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Whirlwind Sickle",
+      "eggColors": [],
+      "stats": {
+        "hp": 3,
+        "attack": 5,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Howlinyowl Forest",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "The leader of an Izuchi pack, this monster is identifiable by its larger build, bristled fur, and scythe-like tail. It rarely acts alone, instead patrolling its territory with two elite Izuchi."
+  },
+  {
+    "id": 42,
+    "name": "Great Poogie",
+    "habitats": [
+      "azuria"
+    ],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "unknown",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 1,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Poogie March",
+      "eggColors": [],
+      "stats": {
+        "hp": 5,
+        "attack": 10,
+        "defense": 10,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 10,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "roarMeleeAttack"
+    ],
+    "howToGet": "Find all other Poogies in the game and speak to the Expert Farmer.",
+    "habitatDetails": [
+      {
+        "area": "Blightstone Woods",
+        "region": "Azuria"
+      }
+    ],
+    "description": "A legendary Poogie possessed of unmatched charisma and grandeur. Some farfetched tales claim this Poogie can summon all the other Poogies in the world with a single call."
+  },
+  {
+    "id": 43,
     "name": "Great Thunderbug",
     "habitats": [],
     "locations": [
@@ -1640,7 +3232,7 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed"
+        "default": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -1666,7 +3258,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 44,
     "name": "Green Nargacuga",
     "habitats": [],
     "locations": [
@@ -1693,8 +3285,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power"
+        "default": "speed",
+        "enraged": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -1711,20 +3303,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -1,
-        "water": -2,
+        "water": 2,
+        "thunder": -2,
         "ice": 1,
-        "thunder": 2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 2,
-        "fireblight": 1,
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": -1,
-        "bleeding": -1,
-        "blind": 2
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -1737,18 +3330,33 @@
         "yellow"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 6,
+        "defense": 10,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 10,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "wallClimb",
+      "stealth",
+      "meleeAttack"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank A for Nargacuga in Habitat Restoration",
+    "description": "The mottled green fur of this Nargacuga subspecies is speculated to have served as an excellent camouflage in its verdant habitat before it became endangered.",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 25,
+    "id": 45,
     "name": "Green Plesioth",
     "habitats": [
       "tarkuan"
@@ -1765,8 +3373,8 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "speed",
+        "enraged": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -1783,25 +3391,108 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -1,
-        "water": -2,
+        "water": 2,
+        "thunder": -2,
         "ice": 1,
-        "thunder": 2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": 2,
-        "sleep": -1,
-        "blast": -1,
-        "bleeding": 1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": -2,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -2
       }
-    }
+    },
+    "ridingActions": [
+      "swim",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "Named after its jade-green scales, this subspecies is more agile than the common Plesioth, boasting incredible mobility both on land and in water. It is also more hostile than the regular species.",
+    "habitatDetails": [
+      {
+        "area": "Mirror Lake",
+        "region": "Azuria"
+      },
+      {
+        "area": "Bountiful Dunes",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 26,
+    "id": 46,
+    "name": "Grimclaw Tigrex",
+    "habitats": [],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Tigrexplosion",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 10,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S with 4 Power Monsters in one habitat.",
+    "habitatDetails": [
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "For a species already known for its absolute power, this Deviant commands even more compelling strength. Its name refers to the preternaturally sharp claws with which it decimates its prey."
+  },
+  {
+    "id": 47,
     "name": "Gypceros",
     "habitats": [
       "azuria"
@@ -1826,8 +3517,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "technical"
+        "default": "power",
+        "enraged": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -1844,20 +3535,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 2,
+        "water": 1,
+        "thunder": 2,
         "ice": -1,
-        "thunder": 1,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": -1
+        "poison": 2,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 1
       }
     },
     "hatchable": true,
@@ -1870,18 +3562,100 @@
         "pink"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 4,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "A Bird Wyvern with an oddly-shaped crest and poisonous saliva. It often runs about due to its skittish nature, seldom remaining in one place for long.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      },
+      {
+        "area": "Blightstone Woods",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 27,
+    "id": 48,
+    "name": "Hellblade Glavenus",
+    "habitats": [],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "bruteWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Hellblade",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 10,
+        "defense": 5,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 5,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S in a Habitat With 4 Sharp Appendage Monsters",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "Deep within this Glavenus Deviant burns a searing heat. A single sweep of its tail is enough to lay waste to everything before it, even incinerating entire mountains."
+  },
+  {
+    "id": 49,
     "name": "Ivory Lagiacrus",
     "habitats": [],
     "locations": [
@@ -1916,9 +3690,9 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power",
-        "Electrified": "technical"
+        "default": "speed",
+        "enraged": "power",
+        "electrify": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -1935,20 +3709,21 @@
         ]
       },
       "elementalResistance": {
-        "fire": -1,
-        "water": 2,
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 1,
+        "thunder": 2,
         "ice": 0,
-        "thunder": 1,
-        "dragon": -2
+        "dragon": -1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -1961,18 +3736,42 @@
         "blue"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 7,
+        "attack": 8,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "swim",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank A for Lagiacrus in Habitat Restoration",
+    "description": "A subspecies of Lagiacrus with a beautiful ivory carapace. Its blue shockspikes are far more evolved than that of the regular species and capable of storing vast amounts of electricity.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      },
+      {
+        "area": "Mirror Lake",
+        "region": "Azuria"
+      },
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 28,
+    "id": 50,
     "name": "Jade Barroth",
     "habitats": [
       "serathis"
@@ -1997,9 +3796,8 @@
     "element": "ice",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed",
-        "Covered In Snow": "technical"
+        "default": "power",
+        "snowMantle": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -2020,44 +3818,59 @@
         ]
       },
       "elementalResistance": {
-        "fire": -1,
-        "water": -1,
-        "ice": 1,
-        "thunder": 0,
+        "nonElemental": 1,
+        "fire": -2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 2,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": -2,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -1
       }
     },
     "hatchable": true,
     "monstie": {
       "attackType": "power",
       "growth": "regular",
-      "kinshipSkill": "Rushing Charge",
+      "kinshipSkill": "Rushing Charge (Ice)",
       "eggColors": [
         "blue",
         "green"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 5,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "groundDive"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "description": "Just as the regular species coats itself in mud, this subspecies of Barroth found in colder climates coats itself in a protective layer of snow and ice.",
+    "habitatDetails": [
+      {
+        "area": "Old Capital Road",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 29,
+    "id": 51,
     "name": "Kelbi",
     "habitats": [],
     "locations": [
@@ -2090,7 +3903,7 @@
     }
   },
   {
-    "id": 30,
+    "id": 52,
     "name": "Khezu",
     "habitats": [
       "canaltaTimberland"
@@ -2119,8 +3932,8 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "power"
+        "default": "technical",
+        "enraged": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -2136,20 +3949,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 2,
+        "water": 0,
+        "thunder": 2,
         "ice": 1,
-        "thunder": 0,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": -1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": "-"
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 2
       }
     },
     "hatchable": true,
@@ -2163,18 +3977,33 @@
         "pink"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 6,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "description": "Lacking scales or carapace, this monster's body is instead covered by an elastic white hide. Life in dimly-lit caves has caused its vision to regress, but a heightened sense of smell makes up for it.",
+    "habitatDetails": [
+      {
+        "area": "Frozen Grotto",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 31,
+    "id": 53,
     "name": "Kulu-Ya-Ku",
     "habitats": [
       "tarkuan"
@@ -2195,8 +4024,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Holding a rock": "power"
+        "default": "technical",
+        "rockPrep": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -2208,20 +4037,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 1,
-        "water": 0,
+        "water": -2,
+        "thunder": 0,
         "ice": -1,
-        "thunder": -2,
         "dragon": 2
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 2,
-        "bleeding": -1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -2235,18 +4065,31 @@
         "orange"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 4,
+        "attack": 5,
+        "defense": 8,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 8,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "fly",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "description": "A Flying Wyvern whose forelimbs have developed to carry objects. Often seen stealing eggs from monster nests, it is also known to dig up rocks to use as a weapon or shield against threats.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 32,
+    "id": 54,
     "name": "Lagiacrus",
     "habitats": [],
     "locations": [
@@ -2273,9 +4116,9 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "speed",
-        "Electrified": "technical"
+        "default": "power",
+        "enraged": "speed",
+        "electrify": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -2292,20 +4135,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 2,
+        "water": 1,
+        "thunder": 2,
         "ice": 0,
-        "thunder": 1,
         "dragon": -1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -2318,18 +4162,42 @@
         "red"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 7,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath",
+      "swim"
+    ],
+    "trait": "endangered",
+    "howToGet": "Force the Invasive Plesioth to retreat to acquire a Lagiacrus egg.",
+    "description": "This Leviathan sits atop the aquatic food chain. Electricity generated by its scales is stored in dorsal organs to later be released in a discharge that can electrify the very ocean.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      },
+      {
+        "area": "Mirror Lake",
+        "region": "Azuria"
+      },
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 33,
+    "id": 55,
     "name": "Legiana",
     "habitats": [
       "serathis"
@@ -2358,9 +4226,9 @@
     "element": "ice",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power",
-        "Flying": "technical"
+        "default": "speed",
+        "enragedAirborne": "power",
+        "airborne": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -2380,20 +4248,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -1,
-        "water": -2,
-        "ice": 2,
-        "thunder": 0,
+        "water": 0,
+        "thunder": 2,
+        "ice": -2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
+        "poison": -1,
         "fireblight": 2,
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": -1
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 1
       }
     },
     "hatchable": true,
@@ -2408,18 +4277,31 @@
         "black"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 7,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jumpRoar",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "description": "A Flying Wyvern renowned for its grace when traversing the skies. It flies smoothly even in heavy turbulence by expertly adjusting the specialized membranes on its wings and tail.",
+    "habitatDetails": [
+      {
+        "area": "Glacial Caps",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 34,
+    "id": 56,
     "name": "Ludroth",
     "habitats": [
       "azuria"
@@ -2440,7 +4322,7 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power"
+        "default": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -2466,7 +4348,204 @@
     }
   },
   {
-    "id": 35,
+    "id": 57,
+    "name": "Lunagaron",
+    "habitats": [
+      "serathis"
+    ],
+    "locations": [],
+    "rarity": 5,
+    "eggGroup": "fangedWyvern",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "enraged": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 1,
+        "thunder": -1,
+        "ice": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -2,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Mirage Edge",
+      "eggColors": [],
+      "stats": {
+        "hp": 5,
+        "attack": 7,
+        "defense": 8,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 8,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "habitatDetails": [
+      {
+        "area": "Old Capital Road",
+        "region": "Serathis"
+      }
+    ],
+    "description": "A Fanged Wyvern with distinctive azure scales. Although normally quadrupedal, it change its body composition by inhibiting its thermoregulatory organs to increase heat and enlarge muscles."
+  },
+  {
+    "id": 58,
+    "name": "Magnamalo",
+    "habitats": [
+      "serathis"
+    ],
+    "locations": [],
+    "rarity": 6,
+    "eggGroup": "fangedWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "hellblightMantle": "power",
+        "hellblightCritical": "technical"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": -1,
+        "ice": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Hellfire Crematorium",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 8,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "habitatDetails": [
+      {
+        "area": "Old Capital Road",
+        "region": "Serathis"
+      }
+    ],
+    "description": "A Fanged Wyvern clad in a heavy carapace. It consumes even the bones of its prey to satiate its voracious appetite, and the hellfire expelled from its body is a byproduct of metabolism."
+  },
+  {
+    "id": 59,
+    "name": "Malzeno",
+    "habitats": [
+      "serathis"
+    ],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "elderDragon",
+    "element": "dragon",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "enraged": "technical"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "",
+      "eggColors": [],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "howToGet": "Defeat Malzeno.",
+    "habitatDetails": [
+      {
+        "area": "Sacrosanctum/Lazlion",
+        "region": "Serathis"
+      }
+    ],
+    "description": "Notable for its silver carapace, this elegant Elder Dragon stalks the night to drain the energy from its prey. Once it has drunk its fill, it reveals its dreadful true form in all its glory."
+  },
+  {
+    "id": 60,
     "name": "Mizutsune",
     "habitats": [],
     "locations": [
@@ -2497,8 +4576,9 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "technical",
+        "bubbleMantle": "speed",
+        "bubbleMantleSlippery": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -2518,10 +4598,11 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 0,
-        "water": -2,
+        "water": 2,
+        "thunder": -2,
         "ice": 1,
-        "thunder": 2,
         "dragon": -1
       },
       "statusResistance": {
@@ -2529,7 +4610,7 @@
         "fireblight": -1,
         "paralysis": -1,
         "sleep": -1,
-        "blast": 1,
+        "blast": -1,
         "bleeding": -1,
         "blind": -1
       }
@@ -2546,18 +4627,28 @@
         "gray"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 6,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "swim",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "endangered",
+    "howToGet": "Force the Invasive Shogun Ceanataur to retreat to acquire a Mizutsune egg.",
+    "description": "This leviathan has evolved in such a way as to be particularly mobile on land. After immobilizing its prey with bubbles produced by an internal fluid, it gracefully runs it down."
   },
   {
-    "id": 36,
+    "id": 61,
     "name": "Nargacuga",
     "habitats": [],
     "locations": [
@@ -2576,8 +4667,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "technical"
+        "default": "speed",
+        "enraged": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -2594,20 +4685,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -1,
-        "water": -2,
+        "water": 2,
+        "thunder": -2,
         "ice": 1,
-        "thunder": 2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 2,
-        "fireblight": 1,
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": -1,
-        "bleeding": -1,
-        "blind": 2
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -2621,18 +4713,33 @@
         "blue"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 5,
+        "defense": 10,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 10,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "wallClimb",
+      "stealth",
+      "meleeAttack"
+    ],
+    "trait": "endangered",
+    "howToGet": "Force the Invasive Nerscylla to retreat to acquire a Nargacuga egg.",
+    "description": "Cloaked in fur as dark as night, this Flying Wyvern lurks in the shadows to then pounce upon prey with frightening speed and agility.",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 37,
+    "id": 62,
     "name": "Nerscylla",
     "habitats": [
       "azuria"
@@ -2657,8 +4764,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -2681,20 +4788,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 2,
-        "ice": -1,
-        "thunder": 0,
-        "dragon": 1
+        "water": 1,
+        "thunder": -1,
+        "ice": 0,
+        "dragon": 2
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": 2,
-        "paralysis": -1,
-        "sleep": "-",
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": -2,
+        "paralysis": 1,
+        "sleep": 2,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -2708,18 +4816,102 @@
         "pink"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 4,
+        "attack": 4,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "wallClimb",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "A Temnoceran that weaves nests to defend its territory and hunt. It ensnares prey, weakening them with abnormal statuses, then feasts using its razor-sharp mandibles.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      },
+      {
+        "area": "Blightstone Woods",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 38,
+    "id": 63,
+    "name": "Odogaron",
+    "habitats": [
+      "tarkuan"
+    ],
+    "locations": [],
+    "rarity": 5,
+    "eggGroup": "fangedWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "starving": "speed",
+        "frenzied": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 1,
+        "water": 0,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": -2,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Target Acquired (Non-Elemental)",
+      "eggColors": [],
+      "stats": {
+        "hp": 5,
+        "attack": 7,
+        "defense": 8,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 8,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "wallClimb",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "habitatDetails": [
+      {
+        "area": "Death's Maw",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "This Fanged Wyvern is so aggressive in its wide-ranging hunt for meat that it will attack stronger monsters without hesitation. Its distinctive claws rend grisly gouges into the flesh of loss."
+  },
+  {
+    "id": 64,
     "name": "Paolumu",
     "habitats": [
       "azuria"
@@ -2740,8 +4932,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Inflated": "speed"
+        "default": "technical",
+        "airborne": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -2757,20 +4949,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": -1,
+        "water": 2,
+        "thunder": -1,
         "ice": 1,
-        "thunder": 2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 2,
-        "paralysis": 1,
-        "sleep": 2,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": -2,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -2783,18 +4976,36 @@
         "pink"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 3,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "After sucking in a large volume of air, this Flying Wyvern takes on its unique, rotund appearance. That air can then be expelled to propel itself. It is just as mild-mannered as it looks.",
+    "habitatDetails": [
+      {
+        "area": "Blightstone Woods",
+        "region": "Azuria"
+      },
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 39,
+    "id": 65,
     "name": "Pink Rathian",
     "habitats": [],
     "locations": [
@@ -2833,8 +5044,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power"
+        "default": "speed",
+        "enraged": "power"
       },
       "parts": {
         "Body": [
@@ -2845,20 +5056,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": -1,
+        "water": 1,
+        "thunder": -1,
         "ice": 0,
-        "thunder": 1,
         "dragon": -2
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -2871,18 +5083,28 @@
         "red"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 7,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank B for Rathian with Habitat Restoration.",
+    "description": "The vibrant pink scales of this Rathian subspecies belie a terrible ferocity. It deftly utilizes its toxic tail to corner prey, then closes in for the kill."
   },
   {
-    "id": 40,
+    "id": 66,
     "name": "Plesioth",
     "habitats": [
       "azuria"
@@ -2903,8 +5125,8 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "power"
+        "default": "speed",
+        "enraged": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -2923,25 +5145,41 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -1,
-        "water": -2,
+        "water": 2,
+        "thunder": -2,
         "ice": 0,
-        "thunder": 2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": 2,
-        "sleep": -1,
-        "blast": -1,
-        "bleeding": 1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": -2,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -2
       }
-    }
+    },
+    "ridingActions": [
+      "swim",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "This massive Piscine Wyvern is mainly seen around bodies of water. Though once capable of flight, its wings have adapted to aquatic locomotion, for which it relies on sound rather on sight.",
+    "habitatDetails": [
+      {
+        "area": "Mirror Lake",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 41,
+    "id": 67,
     "name": "Pukei-Pukei",
     "habitats": [
       "canaltaTimberland"
@@ -2962,8 +5200,9 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "power"
+        "default": "technical",
+        "poisonActiveMunch": "speed",
+        "poisonActiveCrunch": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -2982,20 +5221,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 0,
-        "water": -2,
+        "water": 2,
+        "thunder": -2,
         "ice": -1,
-        "thunder": 2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": 1,
-        "paralysis": 2,
-        "sleep": 2,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": -2,
+        "sleep": -2,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -3009,18 +5249,37 @@
         "white"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 4,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "description": "A venomous, forest-dwelling Bird Wyvern that uses its extendable tongue like a whip to lash out and grab food. It tends to harass weaker monsters but cowers before stronger ones.",
+    "habitatDetails": [
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Howlinyowl Forest",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 42,
+    "id": 68,
     "name": "Purple Gypceros",
     "habitats": [
       "azuria"
@@ -3037,8 +5296,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "power"
+        "default": "power",
+        "enraged": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -3055,20 +5314,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 2,
+        "water": 1,
+        "thunder": 2,
         "ice": -1,
-        "thunder": 1,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": -1
+        "poison": 2,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 1
       }
     },
     "hatchable": true,
@@ -3081,18 +5341,33 @@
         "green"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 5,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "A purple-skinned subspecies of Gypceros. It boasts higher immunity to poison than its standard cousins, which allows it to hold more potent venom and in greater amounts.",
+    "habitatDetails": [
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 43,
+    "id": 69,
     "name": "Purple Ludroth",
     "habitats": [
       "canaltaTimberland"
@@ -3117,8 +5392,8 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "technical"
+        "default": "power",
+        "enraged": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -3132,20 +5407,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": -1,
-        "ice": 0,
-        "thunder": 2,
+        "water": 2,
+        "thunder": -1,
+        "ice": 1,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": 2,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 2,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -3157,18 +5433,102 @@
         "pink"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 6,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath",
+      "swim"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "description": "This subspecies of Royal Ludroth sports a spongy, purple mane that stores toxins produced in the body. With each step, poison seeps out and permeates the vicinity.",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 44,
+    "id": 70,
+    "name": "Rakna-Kadaki",
+    "habitats": [
+      "tarkuan"
+    ],
+    "locations": [],
+    "rarity": 5,
+    "eggGroup": "temnoceran",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "noWeb": "technical",
+        "webMantleCocoon": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -1,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "Searing Embrace",
+      "eggColors": [],
+      "stats": {
+        "hp": 8,
+        "attack": 6,
+        "defense": 6,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 6,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan",
+    "habitatDetails": [
+      {
+        "area": "Death's Maw",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "Distinctly swathed in its own webbing and attended by several Rachnoid offspring, this Temnoceran almost appears to be part of a royal procession as it strolls about in a gown of pure white."
+  },
+  {
+    "id": 71,
     "name": "Rathalos",
     "habitats": [],
     "locations": [
@@ -3191,8 +5551,9 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Flying": "speed"
+        "default": "power",
+        "enraged": "technical",
+        "enragedAirborne": "speed"
       },
       "parts": {
         "Head": [
@@ -3211,20 +5572,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": -1,
+        "water": 0,
+        "thunder": -1,
         "ice": 1,
-        "thunder": 0,
         "dragon": -2
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -3237,18 +5599,33 @@
         "blue"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 7,
+        "attack": 7,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath",
+      "fly"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Serathis.",
+    "description": "Simply mentioning Flying Wyverns brings this fire-breathing monster to mind. Aptly known as the \"King of the Skies,\" it spends little time on land, instead using its powerful wings to hunt from above.",
+    "habitatDetails": [
+      {
+        "area": "Sacrosanctum/Lazlion",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 45,
+    "id": 72,
     "name": "Rathian",
     "habitats": [],
     "locations": [
@@ -3271,8 +5648,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power"
+        "default": "speed",
+        "enraged": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -3286,20 +5663,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": -1,
+        "water": 0,
+        "thunder": -1,
         "ice": 1,
-        "thunder": 0,
         "dragon": -2
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -3313,18 +5691,34 @@
         "green"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 6,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "trait": "endangered",
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "This Flying Wyvern earns its title of \"Queen of the Land\" by using its powerful legs to hunt primarily on the ground. Any challenges to her reign will be swiftly put down by the poison-laden tail.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 46,
+    "id": 73,
     "name": "Red Khezu",
     "habitats": [
       "canaltaTimberland",
@@ -3350,9 +5744,8 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "power",
-        "Charged": "speed"
+        "default": "technical",
+        "electricCharge": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -3368,20 +5761,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 1,
-        "water": 2,
+        "water": -2,
+        "thunder": 2,
         "ice": 0,
-        "thunder": -2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": -1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": "-"
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": 2
       }
     },
     "hatchable": true,
@@ -3394,18 +5788,33 @@
         "red"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 7,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland and Serathis.",
+    "description": "A strange subspecies of Khezu with red flesh. Its electricity-producing organ enables a wide variety of attacks, including electric traps to disable and ensnare prey.",
+    "habitatDetails": [
+      {
+        "area": "Glacial Caps",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 47,
+    "id": 74,
     "name": "Remobra",
     "habitats": [
       "serathis",
@@ -3427,7 +5836,7 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical"
+        "default": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -3453,7 +5862,71 @@
     }
   },
   {
-    "id": 48,
+    "id": 75,
+    "name": "Rey Dau",
+    "habitats": [
+      "tarkuan"
+    ],
+    "locations": [],
+    "rarity": 6,
+    "eggGroup": "flyingWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "enraged": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "",
+      "eggColors": [],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 0,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "wallClimb",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Defeat Rey Dau in Tarkuan.",
+    "habitatDetails": [
+      {
+        "area": "Death's Maw",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "A luminous gold Flying Wyvern that dwells in sandy, arid regions. Its defining features are its two horns, from which tremendous amounts of electrical energy can be discharged."
+  },
+  {
+    "id": 76,
     "name": "Royal Ludroth",
     "habitats": [
       "azuria"
@@ -3478,8 +5951,8 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "power",
-        "Enraged": "technical"
+        "default": "power",
+        "enraged": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -3493,20 +5966,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": -1,
+        "water": 2,
+        "thunder": -1,
         "ice": 0,
-        "thunder": 2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 2,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 2,
-        "bleeding": 1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -3519,18 +5993,37 @@
         "yellow"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 4,
+        "attack": 5,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "swim",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "A male Ludroth that has grown larger and taken control of the pack. This aquatic creature is found in both freshwater and saltwater, and its absorbent mane retains moisture, enabling movement on land.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      },
+      {
+        "area": "Mirror Lake",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 49,
+    "id": 77,
     "name": "Sand Barioth",
     "habitats": [],
     "locations": [
@@ -3557,8 +6050,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "technical"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -3577,20 +6070,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": -1,
+        "water": 0,
+        "thunder": -1,
         "ice": -2,
-        "thunder": 0,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": -1
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": 1
       }
     },
     "hatchable": true,
@@ -3604,18 +6098,34 @@
         "pink"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 7,
+        "defense": 8,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 8,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "wallClimb",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S for Barioth in Habitat Restoration.",
+    "habitatDetails": [
+      {
+        "area": "Glacial Caps",
+        "region": "Serathis"
+      }
+    ]
   },
   {
-    "id": 50,
+    "id": 78,
     "name": "Seregios",
     "habitats": [
       "canaltaTimberland"
@@ -3652,8 +6162,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -3674,20 +6184,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": -2,
+        "water": 0,
+        "thunder": -2,
         "ice": -1,
-        "thunder": 0,
-        "dragon": 1
+        "dragon": 0
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": -1,
-        "blast": -1,
-        "bleeding": -2,
-        "blind": 1
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": 2,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -3701,18 +6212,97 @@
         "red"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 7,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "description": "A Flying Wyvern covered in a pinecone lattice of razor-sharp scales. It can launch a barrage of these deadly scales at prey, inflicting countless lacerations.",
+    "habitatDetails": [
+      {
+        "area": "Mt. Canalta",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 51,
+    "id": 79,
+    "name": "Shogun Ceanataur",
+    "habitats": [
+      "tarkuan"
+    ],
+    "locations": [],
+    "rarity": 3,
+    "eggGroup": "carapaceon",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "noShell": "technical",
+        "shellSeashell": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 1,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "",
+      "eggColors": [],
+      "stats": {
+        "hp": 4,
+        "attack": 5,
+        "defense": 8,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 8,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "swim",
+      "meleeAttack",
+      "jump"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "A giant Carapaceon found in caves and marshlands, this fully grown form of the Ceanataur has a giant monster's skull on its back and highly-developed pincers that it wields like scythes."
+  },
+  {
+    "id": 80,
     "name": "Shrouded Nerscylla",
     "habitats": [
       "tarkuan"
@@ -3729,8 +6319,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -3753,20 +6343,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -2,
-        "water": 1,
-        "ice": -1,
+        "water": 2,
         "thunder": 0,
-        "dragon": 2
+        "ice": -1,
+        "dragon": 1
       },
       "statusResistance": {
-        "poison": -2,
-        "fireblight": 2,
-        "paralysis": -2,
-        "sleep": -1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": 2,
+        "fireblight": -2,
+        "paralysis": 2,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -3780,18 +6371,230 @@
         "yellow"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 5,
+        "attack": 6,
+        "defense": 5,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 5,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Tarkuan",
+    "description": "A subspecies of Nerscylla that mostly inhabits desert areas and wraps itself in Khezu hides. Rather than spinning webs, it instead lurks beneath the sands to pounce on unsuspecting prey.",
+    "habitatDetails": [
+      {
+        "area": "Rococo Rocks",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 52,
+    "id": 81,
+    "name": "Silverwind Nargacuga",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 2,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Nightmare Blade",
+      "eggColors": [],
+      "stats": {
+        "hp": 6,
+        "attack": 7,
+        "defense": 10,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 10,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "wallClimb",
+      "stealth"
+    ],
+    "trait": "mutated",
+    "howToGet": "Restore Nargacuga in a habitat with 3 Wind-Focused Monsters and reach Rank S for Nargacuga in Habitat Restoration",
+    "habitatDetails": [
+      {
+        "area": "Blessing Hill",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "A Nargacuga Deviant that is covered in distinctive silver markings. Quick swings from its tail generate slicing gusts of wind, the phenomenal sight of which earned it its name."
+  },
+  {
+    "id": 82,
+    "name": "Somnacanth",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 4,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 2,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "fireblight": -2,
+        "paralysis": -1,
+        "sleep": 2,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "technical",
+      "growth": "",
+      "kinshipSkill": "Siren Shell",
+      "eggColors": [],
+      "stats": {
+        "hp": 6,
+        "attack": 5,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath",
+      "swim"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "habitatDetails": [
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Frozen Grotto",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "A bellicose Leviathan that lives in the water and spreads soporific dust via its neck gills and tail to ensnare prey. When seen under the moonlight, it is said to resemble a maiden or mermaid."
+  },
+  {
+    "id": 83,
+    "name": "Soulseer Mizutsune",
+    "habitats": [],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 2,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "speed",
+      "growth": "",
+      "kinshipSkill": "Sublime Transience",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 8,
+        "defense": 5,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 5,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "swim",
+      "jump",
+      "roar",
+      "meleeAttack",
+      "breath"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S in Habitat Restoration with a Zinogre in the same Habitat.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "A Mizutsune Deviant that has been rendered blind by past conflicts. Such an affliction would normally spell the end for a monster, but it has been adapted by using bubbles for perception."
+  },
+  {
+    "id": 84,
     "name": "Stygian Zinogre",
     "habitats": [],
     "locations": [
@@ -3834,8 +6637,8 @@
     "element": "dragon",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -3852,45 +6655,193 @@
         ]
       },
       "elementalResistance": {
-        "fire": 2,
-        "water": 2,
-        "ice": 2,
-        "thunder": 2,
+        "nonElemental": 0,
+        "fire": 1,
+        "water": -1,
+        "thunder": -2,
+        "ice": -1,
         "dragon": 2
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 2,
-        "bleeding": 1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": -1,
+        "blind": -2
       }
     },
     "hatchable": true,
     "monstie": {
       "attackType": "technical",
       "growth": "quick",
-      "kinshipSkill": "Voltage Crash",
+      "kinshipSkill": "Voltage Crash (Dragon)",
       "eggColors": [
         "blue",
         "yellow",
         "white"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 7,
+        "attack": 9,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank A for Zinogre in Habitat Restoration.",
+    "description": "A subspecies of Zinogre endowned with dragon-element power. Its jet-black shell and silver-white fur combine with the red glow distinctive of dragons to instill fear in all who see it.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 53,
+    "id": 85,
+    "name": "Tetranadon",
+    "habitats": [
+      "canaltaTimberland"
+    ],
+    "locations": [],
+    "rarity": 3,
+    "eggGroup": "amphibian",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "stuffed": "technical"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 2,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 1,
+        "bleeding": -1,
+        "blind": -2
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Final Round",
+      "eggColors": [],
+      "stats": {
+        "hp": 7,
+        "attack": 7,
+        "defense": 4,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 4,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "habitatDetails": [
+      {
+        "area": "Cataracts",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Frozen Grotto",
+        "region": "Canalta Timberland"
+      }
+    ],
+    "description": "The gluttonous Amphibian waits in deep waters for prey, which it will swallow whole along with nearby rocks and dirt. It is also known to flatten prey beneath its crushing weight."
+  },
+  {
+    "id": 86,
+    "name": "Thunderlord Zinogre",
+    "habitats": [],
+    "locations": [],
+    "rarity": 7,
+    "eggGroup": "fangedWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": -2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "hatchable": true,
+    "monstie": {
+      "attackType": "power",
+      "growth": "",
+      "kinshipSkill": "Gigavolt Crash",
+      "eggColors": [],
+      "stats": {
+        "hp": 8,
+        "attack": 10,
+        "defense": 7,
+        "critRate": 0,
+        "recovery": 0,
+        "speed": 7,
+        "initialRes": 0
+      }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "trait": "mutated",
+    "howToGet": "Reach Rank S in a habitat with a a Mizutsune.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ],
+    "description": "A Zinogre Deviant cloaked in dazzling, golden electricity. With its command over blinding lights and crash bolts of lightning, the title \"Thunderlord\" is certainly appropriate."
+  },
+  {
+    "id": 87,
     "name": "Tigrex",
     "habitats": [],
     "locations": [
@@ -3917,8 +6868,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power"
+        "default": "speed",
+        "enraged": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -3934,20 +6885,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": -2,
+        "water": 0,
+        "thunder": -2,
         "ice": 1,
-        "thunder": 0,
         "dragon": -1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 2,
-        "sleep": -1,
-        "blast": 1,
-        "bleeding": -1,
-        "blind": 2
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -2,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -3960,18 +6912,33 @@
         "blue"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 6,
+        "attack": 7,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "trait": "endangered",
+    "howToGet": "Repel the Invasive Diablos to acquire a Tigrex egg.",
+    "description": "A Flying Wyvern that retains much of its primeval physical traits. Ferocity incarnate, its defeaning roar and unrelenting onrush are feared far and wide.",
+    "habitatDetails": [
+      {
+        "area": "Colossal Dragon's Remains",
+        "region": "Tarkuan"
+      }
+    ]
   },
   {
-    "id": 54,
+    "id": 88,
     "name": "Tobi-Kadachi",
     "habitats": [
       "azuria",
@@ -4001,9 +6968,8 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "technical",
-        "Overcharged": "power"
+        "default": "speed",
+        "electricCharge": "technical"
       },
       "parts": {
         "DEFAULT": [
@@ -4023,20 +6989,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -1,
-        "water": 2,
+        "water": -2,
+        "thunder": 2,
         "ice": 0,
-        "thunder": -2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 2,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 2
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -2
       }
     },
     "hatchable": true,
@@ -4050,18 +7017,33 @@
         "black"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 4,
+        "attack": 6,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "wallClimb",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "This Fanged Wyvern flits from tree to tree in its forest canopy home. Its fur brushes against tree bark and the ground as it moves, building up static electricity.",
+    "habitatDetails": [
+      {
+        "area": "Broadleaf Basin",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 55,
+    "id": 89,
     "name": "Velkhana",
     "habitats": [
       "serathis"
@@ -4113,7 +7095,7 @@
     "element": "ice",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
+        "default": "speed",
         "Ice Mantle": "technical",
         "Flying": "power"
       },
@@ -4175,7 +7157,7 @@
     }
   },
   {
-    "id": 56,
+    "id": 90,
     "name": "Velocidrome",
     "habitats": [
       "azuria"
@@ -4196,8 +7178,8 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Enraged": "power"
+        "default": "speed",
+        "enraged": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -4205,44 +7187,58 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": -1,
         "water": 0,
-        "ice": -2,
         "thunder": 0,
+        "ice": -2,
         "dragon": 2
       },
       "statusResistance": {
-        "poison": 2,
-        "fireblight": 1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 2,
-        "bleeding": 2,
-        "blind": 1
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -2,
+        "bleeding": -2,
+        "blind": -1
       }
     },
     "hatchable": true,
     "monstie": {
       "attackType": "speed",
       "growth": "regular",
-      "kinshipSkill": "Velocirush",
+      "kinshipSkill": "Velocicrush",
       "eggColors": [
         "blue",
         "orange"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 3,
+        "attack": 6,
+        "defense": 9,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 9,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "jump",
+      "meleeAttack",
+      "roar"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "The alpha monster of a Velociprey pack, it is distinguishable by its larger size and bright orange crest. It patrols its expansive territory for prey and intruders alike.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 57,
+    "id": 91,
     "name": "Velociprey",
     "habitats": [
       "azuria"
@@ -4263,7 +7259,7 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed"
+        "default": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -4290,7 +7286,7 @@
     }
   },
   {
-    "id": 58,
+    "id": 92,
     "name": "Yian Garuga",
     "habitats": [
       "canaltaTimberland"
@@ -4319,8 +7315,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "power"
+        "default": "technical",
+        "enraged": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -4334,20 +7330,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 2,
-        "water": 1,
+        "water": -2,
+        "thunder": 1,
         "ice": -1,
-        "thunder": -2,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": -1,
-        "blast": 2,
-        "bleeding": -1,
-        "blind": 1
+        "poison": 1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -2,
+        "bleeding": 1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -4360,18 +7357,37 @@
         "pink"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 4,
+        "attack": 6,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Canalta Timberland.",
+    "description": "A Bird Wyvern known for its hard body and long mane. Quick to anger and extremely aggressive, it will unleash a flurry of attacks using its crushing beak and poison-filled tail.",
+    "habitatDetails": [
+      {
+        "area": "Mt. Canalta",
+        "region": "Canalta Timberland"
+      },
+      {
+        "area": "Howlinyowl Forest",
+        "region": "Canalta Timberland"
+      }
+    ]
   },
   {
-    "id": 59,
+    "id": 93,
     "name": "Yian Kut-Ku",
     "habitats": [
       "azuria"
@@ -4392,8 +7408,8 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed"
+        "default": "technical",
+        "enraged": "speed"
       },
       "parts": {
         "DEFAULT": [
@@ -4404,20 +7420,21 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 1,
-        "water": -1,
+        "water": 0,
+        "thunder": -1,
         "ice": -2,
-        "thunder": 0,
         "dragon": 2
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
-        "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
-        "blind": 1
+        "poison": -1,
+        "fireblight": 1,
+        "paralysis": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
+        "blind": -1
       }
     },
     "hatchable": true,
@@ -4430,18 +7447,37 @@
         "blue"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 3,
+        "attack": 4,
+        "defense": 6,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 6,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "fly",
+      "jump",
+      "meleeAttack",
+      "roar",
+      "breath"
+    ],
+    "howToGet": "Acquire an egg from monster dens within the monster's habitat in Azuria.",
+    "description": "A Bird Wyvern commonly found in warm regions, it has a distinctive large beak and wide ears that splay out to intimidate potential threats. It is docile by nature and flees more than it fights.",
+    "habitatDetails": [
+      {
+        "area": "Sunpetal Plains",
+        "region": "Azuria"
+      },
+      {
+        "area": "Mirror Lake",
+        "region": "Azuria"
+      }
+    ]
   },
   {
-    "id": 60,
+    "id": 94,
     "name": "Zinogre",
     "habitats": [],
     "locations": [
@@ -4468,9 +7504,9 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "DEFAULT": "speed",
-        "Charged": "technical",
-        "Supercharged": "power"
+        "default": "speed",
+        "electricCharge": "technical",
+        "thunderSupercharge": "power"
       },
       "parts": {
         "DEFAULT": [
@@ -4487,19 +7523,20 @@
         ]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 0,
-        "water": 2,
-        "ice": -2,
-        "thunder": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 2,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 1,
-        "paralysis": -1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 1,
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1,
         "blind": 2
       }
     },
@@ -4514,14 +7551,23 @@
         "yellow"
       ],
       "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
+        "hp": 7,
+        "attack": 7,
+        "defense": 7,
         "critRate": 0,
         "recovery": 0,
-        "speed": 0,
+        "speed": 7,
         "initialRes": 0
       }
-    }
+    },
+    "ridingActions": [
+      "wallClimb",
+      "jump",
+      "roar",
+      "meleeAttack"
+    ],
+    "trait": "endangered",
+    "howToGet": "Repel Invasive Odogaron to acquire a Zinogre egg.",
+    "description": "Pale-blue sparks course across this Fanged Wyvern's body. With the help of its electrified carapace and shockfur, it can amass profound store of electricity to then enter a supercharged state."
   }
 ]
