@@ -58,6 +58,11 @@ export const common = {
   [MONSTER.WEAPON_TYPE.blunt]: "Contundente",
   [MONSTER.WEAPON_TYPE.pierce]: "Perforante",
   // STATUS EFFECT
+  // CATEGORIA BOSS
+  [MONSTER.BOSS_CATEGORY.story]: "Storia",
+  [MONSTER.BOSS_CATEGORY.invasive]: "Invasivo",
+  [MONSTER.BOSS_CATEGORY.feral]: "Ferale",
+  [MONSTER.BOSS_CATEGORY.elderDragon]: "Drago Anziano",
   // STATO PATTERN D'ATTACCO
   [MONSTER.ATTACK_PATTERN_STATE.default]: "Normale",
   [MONSTER.ATTACK_PATTERN_STATE.airborne]: "In Volo",
@@ -99,6 +104,17 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.stuffed]: "Sazio",
   [MONSTER.ATTACK_PATTERN_STATE.thunderSupercharge]: "Super Carica di Tuono",
   [MONSTER.ATTACK_PATTERN_STATE.webMantleCocoon]: "Manto di Tela (Bozzolo)",
+  [MONSTER.ATTACK_PATTERN_STATE.waterMantle]: "Manto d'Acqua",
+  [MONSTER.ATTACK_PATTERN_STATE.abyssalCharge]: "Carica Abissale",
+  [MONSTER.ATTACK_PATTERN_STATE.waterDepleted]: "Acqua Esaurita",
+  [MONSTER.ATTACK_PATTERN_STATE.balancingStoringPowder]: "In Equilibrio (Accumulo Polvere)",
+  [MONSTER.ATTACK_PATTERN_STATE.battleBoundUnleashed]: "Vincolo di Battaglia (Scatenato)",
+  [MONSTER.ATTACK_PATTERN_STATE.bloodRiteActive]: "Rito di Sangue Attivo",
+  [MONSTER.ATTACK_PATTERN_STATE.exposed]: "Esposto",
+  [MONSTER.ATTACK_PATTERN_STATE.fulguriteMantleState]: "Manto di Fulgurite",
+  [MONSTER.ATTACK_PATTERN_STATE.openMouth]: "Bocca Aperta",
+  [MONSTER.ATTACK_PATTERN_STATE.overheatedThroat]: "Surriscaldato (Gola)",
+  [MONSTER.ATTACK_PATTERN_STATE.rachnoids]: "Racnidi",
   // AZIONI IN SELLA
   [MONSTER.RIDING_ACTION.breath]: "Soffio",
   [MONSTER.RIDING_ACTION.fly]: "Volo",

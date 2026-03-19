@@ -58,6 +58,11 @@ export const common = {
   [MONSTER.WEAPON_TYPE.blunt]: "Blunt",
   [MONSTER.WEAPON_TYPE.pierce]: "Pierce",
   // STATUS EFFECT
+  // BOSS CATEGORY
+  [MONSTER.BOSS_CATEGORY.story]: "Story",
+  [MONSTER.BOSS_CATEGORY.invasive]: "Invasive",
+  [MONSTER.BOSS_CATEGORY.feral]: "Feral",
+  [MONSTER.BOSS_CATEGORY.elderDragon]: "Elder Dragon",
   // ATTACK PATTERN STATE
   [MONSTER.ATTACK_PATTERN_STATE.default]: "Default",
   [MONSTER.ATTACK_PATTERN_STATE.airborne]: "Airborne",
@@ -99,6 +104,17 @@ export const common = {
   [MONSTER.ATTACK_PATTERN_STATE.stuffed]: "Stuffed",
   [MONSTER.ATTACK_PATTERN_STATE.thunderSupercharge]: "Thunder Supercharge",
   [MONSTER.ATTACK_PATTERN_STATE.webMantleCocoon]: "Web Mantle (Cocoon)",
+  [MONSTER.ATTACK_PATTERN_STATE.waterMantle]: "Water Mantle",
+  [MONSTER.ATTACK_PATTERN_STATE.abyssalCharge]: "Abyssal Charge",
+  [MONSTER.ATTACK_PATTERN_STATE.waterDepleted]: "Water Depleted",
+  [MONSTER.ATTACK_PATTERN_STATE.balancingStoringPowder]: "Balancing (Storing Powder)",
+  [MONSTER.ATTACK_PATTERN_STATE.battleBoundUnleashed]: "Battle-Bound (Unleashed)",
+  [MONSTER.ATTACK_PATTERN_STATE.bloodRiteActive]: "Blood Rite Active",
+  [MONSTER.ATTACK_PATTERN_STATE.exposed]: "Exposed",
+  [MONSTER.ATTACK_PATTERN_STATE.fulguriteMantleState]: "Fulgurite Mantle",
+  [MONSTER.ATTACK_PATTERN_STATE.openMouth]: "Open Mouth",
+  [MONSTER.ATTACK_PATTERN_STATE.overheatedThroat]: "Overheated (Throat)",
+  [MONSTER.ATTACK_PATTERN_STATE.rachnoids]: "Rachnoids",
   // RIDING ACTION
   [MONSTER.RIDING_ACTION.breath]: "Breath",
   [MONSTER.RIDING_ACTION.fly]: "Fly",

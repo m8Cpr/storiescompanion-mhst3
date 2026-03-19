@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "seed:monsters": "yarn node scripts/merge-monsters.mjs",
     "seed:monsties": "yarn node scripts/seed-monsties.mjs",
-    "scrape:monsties": "yarn node scripts/scrape-monstie-details.mjs"
+    "scrape:monsties": "yarn node scripts/scrape-monstie-details.mjs",
+    "scrape:bosses": "yarn node scripts/scrape-boss-details.mjs",
+    "seed:bosses": "yarn node scripts/seed-bosses.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

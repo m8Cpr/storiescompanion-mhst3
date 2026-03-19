@@ -23,10 +23,21 @@ export type HabitatDetail = {
   region: string;
 };
 
-export type MonsterLocation = {
-  type: string;
-  main: string;
-  sub?: string;
+export type BossCategory = keyof typeof TRANSLATION_KEYS.MONSTER.BOSS_CATEGORY;
+
+export type BossTurn = {
+  turn: number;
+  move: string;
+  type: AttackType;
+};
+
+export type BossPattern = {
+  state: string;
+  turns: BossTurn[];
+};
+
+export type MonsterRelated = {
+  fights: number[];
 };
 
 export type HabitatLocation = {
@@ -63,7 +74,6 @@ export type Monster = {
   id: number;
   name: string;
   habitats: Habitat[];
-  locations: MonsterLocation[];
   rarity: number;
   eggGroup: EggGroup;
   element: MonsterElement;
@@ -75,4 +85,7 @@ export type Monster = {
   trait?: MonsterTrait;
   howToGet?: string;
   habitatDetails?: HabitatDetail[];
+  boss?: BossCategory[];
+  bossPatterns?: BossPattern[];
+  related?: MonsterRelated;
 };

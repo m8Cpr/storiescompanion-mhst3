@@ -5,7 +5,6 @@
     "habitats": [
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 5,
     "eggGroup": "fangedBeast",
     "element": "fire",
@@ -62,7 +61,12 @@
         "region": "Tarkuan"
       }
     ],
-    "description": "This Fanged Beast affixes molten metals to its carapace, and the friction resulting from those minerals rubbing together allows it to accumulate heat and cause explosions."
+    "description": "This Fanged Beast affixes molten metals to its carapace, and the friction resulting from those minerals rubbing together allows it to accumulate heat and cause explosions.",
+    "related": {
+      "fights": [
+        36
+      ]
+    }
   },
   {
     "id": 2,
@@ -70,7 +74,6 @@
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 3,
     "eggGroup": "birdWyvern",
     "element": "fire",
@@ -132,7 +135,12 @@
         "region": "Canalta Timberland"
       }
     ],
-    "description": "A Bird Wyvern often seen standing on one leg, giving it the unique appearance of a parasol. Highly territorial, it intimidates trespassers with outstretched wings and an eye-patterned crest."
+    "description": "A Bird Wyvern often seen standing on one leg, giving it the unique appearance of a parasol. Highly territorial, it intimidates trespassers with outstretched wings and an eye-patterned crest.",
+    "related": {
+      "fights": [
+        37
+      ]
+    }
   },
   {
     "id": 3,
@@ -140,7 +148,6 @@
     "habitats": [
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 0,
     "eggGroup": "leviathan",
     "element": "water",
@@ -191,17 +198,6 @@
     "habitats": [
       "azuria",
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Loloska Forest"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      }
     ],
     "rarity": 4,
     "eggGroup": "bruteWyvern",
@@ -282,13 +278,6 @@
     "habitats": [
       "azuria"
     ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      }
-    ],
     "rarity": 1,
     "eggGroup": "herbivore",
     "element": "nonElemental",
@@ -346,7 +335,6 @@
     "habitats": [
       "serathis"
     ],
-    "locations": [],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
     "element": "dragon",
@@ -403,24 +391,16 @@
         "region": "Serathis"
       }
     ],
-    "description": "A Flying Wyvern with chain-like wings that end in bladed tendrils. It can extend and retract these tendrils at will, dispatching prey with deadly efficiency."
+    "description": "A Flying Wyvern with chain-like wings that end in bladed tendrils. It can extend and retract these tendrils at will, dispatching prey with deadly efficiency.",
+    "boss": [
+      "story"
+    ]
   },
   {
     "id": 7,
     "name": "Arzuros",
     "habitats": [
       "canaltaTimberland"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Highlands"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z4"
-      }
     ],
     "rarity": 2,
     "eggGroup": "fangedBeast",
@@ -496,31 +476,17 @@
         "area": "Cataracts",
         "region": "Canalta Timberland"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        71
+      ]
+    }
   },
   {
     "id": 8,
     "name": "Astalos",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Thunder Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
     "element": "thunder",
@@ -614,7 +580,6 @@
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 5,
     "eggGroup": "leviathan",
     "element": "ice",
@@ -678,41 +643,6 @@
     "id": 10,
     "name": "Azure Rathalos",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Jungle Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fire Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fated Four Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Elder Dragon Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Deviant Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Rare/Subspecies Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -785,35 +715,17 @@
         "area": "Death's Maw",
         "region": "Tarkuan"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        22
+      ]
+    }
   },
   {
     "id": 11,
     "name": "Barioth",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Loloska Rocky Canyon"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Home"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Ice Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z5"
-      }
-    ],
     "rarity": 4,
     "eggGroup": "flyingWyvern",
     "element": "ice",
@@ -898,12 +810,6 @@
     "id": 12,
     "name": "Barrel Felyne",
     "habitats": [],
-    "locations": [
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 1,
     "eggGroup": "lynian",
     "element": "nonElemental",
@@ -931,13 +837,6 @@
     "name": "Barroth",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Loloska Rocky Canyon"
-      }
     ],
     "rarity": 3,
     "eggGroup": "bruteWyvern",
@@ -1023,7 +922,6 @@
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 3,
     "eggGroup": "fangedBeast",
     "element": "nonElemental",
@@ -1089,32 +987,18 @@
         "region": "Canalta Timberland"
       }
     ],
-    "description": "This monster's winged arms enable versatile aerial movement and the prehensile tail allows it to spin liek a top. It can be described as both endearingly inquisitive and insufferably mischievous."
+    "description": "This monster's winged arms enable versatile aerial movement and the prehensile tail allows it to spin liek a top. It can be described as both endearingly inquisitive and insufferably mischievous.",
+    "related": {
+      "fights": [
+        38
+      ]
+    }
   },
   {
     "id": 15,
     "name": "Black Diablos",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Lamure Tower - 5F"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Desert Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Rare/Subspecies Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z3"
-      }
     ],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
@@ -1202,29 +1086,6 @@
     "habitats": [
       "tarkuan"
     ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fire Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z6"
-      }
-    ],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -1302,7 +1163,6 @@
     "habitats": [
       "serathis"
     ],
-    "locations": [],
     "rarity": 3,
     "eggGroup": "fangedBeast",
     "element": "ice",
@@ -1360,7 +1220,12 @@
         "region": "Serathis"
       }
     ],
-    "description": "This Blango pack leader is found on snowy peaks and is recognizable by its giant fangs and whiskers. Twice as large as a Blango, it has far greater strength and mobility."
+    "description": "This Blango pack leader is found on snowy peaks and is recognizable by its giant fangs and whiskers. Twice as large as a Blango, it has far greater strength and mobility.",
+    "related": {
+      "fights": [
+        39
+      ]
+    }
   },
   {
     "id": 18,
@@ -1368,7 +1233,6 @@
     "habitats": [
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 4,
     "eggGroup": "fangedBeast",
     "element": "fire",
@@ -1432,7 +1296,6 @@
     "id": 19,
     "name": "Bloodbath Diablos",
     "habitats": [],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -1495,21 +1358,6 @@
     "name": "Blue Yian Kut-Ku",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Valley"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Woodland Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z4"
-      }
     ],
     "rarity": 3,
     "eggGroup": "birdWyvern",
@@ -1590,7 +1438,6 @@
     "habitats": [
       "azuria"
     ],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "flyingWyvern",
     "element": "thunder",
@@ -1652,28 +1499,57 @@
   },
   {
     "id": 22,
+    "name": "Bound Azure Rathalos",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "enragedAirborne": "speed",
+        "battleBoundUnleashed": "technical"
+      },
+      "parts": {
+        "Torso": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Head (Battle Bound)": [
+          "blunt"
+        ],
+        "Wings": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 2,
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "paralysis": 2,
+        "fireblight": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": 2
+      }
+    },
+    "boss": [
+      "story"
+    ]
+  },
+  {
+    "id": 23,
     "name": "Brachydios",
     "habitats": [
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fire Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z6"
-      }
     ],
     "rarity": 6,
     "eggGroup": "bruteWyvern",
@@ -1750,31 +1626,17 @@
         "area": "Glacial Caps",
         "region": "Serathis"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        40
+      ]
+    }
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Brute Tigrex",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Sadona Barrens"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Desert Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z9"
-      }
-    ],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -1849,12 +1711,11 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Canyne",
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 5,
     "eggGroup": "fangedBeast",
     "element": "nonElemental",
@@ -1914,16 +1775,9 @@
     "description": "A blue-furred Fanged Beast that is both clever and highly athletic. Relatively gentle for a Fanged Beast, it plays an integral role in Sheparden life as a hunting partner and means of transportation."
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "Cephalos",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Sadona Barrens"
-      }
-    ],
     "rarity": 1,
     "eggGroup": "piscineWyvern",
     "element": "nonElemental",
@@ -1955,12 +1809,11 @@
     }
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Chatacabra",
     "habitats": [
       "azuria"
     ],
-    "locations": [],
     "rarity": 1,
     "eggGroup": "amphibian",
     "element": "nonElemental",
@@ -2020,13 +1873,17 @@
         "region": "Azuria"
       }
     ],
-    "description": "Using its long tongue, this Amphibian can grab objects and food from a distance. Its adhesive saliva can also be used to attach rocks and debris to its forelegs, enhancing its combat abilities."
+    "description": "Using its long tongue, this Amphibian can grab objects and food from a distance. Its adhesive saliva can also be used to attach rocks and debris to its forelegs, enhancing its combat abilities.",
+    "related": {
+      "fights": [
+        41
+      ]
+    }
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Deadeye Yian Garuga",
     "habitats": [],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "birdWyvern",
     "element": "fire",
@@ -2087,42 +1944,11 @@
     "description": "From among the ferocious Yian Garuga species stands a Deviant with even more love for the fight. Its one remaining eye burns with the fervor of the countless life-and-death struggles it has endured."
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "Deviljho",
     "habitats": [
       "canaltaTimberland",
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "Forbidden Grounds"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Jungle Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Woodland Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fated Four Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Elder Dragon Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Dragon Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Deviant Den"
-      }
     ],
     "rarity": 6,
     "eggGroup": "bruteWyvern",
@@ -2191,25 +2017,10 @@
     }
   },
   {
-    "id": 29,
+    "id": 30,
     "name": "Diablos",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Lamure Tower Front"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Desert Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Dragon Eggs"
-      }
     ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
@@ -2283,13 +2094,17 @@
         "area": "Rococo Rocks",
         "region": "Tarkuan"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        72
+      ]
+    }
   },
   {
-    "id": 30,
+    "id": 31,
     "name": "Dreadking Rathalos",
     "habitats": [],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -2349,12 +2164,11 @@
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "name": "Dreadqueen Rathian",
     "habitats": [
       "azuria"
     ],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -2415,12 +2229,44 @@
     "description": "The tail of this Rathian Deviant bears venom of the deadliest kind. When expelled, the venom forms a majestic purple cloud of miasma that suffocates any unfortunate prey."
   },
   {
-    "id": 32,
+    "id": 33,
+    "name": "Dual Honed Glavenus",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "bruteWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "story"
+    ]
+  },
+  {
+    "id": 34,
     "name": "Ebony Odogaron",
     "habitats": [
       "serathis"
     ],
-    "locations": [],
     "rarity": 6,
     "eggGroup": "fangedWyvern",
     "element": "dragon",
@@ -2482,13 +2328,12 @@
     "description": "A jet-black subspecies of Odogaron whose fangs and unique claws hold dragon energy, allowing it to reave elemental power from its target."
   },
   {
-    "id": 33,
+    "id": 35,
     "name": "Espinas",
     "habitats": [
       "tarkuan",
       "azuria"
     ],
-    "locations": [],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -2547,40 +2392,760 @@
         "region": "Tarkuan"
       }
     ],
-    "description": "This fierce Flying Wyvern is distinguished by the red-violent thorns dotting its green carapace. Its blood contains properties that poison and paralyze, so most monsters steer clear of it."
+    "description": "This fierce Flying Wyvern is distinguished by the red-violent thorns dotting its green carapace. Its blood contains properties that poison and paralyze, so most monsters steer clear of it.",
+    "related": {
+      "fights": [
+        42
+      ]
+    }
   },
   {
-    "id": 34,
+    "id": 36,
+    "name": "Feral Ajarakan",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedBeast",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "overheated": "power"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Arms": [
+          "slash"
+        ],
+        "Reflector": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -1,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -2,
+        "paralysis": 1,
+        "fireblight": 1,
+        "sleep": -1,
+        "blast": 2,
+        "bleeding": 1
+      }
+    },
+    "boss": [
+      "story",
+      "feral"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Feral Aknosom",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "enraged": "power"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Head": [
+          "pierce"
+        ],
+        "Wings": [
+          "slash"
+        ],
+        "Tail": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "paralysis": -2,
+        "fireblight": 1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": -1
+      }
+    },
+    "boss": [
+      "story",
+      "feral"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Feral Bishaten",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedBeast",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Feral Blangonga",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedBeast",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Feral Brachydios",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "bruteWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "slimeActive": "speed",
+        "slimeDepleted": "power"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Head (Slime)": [
+          "blunt"
+        ],
+        "Forelegs (Slime)": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 1,
+        "water": -1,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": 2
+      },
+      "statusResistance": {
+        "poison": -1,
+        "paralysis": -1,
+        "fireblight": 1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Feral Chatacabra",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "amphibian",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "story",
+      "feral"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Feral Espinas",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Feral Great Izuchi",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Feral Gypceros",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "story",
+      "feral"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Feral Nerscylla",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "temnoceran",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "enraged": "speed"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Needle": [
+          "pierce"
+        ],
+        "Legs": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 1,
+        "fire": 2,
+        "water": -2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 1,
+        "paralysis": 1,
+        "fireblight": 1,
+        "sleep": 2,
+        "blast": -1,
+        "bleeding": 1
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Feral Paolumu",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Feral Rakna-Kadaki",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "temnoceran",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "noWeb": "technical",
+        "webMantleCocoon": "speed",
+        "rachnoids": "technical"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Hind Legs": [
+          "blunt"
+        ],
+        "Back Spikes": [
+          "blunt"
+        ],
+        "Forelegs": [
+          "slash"
+        ],
+        "Chest": [
+          "slash"
+        ],
+        "Cocoon": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": 1,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "paralysis": -1,
+        "fireblight": 1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": -1
+      }
+    },
+    "boss": [
+      "story",
+      "feral"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Feral Somnacanth",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "leviathan",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "balancing": "speed",
+        "balancingStoringPowder": "speed"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Head": [
+          "pierce"
+        ],
+        "Stomach": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Throat": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 1,
+        "thunder": 2,
+        "ice": -2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -1,
+        "paralysis": 1,
+        "fireblight": 1,
+        "sleep": 2,
+        "blast": -1,
+        "bleeding": -1
+      }
+    },
+    "boss": [
+      "story",
+      "feral"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Feral Tetranadon",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "amphibian",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Feral Tobi-Kadachi",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedBeast",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Feral Velocidrome",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Feral Velocidrome (Fire)",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": 1,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -2,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": -2,
+        "bleeding": -2
+      }
+    },
+    "boss": [
+      "story",
+      "feral"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Feral Velocidrome (Ice)",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Feral Yian Kut-Ku",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "feral"
+    ]
+  },
+  {
+    "id": 55,
     "name": "Fulgur Anjanath",
     "habitats": [
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Base of Mt. Lavina"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Thunder Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Ice Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Rare/Subspecies Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z5"
-      }
     ],
     "rarity": 5,
     "eggGroup": "bruteWyvern",
@@ -2664,13 +3229,12 @@
     ]
   },
   {
-    "id": 35,
+    "id": 56,
     "name": "Garangolm",
     "habitats": [
       "canaltaTimberland",
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 4,
     "eggGroup": "fangedBeast",
     "element": "nonElemental",
@@ -2735,16 +3299,9 @@
     "description": "A giant Fanged Beast often mistaken for a pile of boulders. Its bodily fluids can promote plant growth, forming a unique symbiotic relationship with the flora that grows on its body."
   },
   {
-    "id": 36,
+    "id": 57,
     "name": "Gargwa",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Highlands"
-      }
-    ],
     "rarity": 1,
     "eggGroup": "birdWyvern",
     "element": "nonElemental",
@@ -2776,33 +3333,10 @@
     }
   },
   {
-    "id": 37,
+    "id": 58,
     "name": "Glavenus",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Valley"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Woodland Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fire Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z6"
-      }
     ],
     "rarity": 5,
     "eggGroup": "bruteWyvern",
@@ -2876,15 +3410,20 @@
         "area": "Rococo Rocks",
         "region": "Tarkuan"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        33,
+        70
+      ]
+    }
   },
   {
-    "id": 38,
+    "id": 59,
     "name": "Goss Harag",
     "habitats": [
       "serathis"
     ],
-    "locations": [],
     "rarity": 5,
     "eggGroup": "fangedBeast",
     "element": "ice",
@@ -2941,28 +3480,16 @@
         "region": "Serathis"
       }
     ],
-    "description": "This Fanged Beast thrives in harsh snowy regions with thick fur that staves off the bitter cold. Its aggressive hunting behavior and horned visage make it appear like some kind of arctic demon."
+    "description": "This Fanged Beast thrives in harsh snowy regions with thick fur that staves off the bitter cold. Its aggressive hunting behavior and horned visage make it appear like some kind of arctic demon.",
+    "boss": [
+      "story"
+    ]
   },
   {
-    "id": 39,
+    "id": 60,
     "name": "Gravios",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fire Eggs"
-      }
     ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
@@ -3040,21 +3567,10 @@
     ]
   },
   {
-    "id": 40,
+    "id": 61,
     "name": "Great Dracophage Bug",
     "habitats": [
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "Forbidden Grounds"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z9"
-      }
     ],
     "rarity": 2,
     "eggGroup": "neopteron",
@@ -3087,12 +3603,11 @@
     }
   },
   {
-    "id": 41,
+    "id": 62,
     "name": "Great Izuchi",
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 1,
     "eggGroup": "birdWyvern",
     "element": "nonElemental",
@@ -3152,15 +3667,19 @@
         "region": "Canalta Timberland"
       }
     ],
-    "description": "The leader of an Izuchi pack, this monster is identifiable by its larger build, bristled fur, and scythe-like tail. It rarely acts alone, instead patrolling its territory with two elite Izuchi."
+    "description": "The leader of an Izuchi pack, this monster is identifiable by its larger build, bristled fur, and scythe-like tail. It rarely acts alone, instead patrolling its territory with two elite Izuchi.",
+    "related": {
+      "fights": [
+        43
+      ]
+    }
   },
   {
-    "id": 42,
+    "id": 63,
     "name": "Great Poogie",
     "habitats": [
       "azuria"
     ],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "unknown",
     "element": "nonElemental",
@@ -3217,16 +3736,9 @@
     "description": "A legendary Poogie possessed of unmatched charisma and grandeur. Some farfetched tales claim this Poogie can summon all the other Poogies in the world with a single call."
   },
   {
-    "id": 43,
+    "id": 64,
     "name": "Great Thunderbug",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      }
-    ],
     "rarity": 1,
     "eggGroup": "neopteron",
     "element": "thunder",
@@ -3258,28 +3770,9 @@
     }
   },
   {
-    "id": 44,
+    "id": 65,
     "name": "Green Nargacuga",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Pomore Garden"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Flowery Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Water Eggs"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -3356,17 +3849,10 @@
     ]
   },
   {
-    "id": 45,
+    "id": 66,
     "name": "Green Plesioth",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      }
     ],
     "rarity": 5,
     "eggGroup": "piscineWyvern",
@@ -3429,10 +3915,9 @@
     ]
   },
   {
-    "id": 46,
+    "id": 67,
     "name": "Grimclaw Tigrex",
     "habitats": [],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -3492,25 +3977,10 @@
     "description": "For a species already known for its absolute power, this Deviant commands even more compelling strength. Its name refers to the preternaturally sharp claws with which it decimates its prey."
   },
   {
-    "id": 47,
+    "id": 68,
     "name": "Gypceros",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Loloska Forest"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z2"
-      }
     ],
     "rarity": 2,
     "eggGroup": "birdWyvern",
@@ -3589,13 +4059,17 @@
         "area": "Blightstone Woods",
         "region": "Azuria"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        44
+      ]
+    }
   },
   {
-    "id": 48,
+    "id": 69,
     "name": "Hellblade Glavenus",
     "habitats": [],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "bruteWyvern",
     "element": "fire",
@@ -3655,36 +4129,436 @@
     "description": "Deep within this Glavenus Deviant burns a searing heat. A single sweep of its tail is enough to lay waste to everything before it, even incinerating entire mountains."
   },
   {
-    "id": 49,
+    "id": 70,
+    "name": "Honed Glavenus",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "bruteWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "overheatedThroat": "technical",
+        "overheatedTail": "power"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Throat (Heated)": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 1,
+        "paralysis": -1,
+        "fireblight": -1,
+        "sleep": -2,
+        "blast": 1,
+        "bleeding": -1
+      }
+    },
+    "boss": [
+      "story"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Invasive Arzuros",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedBeast",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Head": [
+          "pierce"
+        ],
+        "Torso": [
+          "blunt"
+        ],
+        "Legs": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Invasive Diablos",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Horn": [
+          "blunt"
+        ],
+        "Torso": [
+          "pierce"
+        ],
+        "Leg": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Invasive Khezu",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "flyingWyvern",
+    "element": "thunder",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Head": [
+          "pierce"
+        ],
+        "Legs": [
+          "slash"
+        ],
+        "Tail": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Invasive Nerscylla",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "temnoceran",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Head": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Invasive Odogaron",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Head": [
+          "blunt"
+        ],
+        "Claws": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Invasive Plesioth",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "piscineWyvern",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Leg": [
+          "blunt"
+        ],
+        "Tail": [
+          "slash"
+        ],
+        "Back": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Invasive Seregios",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "flyingWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Head": [
+          "blunt"
+        ],
+        "Wings": [
+          "slash"
+        ],
+        "Leg": [
+          "slash"
+        ],
+        "Tail": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Invasive Shogun Ceanataur",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "carapaceon",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {
+        "Claw": [
+          "slash"
+        ],
+        "Leg": [
+          "pierce"
+        ],
+        "Skull": [
+          "blunt"
+        ]
+      },
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Invasive Yian Garuga",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "fire": 0,
+        "water": 0,
+        "ice": 0,
+        "thunder": 0,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": "-",
+        "fireblight": "-",
+        "paralysis": "-",
+        "sleep": "-",
+        "blast": "-",
+        "bleeding": "-",
+        "blind": "-"
+      }
+    },
+    "boss": [
+      "invasive"
+    ]
+  },
+  {
+    "id": 80,
     "name": "Ivory Lagiacrus",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Home"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Thunder Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Rare/Subspecies Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 6,
     "eggGroup": "leviathan",
     "element": "thunder",
@@ -3771,25 +4645,10 @@
     ]
   },
   {
-    "id": 50,
+    "id": 81,
     "name": "Jade Barroth",
     "habitats": [
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Lavina Glacial Peaks"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Ice Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z5"
-      }
     ],
     "rarity": 3,
     "eggGroup": "bruteWyvern",
@@ -3870,16 +4729,9 @@
     ]
   },
   {
-    "id": 51,
+    "id": 82,
     "name": "Kelbi",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      }
-    ],
     "rarity": 1,
     "eggGroup": "herbivore",
     "element": "nonElemental",
@@ -3903,29 +4755,10 @@
     }
   },
   {
-    "id": 52,
+    "id": 83,
     "name": "Khezu",
     "habitats": [
       "canaltaTimberland"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Lavina Glacial Peaks"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Thunder Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z5"
-      }
     ],
     "rarity": 3,
     "eggGroup": "flyingWyvern",
@@ -4000,24 +4833,18 @@
         "area": "Frozen Grotto",
         "region": "Canalta Timberland"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        73
+      ]
+    }
   },
   {
-    "id": 53,
+    "id": 84,
     "name": "Kulu-Ya-Ku",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
     ],
     "rarity": 2,
     "eggGroup": "birdWyvern",
@@ -4089,28 +4916,9 @@
     ]
   },
   {
-    "id": 54,
+    "id": 85,
     "name": "Lagiacrus",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Pomore Garden"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Flowery Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Thunder Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Water Eggs"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "leviathan",
     "element": "thunder",
@@ -4197,29 +5005,10 @@
     ]
   },
   {
-    "id": 55,
+    "id": 86,
     "name": "Legiana",
     "habitats": [
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Lavina Glacial Peaks"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Ice Eggs"
-      }
     ],
     "rarity": 4,
     "eggGroup": "flyingWyvern",
@@ -4301,21 +5090,10 @@
     ]
   },
   {
-    "id": 56,
+    "id": 87,
     "name": "Ludroth",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Valley"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z4"
-      }
     ],
     "rarity": 1,
     "eggGroup": "leviathan",
@@ -4348,12 +5126,11 @@
     }
   },
   {
-    "id": 57,
+    "id": 88,
     "name": "Lunagaron",
     "habitats": [
       "serathis"
     ],
-    "locations": [],
     "rarity": 5,
     "eggGroup": "fangedWyvern",
     "element": "ice",
@@ -4414,12 +5191,11 @@
     "description": "A Fanged Wyvern with distinctive azure scales. Although normally quadrupedal, it change its body composition by inhibiting its thermoregulatory organs to increase heat and enlarge muscles."
   },
   {
-    "id": 58,
+    "id": 89,
     "name": "Magnamalo",
     "habitats": [
       "serathis"
     ],
-    "locations": [],
     "rarity": 6,
     "eggGroup": "fangedWyvern",
     "element": "nonElemental",
@@ -4477,15 +5253,17 @@
         "region": "Serathis"
       }
     ],
-    "description": "A Fanged Wyvern clad in a heavy carapace. It consumes even the bones of its prey to satiate its voracious appetite, and the hellfire expelled from its body is a byproduct of metabolism."
+    "description": "A Fanged Wyvern clad in a heavy carapace. It consumes even the bones of its prey to satiate its voracious appetite, and the hellfire expelled from its body is a byproduct of metabolism.",
+    "boss": [
+      "story"
+    ]
   },
   {
-    "id": 59,
+    "id": 90,
     "name": "Malzeno",
     "habitats": [
       "serathis"
     ],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "elderDragon",
     "element": "dragon",
@@ -4542,35 +5320,38 @@
         "region": "Serathis"
       }
     ],
-    "description": "Notable for its silver carapace, this elegant Elder Dragon stalks the night to drain the energy from its prey. Once it has drunk its fill, it reveals its dreadful true form in all its glory."
+    "description": "Notable for its silver carapace, this elegant Elder Dragon stalks the night to drain the energy from its prey. Once it has drunk its fill, it reveals its dreadful true form in all its glory.",
+    "boss": [
+      "story",
+      "elderDragon"
+    ],
+    "bossPatterns": [
+      {
+        "state": "Normal State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Unknown",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Qurio Release",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Unknown",
+            "type": "power"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 60,
+    "id": 91,
     "name": "Mizutsune",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Pomore Garden"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Flowery Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Water Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "leviathan",
     "element": "water",
@@ -4648,20 +5429,121 @@
     "description": "This leviathan has evolved in such a way as to be particularly mobile on land. After immobilizing its prey with bubbles produced by an internal fluid, it gracefully runs it down."
   },
   {
-    "id": 61,
-    "name": "Nargacuga",
+    "id": 92,
+    "name": "Namielle",
     "habitats": [],
-    "locations": [
+    "rarity": 0,
+    "eggGroup": "elderDragon",
+    "element": "water",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "abyssalCharge": "speed",
+        "waterDepleted": "power"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Head": [
+          "blunt"
+        ],
+        "Wings": [
+          "pierce"
+        ],
+        "Tail": [
+          "slash"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 2,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1
+      }
+    },
+    "boss": [
+      "elderDragon"
+    ],
+    "bossPatterns": [
       {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Highlands"
+        "state": "Water Mantle",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Glimmer Strike Nami Shot",
+            "type": "technical"
+          },
+          {
+            "turn": 2,
+            "move": "Technical",
+            "type": "technical"
+          },
+          {
+            "turn": 3,
+            "move": "Nami Shot Nami Shot",
+            "type": "speed"
+          },
+          {
+            "turn": 4,
+            "move": "Nami Shot",
+            "type": "power"
+          }
+        ]
       },
       {
-        "type": "coopQuest",
-        "main": "Woodland Den"
+        "state": "Abyssal Charge",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Glimmer Strike",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Nami Shot",
+            "type": "speed"
+          },
+          {
+            "turn": 3,
+            "move": "Nami Torrent",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Nami Blast",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Water Depleted",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Nami Shot",
+            "type": "power"
+          }
+        ]
       }
-    ],
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Nargacuga",
+    "habitats": [],
     "rarity": 4,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -4739,25 +5621,10 @@
     ]
   },
   {
-    "id": 62,
+    "id": 94,
     "name": "Nerscylla",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Loloska Forest"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z4"
-      }
     ],
     "rarity": 3,
     "eggGroup": "temnoceran",
@@ -4842,15 +5709,20 @@
         "area": "Blightstone Woods",
         "region": "Azuria"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        45,
+        74
+      ]
+    }
   },
   {
-    "id": 63,
+    "id": 95,
     "name": "Odogaron",
     "habitats": [
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 5,
     "eggGroup": "fangedWyvern",
     "element": "nonElemental",
@@ -4908,24 +5780,18 @@
         "region": "Tarkuan"
       }
     ],
-    "description": "This Fanged Wyvern is so aggressive in its wide-ranging hunt for meat that it will attack stronger monsters without hesitation. Its distinctive claws rend grisly gouges into the flesh of loss."
+    "description": "This Fanged Wyvern is so aggressive in its wide-ranging hunt for meat that it will attack stronger monsters without hesitation. Its distinctive claws rend grisly gouges into the flesh of loss.",
+    "related": {
+      "fights": [
+        75
+      ]
+    }
   },
   {
-    "id": 64,
+    "id": 96,
     "name": "Paolumu",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Wendwood"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Woodland Den"
-      }
     ],
     "rarity": 3,
     "eggGroup": "flyingWyvern",
@@ -5002,43 +5868,17 @@
         "area": "Cataracts",
         "region": "Canalta Timberland"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        46
+      ]
+    }
   },
   {
-    "id": 65,
+    "id": 97,
     "name": "Pink Rathian",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Pomore Garden"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Flowery Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Home"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fire Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Water Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Rare/Subspecies Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -5104,21 +5944,10 @@
     "description": "The vibrant pink scales of this Rathian subspecies belie a terrible ferocity. It deftly utilizes its toxic tail to corner prey, then closes in for the kill."
   },
   {
-    "id": 66,
+    "id": 98,
     "name": "Plesioth",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Sadona Barrens"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z2"
-      }
     ],
     "rarity": 4,
     "eggGroup": "piscineWyvern",
@@ -5176,24 +6005,18 @@
         "area": "Mirror Lake",
         "region": "Azuria"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        76
+      ]
+    }
   },
   {
-    "id": 67,
+    "id": 99,
     "name": "Pukei-Pukei",
     "habitats": [
       "canaltaTimberland"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
     ],
     "rarity": 2,
     "eggGroup": "birdWyvern",
@@ -5279,17 +6102,10 @@
     ]
   },
   {
-    "id": 68,
+    "id": 100,
     "name": "Purple Gypceros",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Lamure Tower Front"
-      }
     ],
     "rarity": 3,
     "eggGroup": "birdWyvern",
@@ -5367,25 +6183,10 @@
     ]
   },
   {
-    "id": 69,
+    "id": 101,
     "name": "Purple Ludroth",
     "habitats": [
       "canaltaTimberland"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Lamure",
-        "sub": "Sadona Barrens"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z8"
-      }
     ],
     "rarity": 3,
     "eggGroup": "leviathan",
@@ -5463,12 +6264,11 @@
     ]
   },
   {
-    "id": 70,
+    "id": 102,
     "name": "Rakna-Kadaki",
     "habitats": [
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 5,
     "eggGroup": "temnoceran",
     "element": "fire",
@@ -5525,27 +6325,17 @@
         "region": "Tarkuan"
       }
     ],
-    "description": "Distinctly swathed in its own webbing and attended by several Rachnoid offspring, this Temnoceran almost appears to be part of a royal procession as it strolls about in a gown of pure white."
+    "description": "Distinctly swathed in its own webbing and attended by several Rachnoid offspring, this Temnoceran almost appears to be part of a royal procession as it strolls about in a gown of pure white.",
+    "related": {
+      "fights": [
+        47
+      ]
+    }
   },
   {
-    "id": 71,
+    "id": 103,
     "name": "Rathalos",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Jungle Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -5625,24 +6415,9 @@
     ]
   },
   {
-    "id": 72,
+    "id": 104,
     "name": "Rathian",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Highlands"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Woodland Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
-    ],
     "rarity": 4,
     "eggGroup": "flyingWyvern",
     "element": "fire",
@@ -5718,26 +6493,11 @@
     ]
   },
   {
-    "id": 73,
+    "id": 105,
     "name": "Red Khezu",
     "habitats": [
       "canaltaTimberland",
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Lavina Glacial Peaks"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Thunder Eggs"
-      }
     ],
     "rarity": 4,
     "eggGroup": "flyingWyvern",
@@ -5814,22 +6574,11 @@
     ]
   },
   {
-    "id": 74,
+    "id": 106,
     "name": "Remobra",
     "habitats": [
       "serathis",
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "Forbidden Grounds"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z9"
-      }
     ],
     "rarity": 1,
     "eggGroup": "snakeWyvern",
@@ -5862,12 +6611,11 @@
     }
   },
   {
-    "id": 75,
+    "id": 107,
     "name": "Rey Dau",
     "habitats": [
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
     "element": "thunder",
@@ -5923,28 +6671,16 @@
         "region": "Tarkuan"
       }
     ],
-    "description": "A luminous gold Flying Wyvern that dwells in sandy, arid regions. Its defining features are its two horns, from which tremendous amounts of electrical energy can be discharged."
+    "description": "A luminous gold Flying Wyvern that dwells in sandy, arid regions. Its defining features are its two horns, from which tremendous amounts of electrical energy can be discharged.",
+    "boss": [
+      "story"
+    ]
   },
   {
-    "id": 76,
+    "id": 108,
     "name": "Royal Ludroth",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Valley"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Woodland Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z4"
-      }
     ],
     "rarity": 2,
     "eggGroup": "leviathan",
@@ -6023,28 +6759,9 @@
     ]
   },
   {
-    "id": 77,
+    "id": 109,
     "name": "Sand Barioth",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "Forbidden Grounds"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Jungle Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Palamute Home"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z9"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -6125,37 +6842,10 @@
     ]
   },
   {
-    "id": 78,
+    "id": 110,
     "name": "Seregios",
     "habitats": [
       "canaltaTimberland"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "Forbidden Grounds"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Jungle Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fated Four Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Elder Dragon Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Deviant Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z9"
-      }
     ],
     "rarity": 6,
     "eggGroup": "flyingWyvern",
@@ -6234,15 +6924,19 @@
         "area": "Mt. Canalta",
         "region": "Canalta Timberland"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        77
+      ]
+    }
   },
   {
-    "id": 79,
+    "id": 111,
     "name": "Shogun Ceanataur",
     "habitats": [
       "tarkuan"
     ],
-    "locations": [],
     "rarity": 3,
     "eggGroup": "carapaceon",
     "element": "water",
@@ -6299,20 +6993,18 @@
         "region": "Tarkuan"
       }
     ],
-    "description": "A giant Carapaceon found in caves and marshlands, this fully grown form of the Ceanataur has a giant monster's skull on its back and highly-developed pincers that it wields like scythes."
+    "description": "A giant Carapaceon found in caves and marshlands, this fully grown form of the Ceanataur has a giant monster's skull on its back and highly-developed pincers that it wields like scythes.",
+    "related": {
+      "fights": [
+        78
+      ]
+    }
   },
   {
-    "id": 80,
+    "id": 112,
     "name": "Shrouded Nerscylla",
     "habitats": [
       "tarkuan"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Terga",
-        "sub": "Terga Volcano Base"
-      }
     ],
     "rarity": 4,
     "eggGroup": "temnoceran",
@@ -6396,12 +7088,11 @@
     ]
   },
   {
-    "id": 81,
+    "id": 113,
     "name": "Silverwind Nargacuga",
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -6461,12 +7152,11 @@
     "description": "A Nargacuga Deviant that is covered in distinctive silver markings. Quick swings from its tail generate slicing gusts of wind, the phenomenal sight of which earned it its name."
   },
   {
-    "id": 82,
+    "id": 114,
     "name": "Somnacanth",
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 4,
     "eggGroup": "leviathan",
     "element": "water",
@@ -6527,13 +7217,17 @@
         "region": "Canalta Timberland"
       }
     ],
-    "description": "A bellicose Leviathan that lives in the water and spreads soporific dust via its neck gills and tail to ensnare prey. When seen under the moonlight, it is said to resemble a maiden or mermaid."
+    "description": "A bellicose Leviathan that lives in the water and spreads soporific dust via its neck gills and tail to ensnare prey. When seen under the moonlight, it is said to resemble a maiden or mermaid.",
+    "related": {
+      "fights": [
+        48
+      ]
+    }
   },
   {
-    "id": 83,
+    "id": 115,
     "name": "Soulseer Mizutsune",
     "habitats": [],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "leviathan",
     "element": "water",
@@ -6594,44 +7288,9 @@
     "description": "A Mizutsune Deviant that has been rendered blind by past conflicts. Such an affliction would normally spell the end for a monster, but it has been adapted by using bubbles for perception."
   },
   {
-    "id": 84,
+    "id": 116,
     "name": "Stygian Zinogre",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "Forbidden Grounds"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Jungle Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fated Four Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Dragon Eggs"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Elder Dragon Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Deviant Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Rare/Subspecies Den"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z5"
-      }
-    ],
     "rarity": 6,
     "eggGroup": "fangedBeast",
     "element": "dragon",
@@ -6709,12 +7368,11 @@
     ]
   },
   {
-    "id": 85,
+    "id": 117,
     "name": "Tetranadon",
     "habitats": [
       "canaltaTimberland"
     ],
-    "locations": [],
     "rarity": 3,
     "eggGroup": "amphibian",
     "element": "water",
@@ -6775,13 +7433,17 @@
         "region": "Canalta Timberland"
       }
     ],
-    "description": "The gluttonous Amphibian waits in deep waters for prey, which it will swallow whole along with nearby rocks and dirt. It is also known to flatten prey beneath its crushing weight."
+    "description": "The gluttonous Amphibian waits in deep waters for prey, which it will swallow whole along with nearby rocks and dirt. It is also known to flatten prey beneath its crushing weight.",
+    "related": {
+      "fights": [
+        49
+      ]
+    }
   },
   {
-    "id": 86,
+    "id": 118,
     "name": "Thunderlord Zinogre",
     "habitats": [],
-    "locations": [],
     "rarity": 7,
     "eggGroup": "fangedWyvern",
     "element": "thunder",
@@ -6841,28 +7503,9 @@
     "description": "A Zinogre Deviant cloaked in dazzling, golden electricity. With its command over blinding lights and crash bolts of lightning, the title \"Thunderlord\" is certainly appropriate."
   },
   {
-    "id": 87,
+    "id": 119,
     "name": "Tigrex",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Harzgai Hill - Inner"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Desert Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Dragon Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z8"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "flyingWyvern",
     "element": "nonElemental",
@@ -6938,30 +7581,11 @@
     ]
   },
   {
-    "id": 88,
+    "id": 120,
     "name": "Tobi-Kadachi",
     "habitats": [
       "azuria",
       "canaltaTimberland"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Loloska Rocky Canyon"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Thunder Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z9"
-      }
     ],
     "rarity": 3,
     "eggGroup": "fangedBeast",
@@ -7040,55 +7664,18 @@
         "area": "Broadleaf Basin",
         "region": "Azuria"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        50
+      ]
+    }
   },
   {
-    "id": 89,
+    "id": 121,
     "name": "Velkhana",
     "habitats": [
       "serathis"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Base of Mt. Lavina"
-      },
-      {
-        "type": "superRareDen",
-        "main": "Loloska"
-      },
-      {
-        "type": "superRareDen",
-        "main": "Terga"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Velkhana"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den",
-        "finalNest": true,
-        "srTicket": true
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den",
-        "finalNest": true,
-        "srTicket": true
-      },
-      {
-        "type": "coopQuest",
-        "main": "Ice Eggs",
-        "finalNest": true,
-        "srTicket": true
-      },
-      {
-        "type": "coopQuest",
-        "main": "Elder Dragon Den",
-        "finalNest": true
-      }
     ],
     "rarity": 7,
     "eggGroup": "elderDragon",
@@ -7157,21 +7744,10 @@
     }
   },
   {
-    "id": 90,
+    "id": 122,
     "name": "Velocidrome",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
     ],
     "rarity": 2,
     "eggGroup": "birdWyvern",
@@ -7235,24 +7811,20 @@
         "area": "Sunpetal Plains",
         "region": "Azuria"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        51,
+        52,
+        53
+      ]
+    }
   },
   {
-    "id": 91,
+    "id": 123,
     "name": "Velociprey",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
     ],
     "rarity": 1,
     "eggGroup": "birdWyvern",
@@ -7286,29 +7858,123 @@
     }
   },
   {
-    "id": 92,
+    "id": 124,
+    "name": "Yama Tsukami",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "elderDragon",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "openMouth": "speed"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Mouth": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Valve": [
+          "blunt"
+        ],
+        "Right Tentacle": [
+          "slash"
+        ],
+        "Left Tentacle": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "paralysis": 2,
+        "fireblight": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": -1
+      }
+    },
+    "boss": [
+      "elderDragon"
+    ],
+    "related": {
+      "fights": [
+        125
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "name": "Yama Tsukami (Green)",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "elderDragon",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "openMouth": "speed"
+      },
+      "parts": {
+        "Main Body": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Mouth": [
+          "slash",
+          "pierce",
+          "blunt"
+        ],
+        "Valve": [
+          "blunt"
+        ],
+        "Right Tentacle": [
+          "slash"
+        ],
+        "Left Tentacle": [
+          "pierce"
+        ]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 1,
+        "water": 0,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "paralysis": 2,
+        "fireblight": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": -1
+      }
+    },
+    "boss": [
+      "elderDragon"
+    ]
+  },
+  {
+    "id": 126,
     "name": "Yian Garuga",
     "habitats": [
       "canaltaTimberland"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Alcala",
-        "sub": "Alcala Valley"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Woodland Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Fire Eggs"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z4"
-      }
     ],
     "rarity": 3,
     "eggGroup": "birdWyvern",
@@ -7384,24 +8050,18 @@
         "area": "Howlinyowl Forest",
         "region": "Canalta Timberland"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        79
+      ]
+    }
   },
   {
-    "id": 93,
+    "id": 127,
     "name": "Yian Kut-Ku",
     "habitats": [
       "azuria"
-    ],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Hakolo Island",
-        "sub": "North Kamuna Cape"
-      },
-      {
-        "type": "eldersLair",
-        "main": "Z1"
-      }
     ],
     "rarity": 2,
     "eggGroup": "birdWyvern",
@@ -7474,31 +8134,17 @@
         "area": "Mirror Lake",
         "region": "Azuria"
       }
-    ]
+    ],
+    "related": {
+      "fights": [
+        54
+      ]
+    }
   },
   {
-    "id": 94,
+    "id": 128,
     "name": "Zinogre",
     "habitats": [],
-    "locations": [
-      {
-        "type": "catavanStand",
-        "main": "Loloska",
-        "sub": "Lavina Glacial Peaks"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Snowy Mt. Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Volcanic Den"
-      },
-      {
-        "type": "coopQuest",
-        "main": "Ice Eggs"
-      }
-    ],
     "rarity": 5,
     "eggGroup": "fangedBeast",
     "element": "thunder",
