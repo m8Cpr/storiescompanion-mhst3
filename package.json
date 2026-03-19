@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "seed:monsters": "yarn node scripts/merge-monsters.mjs"
+    "seed:monsters": "yarn node scripts/merge-monsters.mjs",
+    "seed:monsties": "yarn node scripts/seed-monsties.mjs",
+    "scrape:monsties": "yarn node scripts/scrape-monstie-details.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -37,6 +39,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.0",
+    "cheerio": "^1.2.0",
     "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
