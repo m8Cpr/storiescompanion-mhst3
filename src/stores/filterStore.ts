@@ -3,6 +3,7 @@ import { persist } from "zustand/middleware";
 
 import type {
   AttackType,
+  BossCategory,
   EggGroup,
   Habitat,
   MonsterElement,
@@ -15,13 +16,13 @@ type FilterState = {
   eggGroup: EggGroup | null;
   attackType: AttackType | null;
   element: MonsterElement | null;
-  hideElderDragons: boolean;
+  hiddenBossCategories: BossCategory[];
   searchQuery: string;
 };
 
 type FilterStore = FilterState & {
   setFilter: (key: FilterKey, value: string | null) => void;
-  setHideElderDragons: (value: boolean) => void;
+  setHiddenBossCategories: (values: BossCategory[]) => void;
   setSearchQuery: (value: string) => void;
   clearFilters: () => void;
   hasActiveFilters: () => boolean;
@@ -32,14 +33,14 @@ const defaults: FilterState = {
   eggGroup: null,
   attackType: null,
   element: null,
-  hideElderDragons: false,
+  hiddenBossCategories: [],
   searchQuery: "",
 };
 
 const initialState: FilterState = {
   ...defaults,
   habitat: "azuria",
-  hideElderDragons: true,
+  hiddenBossCategories: ["story", "invasive", "feral", "elderDragon"],
 };
 
 export const useFilterStore = create<FilterStore>()(
@@ -47,7 +48,8 @@ export const useFilterStore = create<FilterStore>()(
     (set, get) => ({
       ...initialState,
       setFilter: (key, value) => set({ [key]: value }),
-      setHideElderDragons: (value) => set({ hideElderDragons: value }),
+      setHiddenBossCategories: (values) =>
+        set({ hiddenBossCategories: values }),
       setSearchQuery: (value) => set({ searchQuery: value }),
       clearFilters: () => set({ ...defaults, searchQuery: get().searchQuery }),
       hasActiveFilters: () => {
@@ -57,7 +59,7 @@ export const useFilterStore = create<FilterStore>()(
           s.eggGroup !== null ||
           s.attackType !== null ||
           s.element !== null ||
-          s.hideElderDragons !== defaults.hideElderDragons
+          s.hiddenBossCategories.length > 0
         );
       },
     }),

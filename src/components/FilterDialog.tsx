@@ -9,9 +9,12 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { SingleSelectDropdown } from "@/components/ui/SingleSelectDropdown";
+import { MultiSelectDropdown } from "@/components/ui/MultiSelectDropdown";
 import { useFilterStore, type FilterKey } from "@/stores/filterStore";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 import { getObjectKeys, cn } from "@/utils/lib";
+import type { BossCategory } from "@/schemas/monster";
 
 const { MONSTER, FILTER } = TRANSLATION_KEYS;
 
@@ -54,10 +57,19 @@ export default function FilterDialog() {
 
   const store = useFilterStore();
 
-  const hideElderDragons = useFilterStore((s) => s.hideElderDragons);
+  const hiddenBossCategories = useFilterStore((s) => s.hiddenBossCategories);
   const isActive = useFilterStore((s) => s.hasActiveFilters());
-  const setHideElderDragons = useFilterStore((s) => s.setHideElderDragons);
+  const setHiddenBossCategories = useFilterStore(
+    (s) => s.setHiddenBossCategories
+  );
   const clearFilters = useFilterStore((s) => s.clearFilters);
+
+  const bossItems: { value: BossCategory; label: string }[] = getObjectKeys(
+    MONSTER.BOSS_CATEGORY
+  ).map((key) => ({
+    value: key,
+    label: t(MONSTER.BOSS_CATEGORY[key]),
+  }));
 
   return (
     <Dialog>
@@ -91,31 +103,30 @@ export default function FilterDialog() {
         <section className="space-y-4 py-2">
           {filterSelectConfigs.map(
             ({ key, labelKey, options, translationMap }) => (
-              <FilterSelect
+              <SingleSelectDropdown
                 key={key}
-                filterKey={key}
                 label={t(labelKey)}
-                value={store[key] ?? ""}
-                onChange={(v) => store.setFilter(key, v || null)}
-                options={options}
-                translationMap={translationMap}
+                value={store[key]}
+                onChange={(v) => store.setFilter(key, v)}
+                items={options.map((opt) => ({
+                  value: opt,
+                  label: t(translationMap[opt]),
+                }))}
                 placeholder={t(FILTER.ALL_PLACEHOLDER)}
               />
             )
           )}
 
-          <div className="flex items-center gap-3 pt-2">
-            <input
-              type="checkbox"
-              id="hideElders"
-              checked={hideElderDragons}
-              onChange={(e) => setHideElderDragons(e.target.checked)}
-              className="size-4 cursor-pointer accent-(--accent)"
-            />
-            <label htmlFor="hideElders" className="cursor-pointer text-sm">
-              {t(FILTER.HIDE_ELDER_DRAGONS)}
-            </label>
-          </div>
+          <MultiSelectDropdown
+            label={t(FILTER.HIDE_BOSSES)}
+            placeholder={t(FILTER.ALL_PLACEHOLDER)}
+            items={bossItems}
+            selectedValues={hiddenBossCategories}
+            onChange={setHiddenBossCategories}
+            selectedCountLabel={(count) =>
+              t(FILTER.SELECTED_COUNT, { count })
+            }
+          />
         </section>
 
         <button
@@ -132,53 +143,5 @@ export default function FilterDialog() {
         </button>
       </DialogContent>
     </Dialog>
-  );
-}
-
-type FilterSelectProps<K extends string> = {
-  filterKey: string;
-  label: string;
-  value: string;
-  onChange: (value: string) => void;
-  options: readonly K[];
-  translationMap: Record<K, string>;
-  placeholder: string;
-};
-
-function FilterSelect<K extends string>({
-  filterKey,
-  label,
-  value,
-  onChange,
-  options,
-  translationMap,
-  placeholder,
-}: FilterSelectProps<K>) {
-  const { t } = useTranslation("common");
-  const id = `filter-${filterKey}`;
-
-  return (
-    <>
-      <label htmlFor={id} className="mb-2 block text-sm font-medium">
-        {label}
-      </label>
-      <select
-        id={id}
-        name={filterKey}
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        className={cn(
-          "w-full rounded-lg border border-(--border) bg-(--bg) px-3 py-2",
-          "focus:outline-none focus:ring-2 focus:ring-(--accent)"
-        )}
-      >
-        <option value="">{placeholder}</option>
-        {options.map((key) => (
-          <option key={key} value={key}>
-            {t(translationMap[key])}
-          </option>
-        ))}
-      </select>
-    </>
   );
 }

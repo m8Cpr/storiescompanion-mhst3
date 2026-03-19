@@ -145,7 +145,9 @@ export const common = {
   [FILTER.EGG_GROUP]: "Egg Group",
   [FILTER.ATTACK_TYPE]: "Attack Type",
   [FILTER.ELEMENT]: "Element",
-  [FILTER.HIDE_ELDER_DRAGONS]: "Hide Elder Dragons",
+  [FILTER.HIDE_BOSSES]: "Hide Bosses",
+  [FILTER.SELECTED_COUNT + "_one"]: "{{count}} selected",
+  [FILTER.SELECTED_COUNT + "_other"]: "{{count}} selected",
   [FILTER.CLEAR_ALL]: "Clear All",
   [FILTER.ALL_PLACEHOLDER]: "All",
 };

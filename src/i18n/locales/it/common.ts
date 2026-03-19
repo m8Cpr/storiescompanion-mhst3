@@ -145,7 +145,9 @@ export const common = {
   [FILTER.EGG_GROUP]: "Gruppo Uova",
   [FILTER.ATTACK_TYPE]: "Tipo di Attacco",
   [FILTER.ELEMENT]: "Elemento",
-  [FILTER.HIDE_ELDER_DRAGONS]: "Nascondi Draghi Anziani",
+  [FILTER.HIDE_BOSSES]: "Nascondi Boss",
+  [FILTER.SELECTED_COUNT + "_one"]: "{{count}} selezionato",
+  [FILTER.SELECTED_COUNT + "_other"]: "{{count}} selezionati",
   [FILTER.CLEAR_ALL]: "Cancella Tutto",
   [FILTER.ALL_PLACEHOLDER]: "Tutti",
 };

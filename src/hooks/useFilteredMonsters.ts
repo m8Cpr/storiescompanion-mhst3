@@ -10,7 +10,7 @@ export function useFilteredMonsters() {
   const eggGroup = useFilterStore((s) => s.eggGroup);
   const attackType = useFilterStore((s) => s.attackType);
   const element = useFilterStore((s) => s.element);
-  const hideElderDragons = useFilterStore((s) => s.hideElderDragons);
+  const hiddenBossCategories = useFilterStore((s) => s.hiddenBossCategories);
   const searchQuery = useFilterStore((s) => s.searchQuery);
 
   return useMemo(() => {
@@ -26,8 +26,12 @@ export function useFilteredMonsters() {
       )
         return false;
       if (element && monster.element !== element) return false;
-      if (hideElderDragons && monster.eggGroup === "elderDragon") return false;
+      if (
+        hiddenBossCategories.length > 0 &&
+        monster.boss?.some((b) => hiddenBossCategories.includes(b))
+      )
+        return false;
       return true;
     });
-  }, [monsterList, searchQuery, habitat, eggGroup, attackType, element, hideElderDragons]);
+  }, [monsterList, searchQuery, habitat, eggGroup, attackType, element, hiddenBossCategories]);
 }
