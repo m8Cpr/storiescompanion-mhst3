@@ -15,8 +15,12 @@ export default function MonsterDetail() {
   if (!monster) return <NotFound />;
 
   return (
-    <h1>
-      {t(TRANSLATION_KEYS.MONSTER.DETAIL)} - {monster.name}
-    </h1>
+    <>
+      <h1>{monster.name}</h1>
+
+      <section>
+        <p>{t(TRANSLATION_KEYS.MONSTER.DETAIL)}</p>
+      </section>
+    </>
   );
 }
