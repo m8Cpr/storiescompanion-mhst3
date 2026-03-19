@@ -32,6 +32,8 @@
   @media (max-width: 1024px) {
     font-size: 16px;
   }
+
+  @apply transition-colors 
 }
 
 :root.dark {

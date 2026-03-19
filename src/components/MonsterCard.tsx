@@ -25,7 +25,7 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
       <div
         className={cn(
           "rounded-lg border border-(--border) bg-(--bg) p-5",
-          "transition-all hover:bg-(--accent-bg) hover:shadow-(--shadow)"
+          "hover:bg-(--accent-bg) hover:shadow-(--shadow)"
         )}
       >
         <div className="mb-3 flex items-start justify-between gap-3">
