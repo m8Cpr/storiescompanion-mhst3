@@ -1,0 +1,4 @@
+echo "pre-commit hook fired: checking TS, linting and prettyfying staged files."
+
+yarn checkTs
+yarn lint-staged

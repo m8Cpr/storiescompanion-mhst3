@@ -12,7 +12,19 @@
     "seed:monsties": "yarn node scripts/seed-monsties.mjs",
     "scrape:monsties": "yarn node scripts/scrape-monstie-details.mjs",
     "scrape:bosses": "yarn node scripts/scrape-boss-details.mjs",
-    "seed:bosses": "yarn node scripts/seed-bosses.mjs"
+    "seed:bosses": "yarn node scripts/seed-bosses.mjs",
+    "prepare": "husky",
+    "checkTs": "tsc --noEmit",
+    "eslint": "eslint --ext js,ts,tsx --max-warnings=0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "yarn eslint --fix --no-warn-ignored",
+      "yarn prettier --write"
+    ],
+    "*.{md,json}": [
+      "yarn prettier --write"
+    ]
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -20,10 +32,13 @@
     "axios": "^1.13.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "husky": "^9.1.7",
     "i18next": "^25.8.18",
     "i18next-browser-languagedetector": "^8.2.1",
+    "lint-staged": "^16.4.0",
     "lodash": "^4.17.23",
     "lucide-react": "^0.575.0",
+    "prettier": "^3.8.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-hook-form": "^7.71.2",
