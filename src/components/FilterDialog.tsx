@@ -1,3 +1,4 @@
+import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { cva } from "class-variance-authority";
 import { Filter, X } from "lucide-react";
@@ -89,6 +90,29 @@ export default function FilterDialog() {
   const setHiddenCategories = useFilterStore((s) => s.setHiddenCategories);
   const clearFilters = useFilterStore((s) => s.clearFilters);
 
+  const [open, setOpen] = useState(false);
+  const snapshotRef = useRef("");
+
+  const getFilterSnapshot = () => {
+    const s = useFilterStore.getState();
+    return JSON.stringify([
+      s.habitat,
+      s.eggGroup,
+      s.attackType,
+      s.element,
+      s.hiddenCategories,
+    ]);
+  };
+
+  const handleOpenChange = (isOpen: boolean) => {
+    if (isOpen) {
+      snapshotRef.current = getFilterSnapshot();
+    } else if (snapshotRef.current !== getFilterSnapshot()) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    setOpen(isOpen);
+  };
+
   const hideCategoryItems: { value: HideCategory; label: string }[] =
     getObjectKeys(FILTER.HIDE_CATEGORY).map((key) => ({
       value: key,
@@ -96,7 +120,7 @@ export default function FilterDialog() {
     }));
 
   return (
-    <Dialog>
+    <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogTrigger asChild>
         <button
           className={cn(
