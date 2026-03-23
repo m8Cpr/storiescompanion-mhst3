@@ -22,23 +22,32 @@ type BadgeProps = {
   children: React.ReactNode;
   className?: string;
   count?: number;
+  list?: boolean;
 };
 
-export default function Badge({ children, className, count }: BadgeProps) {
+export default function Badge({
+  children,
+  className,
+  count,
+  list,
+}: BadgeProps) {
   const hasCount = count != null && count > 0;
+  const Wrapper = list ? "li" : hasCount ? "span" : "p";
 
   if (hasCount) {
     return (
-      <span className={cn("relative", className)}>
+      <Wrapper className={cn("relative", className)}>
         <p className="rounded bg-(--code-bg) px-2 py-1 truncate">{children}</p>
         <SmallBadge count={count} />
-      </span>
+      </Wrapper>
     );
   }
 
   return (
-    <p className={cn("rounded bg-(--code-bg) px-2 py-1 truncate", className)}>
+    <Wrapper
+      className={cn("rounded bg-(--code-bg) px-2 py-1 truncate", className)}
+    >
       {children}
-    </p>
+    </Wrapper>
   );
 }
