@@ -1,4 +1,11 @@
 declare global {
+  interface Object {
+    /**
+     * Returns true if the object has no own enumerable keys
+     */
+    isEmpty(): boolean;
+  }
+
   interface Array<T> {
     /**
      * Returns the first element inside the array.
@@ -37,3 +44,10 @@ Array.prototype.random = function () {
 Array.prototype.isEmpty = function () {
   return this?.length === 0;
 };
+
+Object.defineProperty(Object.prototype, "isEmpty", {
+  value() {
+    return Object.keys(this).length === 0;
+  },
+  writable: true,
+});
