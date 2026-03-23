@@ -147,6 +147,41 @@ export const common = {
   [MONSTER.STATUS_EFFECT.blast]: "Scoppio",
   [MONSTER.STATUS_EFFECT.bleeding]: "Sanguinamento",
   [MONSTER.STATUS_EFFECT.blind]: "Cecità",
+  // DETAIL LABELS
+  [MONSTER.DETAIL_LABEL.ELEMENT]: "Elemento",
+  [MONSTER.DETAIL_LABEL.BOSS_SUFFIX]: "Boss",
+  [MONSTER.DETAIL_LABEL.ATTACK_PATTERNS]: "Pattern di attacco",
+  [MONSTER.DETAIL_LABEL.ATTACK_PATTERNS_DESC]:
+    "Attack sequence and state-based patterns for H2H battles",
+  [MONSTER.DETAIL_LABEL.BREAKABLE_PARTS]: "Breakable Parts",
+  [MONSTER.DETAIL_LABEL.ELEMENTAL_WEAKNESSES]: "Elemental Weaknesses",
+  [MONSTER.DETAIL_LABEL.ELEMENTAL_WEAKNESSES_DESC]:
+    "Damage effectiveness by element type",
+  [MONSTER.DETAIL_LABEL.STATUS_RESISTANCE]: "Status Resistance",
+  [MONSTER.DETAIL_LABEL.MONSTIE_DATA]: "Monstie Data",
+  [MONSTER.DETAIL_LABEL.ATTACK_TYPE]: "Attack Type",
+  [MONSTER.DETAIL_LABEL.GROWTH]: "Growth",
+  [MONSTER.DETAIL_LABEL.KINSHIP_SKILL]: "Kinship Skill",
+  [MONSTER.DETAIL_LABEL.RIDING_ACTIONS]: "Riding Actions",
+  [MONSTER.DETAIL_LABEL.BASE_STATS]: "Base Stats",
+  [MONSTER.DETAIL_LABEL.SPECIFIC_LOCATIONS]: "Specific Locations",
+  [MONSTER.DETAIL_LABEL.HOW_TO_GET]: "How to Get",
+  [MONSTER.DETAIL_LABEL.STATE]: "Stato",
+  [MONSTER.DETAIL_LABEL.COUNTER]: "Counter:",
+  // RESISTANCE LEVEL
+  [MONSTER.RESISTANCE_LEVEL.veryWeak]: "Molto Debole",
+  [MONSTER.RESISTANCE_LEVEL.weak]: "Debole",
+  [MONSTER.RESISTANCE_LEVEL.normal]: "Normale",
+  [MONSTER.RESISTANCE_LEVEL.resistant]: "Resistente",
+  [MONSTER.RESISTANCE_LEVEL.veryResistant]: "Molto Resistente",
+  // MONSTIE STAT
+  [MONSTER.MONSTIE_STAT.hp]: "HP",
+  [MONSTER.MONSTIE_STAT.attack]: "ATK",
+  [MONSTER.MONSTIE_STAT.defense]: "DEF",
+  [MONSTER.MONSTIE_STAT.critRate]: "CRIT",
+  [MONSTER.MONSTIE_STAT.recovery]: "REC",
+  [MONSTER.MONSTIE_STAT.speed]: "SPD",
+  [MONSTER.MONSTIE_STAT.initialRes]: "RES",
   // FILTER
   [FILTER.TITLE]: "Filtra Mostri",
   [FILTER.DESCRIPTION]:
