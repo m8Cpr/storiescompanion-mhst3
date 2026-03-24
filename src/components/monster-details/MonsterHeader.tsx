@@ -14,7 +14,7 @@ interface MonsterHeaderProps {
 }
 
 export function MonsterHeader({ monster }: MonsterHeaderProps) {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation("monster");
   const ElementIcon = ELEMENT_ICONS[monster.element];
 
   return (

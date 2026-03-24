@@ -14,7 +14,7 @@ type MonsterCardProps = {
 };
 
 export default function MonsterCard({ monster }: MonsterCardProps) {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation("monster");
   const baseAttack = monster.monstie?.attackType;
   const ElementIcon = ELEMENT_ICONS[monster.element];
   const AttackIcon = baseAttack && ATTACK_TYPE_ICONS[baseAttack];
