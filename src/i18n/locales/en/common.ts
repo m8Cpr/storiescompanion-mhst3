@@ -15,6 +15,9 @@ export const common = {
     "StoriesCompanion is a fan-made companion app and it is not affiliated with or endorsed by Capcom. All trademarks are the property of their respective owners.",
   [COMMON.NO_RESULTS]: "No monsters found matching your criteria.",
   [COMMON.SEARCH_PLACEHOLDER]: "Search monsters by name...",
+  [COMMON.DATA_DISCLAIMER_TITLE]: "Incomplete Data",
+  [COMMON.DATA_DISCLAIMER]:
+    "Some attack patterns or monster data may be missing or inaccurate as research is still ongoing.",
   [COMMON.NOT_FOUND]: "Page not found",
   [COMMON.BACK_TO_HOME]: "Back to home",
   [COMMON.APP_FOOTER]:
