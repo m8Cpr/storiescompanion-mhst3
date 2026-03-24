@@ -13,6 +13,7 @@ export const TRANSLATION_KEYS = {
     SEARCH_PLACEHOLDER: "common.searchPlaceholder",
     DATA_DISCLAIMER_TITLE: "common.dataDisclaimerTitle",
     DATA_DISCLAIMER: "common.dataDisclaimer",
+    DATA_NOT_AVAILABLE: "common.dataNotAvailable",
   },
   MONSTER: {
     DETAIL: "monster.detail",
