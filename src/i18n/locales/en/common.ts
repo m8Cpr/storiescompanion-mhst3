@@ -18,6 +18,7 @@ export const common = {
   [COMMON.DATA_DISCLAIMER_TITLE]: "Incomplete Data",
   [COMMON.DATA_DISCLAIMER]:
     "Some attack patterns or monster data may be missing or inaccurate as research is still ongoing.",
+  [COMMON.DATA_NOT_AVAILABLE]: "No data available.",
   [COMMON.NOT_FOUND]: "Page not found",
   [COMMON.BACK_TO_HOME]: "Back to home",
   [COMMON.APP_FOOTER]:

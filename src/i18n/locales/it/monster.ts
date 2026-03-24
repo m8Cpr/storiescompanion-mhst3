@@ -198,7 +198,7 @@ export const monster = {
   [MONSTER.DETAIL_LABEL.SPECIFIC_LOCATIONS]: "Luoghi Specifici",
   [MONSTER.DETAIL_LABEL.HOW_TO_GET]: "Come Ottenerlo",
   [MONSTER.DETAIL_LABEL.STATE]: "Stato",
-  [MONSTER.DETAIL_LABEL.COUNTER]: "Contromossa:",
+  [MONSTER.DETAIL_LABEL.COUNTER]: "Counter:",
   // LIVELLO DI RESISTENZA
   [MONSTER.RESISTANCE_LEVEL.veryWeak]: "Molto Debole",
   [MONSTER.RESISTANCE_LEVEL.weak]: "Debole",
