@@ -1,3 +1,27 @@
+## [0.2.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.1.0...v0.2.0) (2026-03-24)
+
+### Features
+
+- incomplete data disclaimer ([b35f701](https://github.com/m8Cpr/storiescompanion-mhst3/commit/b35f7018b9df323bde7ed9c8e5c089d8788cfae3))
+- monster detail combat data section ([4eeeff5](https://github.com/m8Cpr/storiescompanion-mhst3/commit/4eeeff5794260628261bd5d8921939f74b0954db))
+- monster detail header ([f1152fe](https://github.com/m8Cpr/storiescompanion-mhst3/commit/f1152fe892e393588873dba6eb4e389551a80d1c))
+- monster detail monstie section ([b831556](https://github.com/m8Cpr/storiescompanion-mhst3/commit/b8315564df7fe405fe7c9c8860deb195baa503e7))
+- monster detail page ([e34fa8e](https://github.com/m8Cpr/storiescompanion-mhst3/commit/e34fa8ef9c09dbbb0526548672042dff4cbc43bc))
+- new monster data for parts ([a3929de](https://github.com/m8Cpr/storiescompanion-mhst3/commit/a3929de07077cf9cedb32fca64c3fb3ce7e58452))
+
+### Bug Fixes
+
+- monster relationships ([01a1375](https://github.com/m8Cpr/storiescompanion-mhst3/commit/01a1375fe7a304f72d649257e508789df36f3982))
+
+### Miscellaneous
+
+- new icons for weapon damage ([5681771](https://github.com/m8Cpr/storiescompanion-mhst3/commit/568177115c51f647619abfe44159a5428d4a960f))
+- new isEmpty global function for objects ([c0d3ca2](https://github.com/m8Cpr/storiescompanion-mhst3/commit/c0d3ca2b4dd7417e7c72ad324a197a2f99a7ce75))
+- translation code split ([00bca4c](https://github.com/m8Cpr/storiescompanion-mhst3/commit/00bca4c8d9a03ddb12e471d2065eaf445ba4f1e8))
+- translations for monster details - 1 ([69729bf](https://github.com/m8Cpr/storiescompanion-mhst3/commit/69729bf1c7c80c7531522f7072e9a16917756e6b))
+- translations for monster details - 2 ([7fdeab5](https://github.com/m8Cpr/storiescompanion-mhst3/commit/7fdeab574884215e79ada89ceb44bd03d31446fa))
+- using tailwind variables ([af6625b](https://github.com/m8Cpr/storiescompanion-mhst3/commit/af6625b8fa8a3c35a4a4a3019dd1da938fc438ab))
+
 ## [0.1.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.0.0...v0.1.0) (2026-03-20)
 
 ### Features
