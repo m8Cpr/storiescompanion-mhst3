@@ -1,5 +1,5 @@
 import { BreakableParts } from "@/components/monster-details/combat-data/BreakableParts";
-import { CombatArticle } from "@/components/monster-details/combat-data/CombatArticle";
+import { DetailArticle } from "@/components/monster-details/DetailArticle";
 import { H2HPattern } from "@/components/monster-details/combat-data/H2HPattern";
 import { StatusResistance } from "@/components/monster-details/combat-data/StatusResistance";
 import { WeaknessChart } from "@/components/monster-details/combat-data/WeaknessChart";
@@ -20,16 +20,16 @@ export function CombatData({ combatData }: CombatDataProps) {
   return (
     <section className="grid grid-cols-1 gap-8 lg:grid-cols-2">
       <div className="space-y-6">
-        <CombatArticle
+        <DetailArticle
           icon={Sword}
           title={t(MONSTER.DETAIL_LABEL.ATTACK_PATTERNS)}
           description={t(MONSTER.DETAIL_LABEL.ATTACK_PATTERNS_DESC)}
           variant="plain"
         >
           <H2HPattern patterns={combatData.attackPatterns} />
-        </CombatArticle>
+        </DetailArticle>
 
-        <CombatArticle
+        <DetailArticle
           icon={Target}
           title={t(MONSTER.DETAIL_LABEL.BREAKABLE_PARTS)}
         >
@@ -40,11 +40,11 @@ export function CombatData({ combatData }: CombatDataProps) {
           ) : (
             <BreakableParts parts={combatData.parts} />
           )}
-        </CombatArticle>
+        </DetailArticle>
       </div>
 
       <div className="space-y-6">
-        <CombatArticle
+        <DetailArticle
           icon={Shield}
           title={t(MONSTER.DETAIL_LABEL.ELEMENTAL_WEAKNESSES)}
           description={t(MONSTER.DETAIL_LABEL.ELEMENTAL_WEAKNESSES_DESC)}
@@ -52,14 +52,14 @@ export function CombatData({ combatData }: CombatDataProps) {
           className="flex flex-col gap-2"
         >
           <WeaknessChart resistances={combatData.elementalResistance} />
-        </CombatArticle>
+        </DetailArticle>
 
-        <CombatArticle
+        <DetailArticle
           icon={Zap}
           title={t(MONSTER.DETAIL_LABEL.STATUS_RESISTANCE)}
         >
           <StatusResistance resistances={combatData.statusResistance} />
-        </CombatArticle>
+        </DetailArticle>
       </div>
     </section>
   );
