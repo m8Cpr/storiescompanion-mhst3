@@ -1,3 +1,13 @@
+## [0.2.1](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.2.0...v0.2.1) (2026-03-24)
+
+### Bug Fixes
+
+- **style:** missing muted colors ([9d9654d](https://github.com/m8Cpr/storiescompanion-mhst3/commit/9d9654d73247893b13c313612ac5b07477cd3a69))
+
+### Miscellaneous
+
+- **ci:** updated pipeline to run on push ([2154886](https://github.com/m8Cpr/storiescompanion-mhst3/commit/2154886a10df2551d20118d1e10c0b61a998190b))
+
 ## [0.2.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.1.0...v0.2.0) (2026-03-24)
 
 ### Features
