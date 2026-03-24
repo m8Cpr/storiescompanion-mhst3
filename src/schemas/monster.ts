@@ -15,6 +15,8 @@ export type EggGroup = keyof typeof TRANSLATION_KEYS.MONSTER.EGG_GROUP;
 
 export type Habitat = keyof typeof TRANSLATION_KEYS.MONSTER.HABITAT;
 
+export type MonsterPart = keyof typeof TRANSLATION_KEYS.MONSTER.PART;
+
 export type StatusEffect = keyof typeof TRANSLATION_KEYS.MONSTER.STATUS_EFFECT;
 
 export type RidingAction = keyof typeof TRANSLATION_KEYS.MONSTER.RIDING_ACTION;
@@ -51,7 +53,7 @@ export type HabitatLocation = {
 
 export type MonsterCombatData = {
   attackPatterns: Record<string, AttackType>;
-  parts: Record<string, WeaponType[]>;
+  parts: Record<MonsterPart, WeaponType[]>;
   elementalResistance: Record<MonsterElement, number>;
   statusResistance: Record<StatusEffect, number | "-">;
 };
