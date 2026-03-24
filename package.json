@@ -13,6 +13,8 @@
     "scrape:monsties": "yarn node scripts/scrape-monstie-details.mjs",
     "scrape:bosses": "yarn node scripts/scrape-boss-details.mjs",
     "seed:bosses": "yarn node scripts/seed-bosses.mjs",
+    "seed:relations:generate": "yarn node scripts/seed-relations.mjs --generate",
+    "seed:relations:apply": "yarn node scripts/seed-relations.mjs --apply",
     "prepare": "husky && git config pull.rebase true",
     "checkTs": "tsc --noEmit",
     "eslint": "eslint --ext js,ts,tsx --max-warnings=0"

@@ -41,7 +41,6 @@ export type BossPattern = {
 
 export type MonsterRelated = {
   fights?: number[];
-  mutation?: number;
   mutations?: number[];
 };
 
