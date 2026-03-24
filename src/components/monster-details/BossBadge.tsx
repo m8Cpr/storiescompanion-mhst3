@@ -8,7 +8,7 @@ interface BossBadgeProps {
 }
 
 export function BossBadge({ category }: BossBadgeProps) {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation("monster");
 
   return (
     <li

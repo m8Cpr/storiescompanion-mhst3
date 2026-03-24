@@ -1,7 +1,7 @@
-import { useRef, useState } from "react";
-import { useTranslation } from "react-i18next";
 import { cva } from "class-variance-authority";
 import { Filter, X } from "lucide-react";
+import { useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import {
   Dialog,
@@ -11,15 +11,15 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { SingleSelectDropdown } from "@/components/ui/SingleSelectDropdown";
 import { MultiSelectDropdown } from "@/components/ui/MultiSelectDropdown";
+import { SingleSelectDropdown } from "@/components/ui/SingleSelectDropdown";
+import { TRANSLATION_KEYS } from "@/i18n/keys";
 import {
   useFilterStore,
   type FilterKey,
   type HideCategory,
 } from "@/stores/filterStore";
-import { TRANSLATION_KEYS } from "@/i18n/keys";
-import { getObjectKeys, cn } from "@/utils/lib";
+import { cn, getObjectKeys } from "@/utils/lib";
 
 const { MONSTER, FILTER } = TRANSLATION_KEYS;
 
@@ -58,7 +58,7 @@ const filterSelectConfigs: FilterSelectConfig[] = [
 ];
 
 export default function FilterDialog() {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation(["common", "monster"]);
 
   const dialogVariants = cva("", {
     variants: {
@@ -158,7 +158,7 @@ export default function FilterDialog() {
                 onChange={(v) => store.setFilter(key, v)}
                 items={options.map((opt) => ({
                   value: opt,
-                  label: t(translationMap[opt]),
+                  label: t(translationMap[opt], { ns: "monster" }),
                 }))}
                 placeholder={t(FILTER.ALL_PLACEHOLDER)}
               />

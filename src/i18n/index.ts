@@ -5,14 +5,18 @@ import { initReactI18next } from "react-i18next";
 import type { Resources } from "./resources";
 
 import { common as enCommon } from "./locales/en/common";
+import { monster as enMonster } from "./locales/en/monster";
 import { common as itCommon } from "./locales/it/common";
+import { monster as itMonster } from "./locales/it/monster";
 
 const resources: Resources = {
   en: {
     common: enCommon,
+    monster: enMonster,
   },
   it: {
     common: itCommon,
+    monster: itMonster,
   },
 };
 
