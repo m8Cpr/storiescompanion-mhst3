@@ -191,9 +191,9 @@
         "condenseHeat": "technical"
       },
       "parts": {
-        "DEFAULT": ["pierce"],
-        "Body": ["pierce"],
-        "Nose": ["slash", "blunt", "pierce"]
+        "default": ["pierce"],
+        "body": ["pierce"],
+        "nose": ["slash", "blunt", "pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -250,7 +250,7 @@
         "default": "power"
       },
       "parts": {
-        "DEFAULT": ["slash", "pierce"]
+        "default": ["slash", "pierce"]
       },
       "elementalResistance": {
         "fire": -2,
@@ -297,23 +297,28 @@
         "default": "technical",
         "dragonMantle": "power"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "tail": ["slash"],
+        "chainbladeRight": ["pierce"],
+        "chainbladeLeft": ["pierce"]
+      },
       "elementalResistance": {
-        "nonElemental": 0,
-        "fire": 1,
-        "water": 1,
-        "thunder": 1,
-        "ice": 1,
+        "nonElemental": 2,
+        "fire": -2,
+        "water": -2,
+        "thunder": -2,
+        "ice": -2,
         "dragon": -2
       },
       "statusResistance": {
         "poison": -1,
-        "fireblight": 1,
         "paralysis": -1,
+        "fireblight": 1,
         "sleep": 1,
         "blast": -2,
-        "bleeding": 1,
-        "blind": -2
+        "bleeding": 1
       }
     },
     "monstie": {
@@ -355,9 +360,9 @@
         "enraged": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Stomach": ["slash", "blunt"],
-        "Legs": ["blunt"]
+        "default": ["slash", "blunt"],
+        "stomach": ["slash", "blunt"],
+        "legs": ["blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -422,11 +427,11 @@
         "bolt": "power"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Stomach": ["slash", "blunt"],
-        "Head": ["blunt"],
-        "Tail": ["slash", "blunt"],
-        "Wings": ["slash", "blunt"]
+        "default": ["slash", "blunt"],
+        "stomach": ["slash", "blunt"],
+        "head": ["blunt"],
+        "tail": ["slash", "blunt"],
+        "wings": ["slash", "blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -547,10 +552,10 @@
         "default": "power"
       },
       "parts": {
-        "Head": ["blunt"],
-        "Body": ["slash", "blunt"],
-        "Tail": ["slash"],
-        "Wings": ["slash"]
+        "head": ["blunt"],
+        "body": ["slash", "blunt"],
+        "tail": ["slash"],
+        "wings": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -589,8 +594,7 @@
     "trait": "mutated",
     "howToGet": "Reach Rank A for Rathalos in Habitat Restoration.",
     "related": {
-      "fights": [22],
-      "mutation": 103
+      "fights": [22]
     }
   },
   {
@@ -606,10 +610,10 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash", "pierce"],
-        "Stomach": ["slash", "pierce"],
-        "Spikes": ["blunt"],
-        "Tail": ["slash"]
+        "default": ["slash", "pierce"],
+        "stomach": ["slash", "pierce"],
+        "spikes": ["blunt"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -662,7 +666,7 @@
       }
     ],
     "related": {
-      "mutations": [109]
+      "mutations": [77]
     }
   },
   {
@@ -704,11 +708,11 @@
         "mudMantle": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Body": ["slash"],
-        "Head": ["blunt"],
-        "Tail": ["pierce"],
-        "Legs": ["slash", "blunt"]
+        "default": ["slash"],
+        "body": ["slash"],
+        "head": ["blunt"],
+        "tail": ["pierce"],
+        "legs": ["slash", "blunt"]
       },
       "elementalResistance": {
         "nonElemental": 2,
@@ -834,10 +838,10 @@
         "burrowed": "speed"
       },
       "parts": {
-        "DEFAULT": ["blunt"],
-        "Horn": ["blunt"],
-        "Legs": ["slash", "blunt", "pierce"],
-        "Tail": ["slash"]
+        "default": ["blunt"],
+        "horn": ["blunt"],
+        "legs": ["slash", "blunt", "pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -899,9 +903,9 @@
         "enraged": "technical"
       },
       "parts": {
-        "Stomach": ["blunt"],
-        "Head": ["blunt"],
-        "Legs": ["slash"]
+        "stomach": ["blunt"],
+        "head": ["blunt"],
+        "legs": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 1,
@@ -1110,7 +1114,7 @@
     "trait": "mutated",
     "howToGet": "Reach Rank S for Diablos in Habitat Restoration in Bountiful Dunes, Tarkuan.",
     "related": {
-      "mutation": 30
+      "mutation": 29
     }
   },
   {
@@ -1126,8 +1130,8 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["pierce"],
-        "Head": ["pierce"]
+        "default": ["pierce"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -1243,10 +1247,10 @@
         "battleBoundUnleashed": "technical"
       },
       "parts": {
-        "Torso": ["pierce"],
-        "Tail": ["slash"],
-        "Head (Battle Bound)": ["blunt"],
-        "Wings": ["pierce"]
+        "torso": ["pierce"],
+        "tail": ["slash"],
+        "headBattleBound": ["blunt"],
+        "wings": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 2,
@@ -1281,11 +1285,11 @@
         "slimeDepleted": "power"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Body": ["slash"],
-        "Head": ["slash"],
-        "Tail": ["pierce"],
-        "Fists": ["blunt"]
+        "default": ["slash"],
+        "body": ["slash"],
+        "head": ["slash"],
+        "tail": ["pierce"],
+        "fists": ["blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -1345,9 +1349,9 @@
         "default": "power"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Head": ["slash"],
-        "Legs": ["slash", "blunt", "pierce"]
+        "default": ["slash"],
+        "head": ["slash"],
+        "legs": ["slash", "blunt", "pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -1387,7 +1391,7 @@
     "howToGet": "Reach Rank A for Tigrex in Habitat Restoration.",
     "description": "This black-scaled subspecies of the Tigrex possesses astounding strength and extreme ferociousness. The might of its terrible roar surpasses even that of the regular species.",
     "related": {
-      "mutation": 119
+      "mutation": 87
     }
   },
   {
@@ -1457,7 +1461,7 @@
         "default": "power"
       },
       "parts": {
-        "DEFAULT": ["blunt"]
+        "default": ["blunt"]
       },
       "elementalResistance": {
         "fire": -1,
@@ -1590,7 +1594,7 @@
     "howToGet": "Reach Rank S in a habitat with 3 5-Star and above Monsters.",
     "description": "From among the ferocious Yian Garuga species stands a Deviant with even more love for the fight. Its one remaining eye burns with the fervor of the countless life-and-death struggles it has endured.",
     "related": {
-      "mutation": 126
+      "mutation": 92
     }
   },
   {
@@ -1606,10 +1610,10 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt", "pierce"],
-        "Body": ["slash", "blunt", "pierce"],
-        "Head": ["slash", "blunt", "pierce"],
-        "Legs": ["slash"]
+        "default": ["slash", "blunt", "pierce"],
+        "body": ["slash", "blunt", "pierce"],
+        "head": ["slash", "blunt", "pierce"],
+        "legs": ["slash"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -1658,10 +1662,10 @@
         "burrowed": "speed"
       },
       "parts": {
-        "DEFAULT": ["blunt"],
-        "Horn": ["blunt"],
-        "Legs": ["pierce"],
-        "Tail": ["slash"]
+        "default": ["blunt"],
+        "horn": ["blunt"],
+        "legs": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -1706,8 +1710,7 @@
       }
     ],
     "related": {
-      "fights": [72],
-      "mutations": [19]
+      "fights": [72]
     }
   },
   {
@@ -1759,7 +1762,7 @@
     "trait": "mutated",
     "howToGet": "Reach Rank S for Rathalos in Habitat Restoration in a habitat with 4 or more Flying Wyverns",
     "related": {
-      "mutation": 103
+      "mutation": 71
     }
   },
   {
@@ -1812,7 +1815,7 @@
     "howToGet": "Restore Rathian in a habitat with 3 or More Poisonous Monsters and reach Rank S for Rathian in Habitat Restoration",
     "description": "The tail of this Rathian Deviant bears venom of the deadliest kind. When expelled, the venom forms a majestic purple cloud of miasma that suffocates any unfortunate prey.",
     "related": {
-      "mutation": 104
+      "mutation": 72
     }
   },
   {
@@ -1976,10 +1979,10 @@
         "overheated": "power"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Head": ["blunt"],
-        "Arms": ["slash"],
-        "Reflector": ["pierce"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "arms": ["slash"],
+        "reflector": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -2013,10 +2016,10 @@
         "enraged": "power"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Head": ["pierce"],
-        "Wings": ["slash"],
-        "Tail": ["blunt"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["pierce"],
+        "wings": ["slash"],
+        "tail": ["blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -2097,7 +2100,7 @@
         "blind": "-"
       }
     },
-    "boss": ["feral"]
+    "boss": ["story", "feral"]
   },
   {
     "id": 40,
@@ -2113,10 +2116,10 @@
         "slimeDepleted": "power"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Head (Slime)": ["blunt"],
-        "Forelegs (Slime)": ["pierce"],
-        "Tail": ["slash"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "headSlime": ["blunt"],
+        "forelegsSlime": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -2274,10 +2277,10 @@
         "enraged": "speed"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Head": ["blunt"],
-        "Needle": ["pierce"],
-        "Legs": ["slash"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "needle": ["pierce"],
+        "legs": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 1,
@@ -2344,12 +2347,12 @@
         "rachnoids": "technical"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Hind Legs": ["blunt"],
-        "Back Spikes": ["blunt"],
-        "Forelegs": ["slash"],
-        "Chest": ["slash"],
-        "Cocoon": ["pierce"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "hindLegs": ["blunt"],
+        "backSpikes": ["blunt"],
+        "forelegs": ["slash"],
+        "chest": ["slash"],
+        "cocoon": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -2384,11 +2387,11 @@
         "balancingStoringPowder": "speed"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Head": ["pierce"],
-        "Stomach": ["blunt"],
-        "Tail": ["slash"],
-        "Throat": ["pierce"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["pierce"],
+        "stomach": ["blunt"],
+        "tail": ["slash"],
+        "throat": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -2608,10 +2611,10 @@
         "highVoltageCharge": "speed"
       },
       "parts": {
-        "Body": ["pierce"],
-        "Nose": ["slash", "blunt", "pierce"],
-        "Legs": ["slash", "blunt"],
-        "Tails": ["slash", "blunt"]
+        "body": ["pierce"],
+        "nose": ["slash", "blunt", "pierce"],
+        "legs": ["slash", "blunt"],
+        "tails": ["slash", "blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -2729,7 +2732,7 @@
         "default": "speed"
       },
       "parts": {
-        "DEFAULT": ["pierce"]
+        "default": ["pierce"]
       },
       "elementalResistance": {
         "fire": -2,
@@ -2763,10 +2766,10 @@
         "overheatedTail": "power"
       },
       "parts": {
-        "DEFAULT": ["blunt"],
-        "Body": ["blunt"],
-        "Head": ["slash", "pierce"],
-        "Tail": []
+        "default": ["blunt"],
+        "body": ["blunt"],
+        "head": ["slash", "pierce"],
+        "tail": []
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -2811,8 +2814,7 @@
       }
     ],
     "related": {
-      "fights": [33, 70],
-      "mutations": [69]
+      "fights": [33, 70]
     }
   },
   {
@@ -2825,10 +2827,17 @@
     "combatData": {
       "attackPatterns": {
         "default": "power",
-        "enragedFrostKnuckles": "technical",
-        "enragedFrostBlade": "speed"
+        "enragedFrostBlade": "speed",
+        "enragedFrostKnuckles": "technical"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "back": ["pierce"],
+        "forelegs": ["slash"],
+        "forelegsFrostKnuckles": ["blunt"],
+        "forelegsFrostBlade": ["slash"]
+      },
       "elementalResistance": {
         "nonElemental": 0,
         "fire": -2,
@@ -2839,12 +2848,11 @@
       },
       "statusResistance": {
         "poison": -1,
-        "fireblight": -2,
-        "paralysis": -1,
-        "sleep": 1,
+        "paralysis": -2,
+        "fireblight": 2,
+        "sleep": 2,
         "blast": -1,
-        "bleeding": -1,
-        "blind": -2
+        "bleeding": -1
       }
     },
     "monstie": {
@@ -2886,9 +2894,9 @@
         "enraged": "technical"
       },
       "parts": {
-        "Stomach": ["blunt"],
-        "Head": ["blunt"],
-        "Legs": ["slash"]
+        "stomach": ["blunt"],
+        "head": ["blunt"],
+        "legs": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 2,
@@ -2952,7 +2960,7 @@
         "default": "speed"
       },
       "parts": {
-        "DEFAULT": ["blunt"]
+        "default": ["blunt"]
       },
       "elementalResistance": {
         "fire": 1,
@@ -3088,8 +3096,7 @@
         "region": "Azuria"
       }
     ],
-    "description": "A legendary Poogie possessed of unmatched charisma and grandeur. Some farfetched tales claim this Poogie can summon all the other Poogies in the world with a single call.",
-    "boss": ["story"]
+    "description": "A legendary Poogie possessed of unmatched charisma and grandeur. Some farfetched tales claim this Poogie can summon all the other Poogies in the world with a single call."
   },
   {
     "id": 64,
@@ -3103,7 +3110,7 @@
         "default": "speed"
       },
       "parts": {
-        "DEFAULT": ["blunt"]
+        "default": ["blunt"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3136,10 +3143,10 @@
         "enraged": "power"
       },
       "parts": {
-        "DEFAULT": ["pierce"],
-        "Stomach": ["pierce"],
-        "Tail": ["slash"],
-        "Head": ["pierce"]
+        "default": ["pierce"],
+        "stomach": ["pierce"],
+        "tail": ["slash"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -3179,7 +3186,7 @@
     "howToGet": "Reach Rank A for Nargacuga in Habitat Restoration",
     "description": "The mottled green fur of this Nargacuga subspecies is speculated to have served as an excellent camouflage in its verdant habitat before it became endangered.",
     "related": {
-      "mutation": 93
+      "mutation": 61
     }
   },
   {
@@ -3195,10 +3202,10 @@
         "enraged": "technical"
       },
       "parts": {
-        "DEFAULT": ["blunt"],
-        "Body": ["blunt"],
-        "Back": ["pierce"],
-        "Tail": ["slash"]
+        "default": ["blunt"],
+        "body": ["blunt"],
+        "back": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -3297,7 +3304,7 @@
     "howToGet": "Reach Rank S with 4 Power Monsters in one habitat.",
     "description": "For a species already known for its absolute power, this Deviant commands even more compelling strength. Its name refers to the preternaturally sharp claws with which it decimates its prey.",
     "related": {
-      "mutation": 119
+      "mutation": 87
     }
   },
   {
@@ -3313,10 +3320,10 @@
         "enraged": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Stomach": ["slash"],
-        "Head": ["pierce"],
-        "Tail": ["slash"]
+        "default": ["slash"],
+        "stomach": ["slash"],
+        "head": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -3418,7 +3425,7 @@
     "howToGet": "Reach Rank S in a Habitat With 4 Sharp Appendage Monsters",
     "description": "Deep within this Glavenus Deviant burns a searing heat. A single sweep of its tail is enough to lay waste to everything before it, even incinerating entire mountains.",
     "related": {
-      "mutation": 58
+      "mutation": 37
     }
   },
   {
@@ -3435,10 +3442,10 @@
         "overheatedTail": "power"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Head": ["blunt"],
-        "Tail": ["slash"],
-        "Throat (Heated)": ["pierce"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "tail": ["slash"],
+        "throatHeated": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -3471,9 +3478,9 @@
         "default": "power"
       },
       "parts": {
-        "Head": ["pierce"],
-        "Torso": ["blunt"],
-        "Legs": ["slash"]
+        "head": ["pierce"],
+        "torso": ["blunt"],
+        "legs": ["slash"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3506,10 +3513,10 @@
         "default": "power"
       },
       "parts": {
-        "Horn": ["blunt"],
-        "Torso": ["pierce"],
-        "Leg": ["blunt"],
-        "Tail": ["slash"]
+        "horn": ["blunt"],
+        "torso": ["pierce"],
+        "leg": ["blunt"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3542,9 +3549,9 @@
         "default": "power"
       },
       "parts": {
-        "Head": ["pierce"],
-        "Legs": ["slash"],
-        "Tail": ["blunt"]
+        "head": ["pierce"],
+        "legs": ["slash"],
+        "tail": ["blunt"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3577,7 +3584,7 @@
         "default": "power"
       },
       "parts": {
-        "Head": ["pierce"]
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3610,9 +3617,9 @@
         "default": "power"
       },
       "parts": {
-        "Head": ["blunt"],
-        "Claws": ["pierce"],
-        "Tail": ["slash"]
+        "head": ["blunt"],
+        "claws": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3645,9 +3652,9 @@
         "default": "power"
       },
       "parts": {
-        "Leg": ["blunt"],
-        "Tail": ["slash"],
-        "Back": ["pierce"]
+        "leg": ["blunt"],
+        "tail": ["slash"],
+        "back": ["pierce"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3680,10 +3687,10 @@
         "default": "power"
       },
       "parts": {
-        "Head": ["blunt"],
-        "Wings": ["slash"],
-        "Leg": ["slash"],
-        "Tail": ["pierce"]
+        "head": ["blunt"],
+        "wings": ["slash"],
+        "leg": ["slash"],
+        "tail": ["pierce"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3716,9 +3723,9 @@
         "default": "power"
       },
       "parts": {
-        "Claw": ["slash"],
-        "Leg": ["pierce"],
-        "Skull": ["blunt"]
+        "claw": ["slash"],
+        "leg": ["pierce"],
+        "skull": ["blunt"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3784,10 +3791,10 @@
         "electrify": "technical"
       },
       "parts": {
-        "DEFAULT": ["blunt"],
-        "Body": ["blunt"],
-        "Tail": ["pierce"],
-        "Back": ["slash"]
+        "default": ["blunt"],
+        "body": ["blunt"],
+        "tail": ["pierce"],
+        "back": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -3827,7 +3834,7 @@
     "howToGet": "Reach Rank A for Lagiacrus in Habitat Restoration",
     "description": "A subspecies of Lagiacrus with a beautiful ivory carapace. Its blue shockspikes are far more evolved than that of the regular species and capable of storing vast amounts of electricity.",
     "related": {
-      "mutation": 85
+      "mutation": 54
     }
   },
   {
@@ -3843,11 +3850,11 @@
         "snowMantle": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Body": ["slash"],
-        "Head": ["blunt"],
-        "Tail": ["pierce"],
-        "Legs": ["slash", "blunt"]
+        "default": ["slash"],
+        "body": ["slash"],
+        "head": ["blunt"],
+        "tail": ["pierce"],
+        "legs": ["slash", "blunt"]
       },
       "elementalResistance": {
         "nonElemental": 1,
@@ -3931,9 +3938,9 @@
         "enraged": "power"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Body": ["slash", "blunt"],
-        "Head": ["pierce"]
+        "default": ["slash", "blunt"],
+        "body": ["slash", "blunt"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -3994,8 +4001,8 @@
         "rockPrep": "power"
       },
       "parts": {
-        "DEFAULT": ["slash", "pierce"],
-        "Rock": ["blunt"]
+        "default": ["slash", "pierce"],
+        "rock": ["blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4054,10 +4061,10 @@
         "electrify": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Body": ["slash"],
-        "Tail": ["blunt"],
-        "Back": ["blunt"]
+        "default": ["slash"],
+        "body": ["slash"],
+        "tail": ["blunt"],
+        "back": ["blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4111,7 +4118,7 @@
       }
     ],
     "related": {
-      "mutations": [80]
+      "mutations": [49]
     }
   },
   {
@@ -4128,10 +4135,10 @@
         "airborne": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Body": ["slash", "blunt"],
-        "Head": ["slash"],
-        "Wings": ["slash", "blunt"]
+        "default": ["slash", "blunt"],
+        "body": ["slash", "blunt"],
+        "head": ["slash"],
+        "wings": ["slash", "blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4188,7 +4195,7 @@
         "default": "power"
       },
       "parts": {
-        "DEFAULT": ["blunt"]
+        "default": ["blunt"]
       },
       "elementalResistance": {
         "fire": -2,
@@ -4277,23 +4284,28 @@
         "hellblightMantle": "power",
         "hellblightCritical": "technical"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "tail": ["slash"],
+        "torso": ["pierce"],
+        "forelegsHellfireblight": ["pierce"],
+        "headHellfireblight": ["blunt"],
+        "backHellfireblight": ["slash", "pierce", "blunt"]
+      },
       "elementalResistance": {
         "nonElemental": 0,
         "fire": 2,
-        "water": -2,
-        "thunder": -1,
+        "water": -1,
+        "thunder": -2,
         "ice": 0,
         "dragon": 1
       },
       "statusResistance": {
-        "poison": -1,
-        "fireblight": 1,
+        "poison": -2,
         "paralysis": -1,
         "sleep": 1,
-        "blast": 2,
-        "bleeding": 1,
-        "blind": -2
+        "blast": -2,
+        "bleeding": -2
       }
     },
     "monstie": {
@@ -4332,24 +4344,25 @@
     "combatData": {
       "attackPatterns": {
         "default": "speed",
-        "enraged": "technical"
+        "bloodRiteActive": "technical",
+        "exposed": "speed"
       },
       "parts": {},
       "elementalResistance": {
+        "nonElemental": -2,
         "fire": 0,
-        "water": 0,
+        "water": 2,
+        "thunder": 2,
         "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "dragon": -1
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -1,
+        "paralysis": -1,
+        "fireblight": -2,
+        "sleep": 1,
+        "blast": -1,
+        "bleeding": 1
       }
     },
     "monstie": {
@@ -4414,10 +4427,10 @@
         "bubbleMantleSlippery": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Body": ["slash", "blunt"],
-        "Legs": ["slash", "blunt"],
-        "Tail": ["pierce"]
+        "default": ["slash", "blunt"],
+        "body": ["slash", "blunt"],
+        "legs": ["slash", "blunt"],
+        "tail": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4457,14 +4470,14 @@
     "howToGet": "Force the Invasive Shogun Ceanataur to retreat to acquire a Mizutsune egg.",
     "description": "This leviathan has evolved in such a way as to be particularly mobile on land. After immobilizing its prey with bubbles produced by an internal fluid, it gracefully runs it down.",
     "related": {
-      "mutations": [115]
+      "mutations": [83]
     }
   },
   {
     "id": 92,
     "name": "Namielle",
     "habitats": [],
-    "rarity": 0,
+    "rarity": 9,
     "eggGroup": "elderDragon",
     "element": "water",
     "combatData": {
@@ -4474,10 +4487,10 @@
         "waterDepleted": "power"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Head": ["blunt"],
-        "Wings": ["pierce"],
-        "Tail": ["slash"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "wings": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4573,10 +4586,10 @@
         "enraged": "technical"
       },
       "parts": {
-        "DEFAULT": ["pierce"],
-        "Stomach": ["pierce"],
-        "Tail": ["pierce"],
-        "Head": ["pierce"]
+        "default": ["pierce"],
+        "stomach": ["pierce"],
+        "tail": ["pierce"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4622,7 +4635,7 @@
       }
     ],
     "related": {
-      "mutations": [65, 113]
+      "mutations": [44, 81]
     }
   },
   {
@@ -4638,12 +4651,12 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Stomach": ["slash"],
-        "Chest": ["pierce"],
-        "Head": ["blunt"],
-        "Needle": ["pierce"],
-        "Legs": ["slash"]
+        "default": ["slash"],
+        "stomach": ["slash"],
+        "chest": ["pierce"],
+        "head": ["blunt"],
+        "needle": ["pierce"],
+        "legs": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4768,9 +4781,9 @@
         "airborne": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Body": ["slash", "blunt"],
-        "Neck Pouch": ["pierce"]
+        "default": ["slash", "blunt"],
+        "body": ["slash", "blunt"],
+        "neckPouch": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4835,8 +4848,8 @@
         "enraged": "power"
       },
       "parts": {
-        "Body": ["slash"],
-        "Tail": ["blunt"]
+        "body": ["slash"],
+        "tail": ["blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4876,7 +4889,7 @@
     "howToGet": "Reach Rank B for Rathian with Habitat Restoration.",
     "description": "The vibrant pink scales of this Rathian subspecies belie a terrible ferocity. It deftly utilizes its toxic tail to corner prey, then closes in for the kill.",
     "related": {
-      "mutation": 104
+      "mutation": 72
     }
   },
   {
@@ -4892,10 +4905,10 @@
         "enraged": "power"
       },
       "parts": {
-        "DEFAULT": ["slash", "pierce"],
-        "Body": ["slash", "pierce"],
-        "Back": ["pierce"],
-        "Tail": ["pierce"]
+        "default": ["slash", "pierce"],
+        "body": ["slash", "pierce"],
+        "back": ["pierce"],
+        "tail": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -4924,9 +4937,6 @@
         "region": "Azuria"
       }
     ],
-    "related": {
-      "fights": [76]
-    },
     "monstie": {
       "attackType": "speed",
       "growth": "",
@@ -4941,6 +4951,9 @@
         "speed": 7,
         "initialRes": 0
       }
+    },
+    "related": {
+      "fights": [76]
     }
   },
   {
@@ -4957,10 +4970,10 @@
         "poisonActiveCrunch": "power"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Head": ["blunt"],
-        "Tail": ["slash", "blunt", "pierce"],
-        "Body": ["slash"]
+        "default": ["slash"],
+        "head": ["blunt"],
+        "tail": ["slash", "blunt", "pierce"],
+        "body": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5022,10 +5035,10 @@
         "enraged": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Stomach": ["slash"],
-        "Head": ["pierce"],
-        "Tail": ["slash"]
+        "default": ["slash"],
+        "stomach": ["slash"],
+        "head": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5083,9 +5096,9 @@
         "enraged": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Stomach": ["slash"],
-        "Head": ["pierce"]
+        "default": ["slash"],
+        "stomach": ["slash"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5208,10 +5221,10 @@
         "enragedAirborne": "speed"
       },
       "parts": {
-        "Head": ["blunt"],
-        "Body": ["slash", "blunt"],
-        "Tail": ["slash"],
-        "Wings": ["slash", "pierce"]
+        "head": ["blunt"],
+        "body": ["slash", "blunt"],
+        "tail": ["slash"],
+        "wings": ["slash", "pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5256,7 +5269,7 @@
       }
     ],
     "related": {
-      "mutations": [10, 31]
+      "mutations": [10, 30]
     }
   },
   {
@@ -5272,9 +5285,9 @@
         "enraged": "power"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Body": ["slash"],
-        "Tail": ["slash"]
+        "default": ["slash"],
+        "body": ["slash"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5320,7 +5333,7 @@
       }
     ],
     "related": {
-      "mutations": [32, 97]
+      "mutations": [31, 65]
     }
   },
   {
@@ -5336,9 +5349,9 @@
         "electricCharge": "power"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Body": ["slash", "blunt"],
-        "Head": ["pierce"]
+        "default": ["slash", "blunt"],
+        "body": ["slash", "blunt"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5395,7 +5408,7 @@
         "default": "technical"
       },
       "parts": {
-        "DEFAULT": ["blunt"]
+        "default": ["blunt"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -5425,24 +5438,24 @@
     "combatData": {
       "attackPatterns": {
         "default": "speed",
-        "enraged": "power"
+        "fulguriteMantleState": "power"
       },
       "parts": {},
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "water": -1,
+        "thunder": 2,
+        "ice": -2,
+        "dragon": 1
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -1,
+        "paralysis": 1,
+        "fireblight": -1,
+        "sleep": 1,
+        "blast": -2,
+        "bleeding": -1
       }
     },
     "monstie": {
@@ -5484,9 +5497,9 @@
         "enraged": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Stomach": ["slash"],
-        "Head": ["pierce"]
+        "default": ["slash"],
+        "stomach": ["slash"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5548,10 +5561,10 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash", "pierce"],
-        "Stomach": ["slash", "pierce"],
-        "Spikes": ["blunt"],
-        "Tail": ["slash"]
+        "default": ["slash", "pierce"],
+        "stomach": ["slash", "pierce"],
+        "spikes": ["blunt"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5613,11 +5626,11 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Stomach": ["slash"],
-        "Head": ["pierce"],
-        "Legs": ["slash", "blunt"],
-        "Wings": ["pierce"]
+        "default": ["slash"],
+        "stomach": ["slash"],
+        "head": ["pierce"],
+        "legs": ["slash", "blunt"],
+        "wings": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5738,12 +5751,12 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Stomach": ["slash"],
-        "Chest": ["pierce"],
-        "Head": ["blunt"],
-        "Needle": ["pierce"],
-        "Legs": ["slash"]
+        "default": ["slash"],
+        "stomach": ["slash"],
+        "chest": ["pierce"],
+        "head": ["blunt"],
+        "needle": ["pierce"],
+        "legs": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -5838,7 +5851,7 @@
     "howToGet": "Restore Nargacuga in a habitat with 3 Wind-Focused Monsters and reach Rank S for Nargacuga in Habitat Restoration",
     "description": "A Nargacuga Deviant that is covered in distinctive silver markings. Quick swings from its tail generate slicing gusts of wind, the phenomenal sight of which earned it its name.",
     "related": {
-      "mutation": 93
+      "mutation": 61
     }
   },
   {
@@ -5953,7 +5966,7 @@
     "howToGet": "Reach Rank S in Habitat Restoration with a Zinogre in the same Habitat.",
     "description": "A Mizutsune Deviant that has been rendered blind by past conflicts. Such an affliction would normally spell the end for a monster, but it has been adapted by using bubbles for perception.",
     "related": {
-      "mutation": 91
+      "mutation": 60
     }
   },
   {
@@ -5969,10 +5982,10 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["pierce"],
-        "Body": ["pierce"],
-        "Head": ["blunt"],
-        "Tail": ["slash"]
+        "default": ["pierce"],
+        "body": ["pierce"],
+        "head": ["blunt"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6012,7 +6025,7 @@
     "howToGet": "Reach Rank A for Zinogre in Habitat Restoration.",
     "description": "A subspecies of Zinogre endowned with dragon-element power. Its jet-black shell and silver-white fur combine with the red glow distinctive of dragons to instill fear in all who see it.",
     "related": {
-      "mutation": 128
+      "mutation": 94
     }
   },
   {
@@ -6128,7 +6141,7 @@
     "howToGet": "Reach Rank S in a habitat with a a Mizutsune.",
     "description": "A Zinogre Deviant cloaked in dazzling, golden electricity. With its command over blinding lights and crash bolts of lightning, the title \"Thunderlord\" is certainly appropriate.",
     "related": {
-      "mutation": 128
+      "mutation": 94
     }
   },
   {
@@ -6144,9 +6157,9 @@
         "enraged": "power"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Head": ["slash"],
-        "Legs": ["slash", "blunt", "pierce"]
+        "default": ["slash"],
+        "head": ["slash"],
+        "legs": ["slash", "blunt", "pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6192,7 +6205,7 @@
       }
     ],
     "related": {
-      "mutations": [24, 67]
+      "mutations": [23, 46]
     }
   },
   {
@@ -6208,10 +6221,10 @@
         "electricCharge": "technical"
       },
       "parts": {
-        "DEFAULT": ["slash", "blunt"],
-        "Body": ["slash", "blunt"],
-        "Legs": ["slash"],
-        "Tail": ["slash", "blunt"]
+        "default": ["slash", "blunt"],
+        "body": ["slash", "blunt"],
+        "legs": ["slash"],
+        "tail": ["slash", "blunt"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6273,11 +6286,11 @@
         "Flying": "power"
       },
       "parts": {
-        "Head": ["slash", "blunt"],
-        "Body": ["slash", "blunt"],
-        "Tail": ["slash"],
-        "Wings": ["pierce"],
-        "Frost Scale": ["blunt"]
+        "head": ["slash", "blunt"],
+        "body": ["slash", "blunt"],
+        "tail": ["slash"],
+        "wings": ["pierce"],
+        "frostScale": ["blunt"]
       },
       "elementalResistance": {
         "fire": -1,
@@ -6325,7 +6338,7 @@
         "enraged": "power"
       },
       "parts": {
-        "DEFAULT": ["slash"]
+        "default": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6385,7 +6398,7 @@
         "default": "speed"
       },
       "parts": {
-        "DEFAULT": ["slash", "pierce"]
+        "default": ["slash", "pierce"]
       },
       "elementalResistance": {
         "fire": -1,
@@ -6418,11 +6431,11 @@
         "openMouth": "speed"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Mouth": ["slash", "pierce", "blunt"],
-        "Valve": ["blunt"],
-        "Right Tentacle": ["slash"],
-        "Left Tentacle": ["pierce"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "mouth": ["slash", "pierce", "blunt"],
+        "valve": ["blunt"],
+        "rightTentacle": ["slash"],
+        "leftTentacle": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6441,7 +6454,7 @@
         "bleeding": -1
       }
     },
-    "boss": ["elderDragon"],
+    "boss": ["elderDragon", "story"],
     "related": {
       "fights": [125]
     }
@@ -6459,11 +6472,11 @@
         "openMouth": "speed"
       },
       "parts": {
-        "Main Body": ["slash", "pierce", "blunt"],
-        "Mouth": ["slash", "pierce", "blunt"],
-        "Valve": ["blunt"],
-        "Right Tentacle": ["slash"],
-        "Left Tentacle": ["pierce"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "mouth": ["slash", "pierce", "blunt"],
+        "valve": ["blunt"],
+        "rightTentacle": ["slash"],
+        "leftTentacle": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6497,9 +6510,9 @@
         "enraged": "power"
       },
       "parts": {
-        "DEFAULT": ["slash"],
-        "Head": ["slash"],
-        "Tail": ["slash"]
+        "default": ["slash"],
+        "head": ["slash"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6548,8 +6561,7 @@
       }
     ],
     "related": {
-      "fights": [79],
-      "mutations": [28]
+      "fights": [79]
     }
   },
   {
@@ -6565,8 +6577,8 @@
         "enraged": "speed"
       },
       "parts": {
-        "DEFAULT": ["pierce"],
-        "Head": ["pierce"]
+        "default": ["pierce"],
+        "head": ["pierce"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6632,10 +6644,10 @@
         "thunderSupercharge": "power"
       },
       "parts": {
-        "DEFAULT": ["pierce"],
-        "Body": ["pierce"],
-        "Head": ["pierce"],
-        "Tail": ["slash"]
+        "default": ["pierce"],
+        "body": ["pierce"],
+        "head": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "nonElemental": 0,
@@ -6675,7 +6687,7 @@
     "howToGet": "Repel Invasive Odogaron to acquire a Zinogre egg.",
     "description": "Pale-blue sparks course across this Fanged Wyvern's body. With the help of its electrified carapace and shockfur, it can amass profound store of electricity to then enter a supercharged state.",
     "related": {
-      "mutations": [116, 118]
+      "mutations": [84, 86]
     }
   }
 ]
