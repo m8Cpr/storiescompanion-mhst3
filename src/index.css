@@ -8,6 +8,8 @@
   --color-text-h: var(--text-h);
   --color-bg: var(--bg);
   --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
   --color-code-bg: var(--code-bg);
   --color-accent: var(--accent);
   --color-accent-bg: var(--accent-bg);
@@ -26,6 +28,9 @@
   --accent-border: rgba(170, 59, 255, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --muted: #ececf0;
+  --muted-foreground: #717182;
 
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
@@ -60,6 +65,8 @@
   --shadow:
     rgba(0, 0, 0, 0.4) 0 10px 15px -3px,
     rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
 }
 
 #root {
