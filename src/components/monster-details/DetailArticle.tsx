@@ -2,28 +2,34 @@ import { cn } from "@/utils/lib";
 import type { LucideIcon } from "lucide-react";
 import type { ReactNode } from "react";
 
-interface DetailSectionProps {
+interface DetailArticleProps {
   icon: LucideIcon;
   title: string;
   description?: string;
-  variant?: "card" | "plain";
+  variant?: "card" | "section" | "plain";
   className?: string;
   children: ReactNode;
 }
 
 const VARIANT_STYLES = {
   card: cn("space-y-4", "border border-border rounded-xl bg-card", "p-6"),
+  section: cn(
+    "flex flex-col gap-6",
+    "[&>section:not(:last-child)]:pb-6 [&>section:not(:last-child)]:border-b [&>section:not(:last-child)]:border-border",
+    "border border-border rounded-xl bg-card",
+    "p-6 md:p-8"
+  ),
   plain: "space-y-2",
 } as const;
 
-export function CombatArticle({
+export function DetailArticle({
   icon: Icon,
   title,
   description,
   variant = "card",
   className,
   children,
-}: DetailSectionProps) {
+}: DetailArticleProps) {
   return (
     <article className={cn(VARIANT_STYLES[variant], className)}>
       <header className="flex items-center gap-2">
