@@ -1,3 +1,9 @@
+## [0.2.2](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.2.1...v0.2.2) (2026-03-25)
+
+### Bug Fixes
+
+- filter label for hidden categories ([d73a947](https://github.com/m8Cpr/storiescompanion-mhst3/commit/d73a947fe408439628f02f7393e6e611c39958f2))
+
 ## [0.2.1](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.2.0...v0.2.1) (2026-03-24)
 
 ### Bug Fixes
