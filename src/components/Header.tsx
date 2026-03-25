@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import FilterDialog from "@/components/FilterDialog";
+import HeaderSearch from "@/components/HeaderSearch";
+import ThemeToggle from "@/components/ThemeToggle";
+import { TRANSLATION_KEYS } from "@/i18n/keys";
+import { cn } from "@/utils/lib";
 import { BookOpen } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { cn } from "@/utils/lib";
-import { TRANSLATION_KEYS } from "@/i18n/keys";
-import ThemeToggle from "@/components/ThemeToggle";
-import FilterDialog from "@/components/FilterDialog";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const { t } = useTranslation("common");
@@ -33,6 +34,7 @@ export default function Header() {
         </span>
       </Link>
       <span className="flex items-center gap-2">
+        <HeaderSearch />
         <FilterDialog />
         <ThemeToggle />
       </span>

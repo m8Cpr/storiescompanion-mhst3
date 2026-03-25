@@ -1,14 +1,18 @@
+import { useRef } from "react";
 import { Trans, useTranslation } from "react-i18next";
 
 import MonsterCard from "@/components/MonsterCard";
 import SearchBar from "@/components/SearchBar";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 import { useFilteredMonsters } from "@/hooks/useFilteredMonsters";
+import { useHomeSearchObserver } from "@/hooks/useHomeSearchObserver";
 import { cn } from "@/utils/lib";
 
 export default function Home() {
   const { t } = useTranslation("common");
   const monsterList = useFilteredMonsters();
+  const searchFormRef = useRef<HTMLFormElement>(null);
+  useHomeSearchObserver(searchFormRef);
 
   return (
     <>
@@ -24,6 +28,7 @@ export default function Home() {
 
       <section>
         <form
+          ref={searchFormRef}
           onSubmit={(e) => e.preventDefault()}
           className="block max-w-xl relative mx-auto"
         >

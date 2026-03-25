@@ -11,9 +11,13 @@ const { MONSTER } = TRANSLATION_KEYS;
 
 type MonsterCardProps = {
   monster: Monster;
+  rounded?: boolean;
 };
 
-export default function MonsterCard({ monster }: MonsterCardProps) {
+export default function MonsterCard({
+  monster,
+  rounded = true,
+}: MonsterCardProps) {
   const { t } = useTranslation("monster");
   const baseAttack = monster.monstie?.attackType;
   const ElementIcon = ELEMENT_ICONS[monster.element];
@@ -27,8 +31,9 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
     >
       <div
         className={cn(
-          "rounded-lg border border-(--border) bg-(--bg) p-5",
-          "hover:bg-(--accent-bg) hover:shadow-(--shadow)"
+          rounded && "rounded-lg",
+          "border border-(--border) bg-(--bg) p-5",
+          "hover:bg-(--accent-bg) hover:shadow-shadow"
         )}
       >
         <div className="mb-3 flex items-start justify-between gap-3">
