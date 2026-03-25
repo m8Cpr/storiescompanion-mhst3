@@ -248,6 +248,7 @@ export const TRANSLATION_KEYS = {
     },
     SELECTED_COUNT: "filter.selectedCount",
     CLEAR_ALL: "filter.clearAll",
-    ALL_PLACEHOLDER: "filter.allPlaceholder",
+    ALL_SELECTED: "filter.allSelected",
+    NONE_SELECTED: "filter.noneSelected",
   },
 } as const;

@@ -160,14 +160,15 @@ export default function FilterDialog() {
                   value: opt,
                   label: t(translationMap[opt], { ns: "monster" }),
                 }))}
-                placeholder={t(FILTER.ALL_PLACEHOLDER)}
+                placeholder={t(FILTER.ALL_SELECTED)}
               />
             )
           )}
 
           <MultiSelectDropdown
             label={t(FILTER.HIDE_CATEGORIES)}
-            placeholder={t(FILTER.ALL_PLACEHOLDER)}
+            placeholder={t(FILTER.NONE_SELECTED)}
+            allLabel={t(FILTER.ALL_SELECTED)}
             items={hideCategoryItems}
             selectedValues={hiddenCategories}
             onChange={setHiddenCategories}

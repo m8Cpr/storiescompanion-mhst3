@@ -40,5 +40,6 @@ export const common = {
   [FILTER.SELECTED_COUNT + "_one"]: "{{count}} selected",
   [FILTER.SELECTED_COUNT + "_other"]: "{{count}} selected",
   [FILTER.CLEAR_ALL]: "Clear All",
-  [FILTER.ALL_PLACEHOLDER]: "All",
+  [FILTER.ALL_SELECTED]: "All",
+  [FILTER.NONE_SELECTED]: "None",
 };
