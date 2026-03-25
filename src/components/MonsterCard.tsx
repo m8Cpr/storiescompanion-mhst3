@@ -11,9 +11,13 @@ const { MONSTER } = TRANSLATION_KEYS;
 
 type MonsterCardProps = {
   monster: Monster;
+  rounded?: boolean;
 };
 
-export default function MonsterCard({ monster }: MonsterCardProps) {
+export default function MonsterCard({
+  monster,
+  rounded = true,
+}: MonsterCardProps) {
   const { t } = useTranslation("monster");
   const baseAttack = monster.monstie?.attackType;
   const ElementIcon = ELEMENT_ICONS[monster.element];
@@ -27,21 +31,22 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
     >
       <div
         className={cn(
-          "rounded-lg border border-(--border) bg-(--bg) p-5",
-          "hover:bg-(--accent-bg) hover:shadow-(--shadow)"
+          rounded && "rounded-lg",
+          "border border-border bg-bg p-5",
+          "hover:bg-accent-bg hover:shadow-shadow"
         )}
       >
         <div className="mb-3 flex items-start justify-between gap-3">
           <span>
             <h2
               className={cn(
-                "font-medium text-(--text-h)",
-                "transition-colors group-hover:text-(--accent)"
+                "font-medium text-text-h",
+                "transition-colors group-hover:text-accent"
               )}
             >
               {monster.name}
             </h2>
-            <p className="text-sm text-(--text)">
+            <p className="text-sm text-text">
               {t(MONSTER.EGG_GROUP[monster.eggGroup])}
             </p>
           </span>
@@ -52,7 +57,7 @@ export default function MonsterCard({ monster }: MonsterCardProps) {
           </span>
         </div>
 
-        <div className="grid grid-cols-7 items-center gap-2 text-xs text-(--text)">
+        <div className="grid grid-cols-7 items-center gap-2 text-xs text-text">
           <Badge className="col-span-3 lg:col-span-4">
             {t(MONSTER.ATTACK_PATTERN_COUNT, { count: patternCount })}
           </Badge>
