@@ -15,10 +15,12 @@ export const common = {
     "StoriesCompanion è un'applicazione creata dalla community e non affiliata né approvata da Capcom. Tutti i marchi appartengono ai rispettivi proprietari.",
   [COMMON.NO_RESULTS]: "Nessun mostro corrisponde ai criteri di ricerca.",
   [COMMON.SEARCH_PLACEHOLDER]: "Cerca mostri per nome...",
+  [COMMON.SEARCH_BUTTON]: "Cerca",
   [COMMON.DATA_DISCLAIMER_TITLE]: "Dati Incompleti",
   [COMMON.DATA_DISCLAIMER]:
     "Alcuni dati o pattern di attacco per questo mostro potrebbero essere mancanti o imprecisi, la raccolta dati è ancora in corso.",
   [COMMON.DATA_NOT_AVAILABLE]: "Non ci sono dati disponibili.",
+  [COMMON.CLEAR_SEARCH]: "Cancella ricerca",
   [COMMON.NOT_FOUND]: "Pagina non trovata",
   [COMMON.BACK_TO_HOME]: "Torna alla home",
   [COMMON.APP_FOOTER]:
