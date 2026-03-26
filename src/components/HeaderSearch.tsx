@@ -1,16 +1,12 @@
 import { Search, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { createPortal } from "react-dom";
 import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router-dom";
-
 import SearchResultsDropdown from "@/components/SearchResultsDropdown";
 import { useAnimatedMount } from "@/hooks/useAnimatedMount";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { useDebouncedValue } from "@/hooks/useDebouncedValue";
 import { useMobileSearchLayout } from "@/hooks/useMobileSearchLayout";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
-import { useUIStore } from "@/stores/uiStore";
 import { cn } from "@/utils/lib";
 
 const DEBOUNCE_MS = 300;
@@ -70,11 +66,12 @@ function SearchInput({
   );
 }
 
-export default function HeaderSearch() {
+type HeaderSearchProps = {
+  shouldRender: boolean;
+};
+
+export default function HeaderSearch({ shouldRender }: HeaderSearchProps) {
   const { t } = useTranslation("common");
-  const { pathname } = useLocation();
-  const isHomePage = pathname === "/";
-  const isHomeSearchVisible = useUIStore((s) => s.isHomeSearchVisible);
 
   const [isExpanded, setIsExpanded] = useState(false);
   const [inputValue, setInputValue] = useState("");
@@ -83,10 +80,6 @@ export default function HeaderSearch() {
   const containerRef = useRef<HTMLElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const mobileInputRef = useRef<HTMLInputElement>(null);
-  const mobileBarRef = useRef<HTMLDivElement>(null);
-  const backdropRoot = document.getElementById("main");
-
-  const shouldRender = isHomePage ? !isHomeSearchVisible : true;
   const visibility = useAnimatedMount(shouldRender);
   const showDropdown = isExpanded && !!debouncedQuery;
 
@@ -97,7 +90,7 @@ export default function HeaderSearch() {
 
   const backdrop = useAnimatedMount(isExpanded);
   useClickOutside(containerRef, collapse, isExpanded);
-  useMobileSearchLayout(isExpanded, containerRef, mobileBarRef);
+  useMobileSearchLayout(isExpanded);
 
   useEffect(() => {
     if (isExpanded) {
@@ -111,15 +104,18 @@ export default function HeaderSearch() {
   const placeholder = t(TRANSLATION_KEYS.COMMON.SEARCH_PLACEHOLDER);
   const clearLabel = t(TRANSLATION_KEYS.COMMON.CLEAR_SEARCH);
 
-  function handleKeyDown(e: React.KeyboardEvent) {
-    if (e.key === "Escape") collapse();
-  }
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent) => {
+      if (e.key === "Escape") collapse();
+    },
+    [collapse]
+  );
 
   return (
     <search
       ref={containerRef}
       className={cn(
-        "relative",
+        "sm:relative",
         visibility.visible
           ? "animate-in fade-in-0 zoom-in-95"
           : "animate-out fade-out-0 zoom-out-95 fill-mode-forwards",
@@ -132,7 +128,10 @@ export default function HeaderSearch() {
       <button
         type="button"
         onClick={() => setIsExpanded(true)}
-        className="rounded-lg border border-border bg-bg p-2 transition-colors hover:bg-accent-bg"
+        className={cn(
+          "rounded-lg border border-border bg-bg p-2",
+          "transition-colors hover:bg-accent-bg"
+        )}
         aria-label={t(TRANSLATION_KEYS.COMMON.SEARCH_BUTTON)}
         aria-expanded={isExpanded}
       >
@@ -172,8 +171,10 @@ export default function HeaderSearch() {
       {/* Mobile expanded - fixed panel below header */}
       {isExpanded && (
         <div
-          ref={mobileBarRef}
-          className="sm:hidden fixed left-0 z-50 w-full px-4 pt-2"
+          className={cn(
+            "sm:hidden absolute left-0 top-full z-50",
+            "w-full px-4 pt-2"
+          )}
         >
           <div
             className={cn(
@@ -204,22 +205,19 @@ export default function HeaderSearch() {
       )}
 
       {/* Animated backdrop */}
-      {backdrop.mounted &&
-        backdropRoot &&
-        createPortal(
-          <div
-            className={cn(
-              "sm:hidden absolute inset-0 z-30 bg-black/30",
-              backdrop.visible
-                ? "animate-in fade-in-0"
-                : "animate-out fade-out-0",
-              "duration-300 fill-mode-forwards"
-            )}
-            onClick={collapse}
-            onAnimationEnd={backdrop.onAnimationEnd}
-          />,
-          backdropRoot
-        )}
+      {backdrop.mounted && (
+        <div
+          className={cn(
+            "sm:hidden absolute top-full inset-x-0 h-screen z-30 bg-black/30",
+            backdrop.visible
+              ? "animate-in fade-in-0"
+              : "animate-out fade-out-0",
+            "duration-300 fill-mode-forwards"
+          )}
+          onClick={collapse}
+          onAnimationEnd={backdrop.onAnimationEnd}
+        />
+      )}
     </search>
   );
 }
