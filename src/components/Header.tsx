@@ -2,20 +2,24 @@ import FilterDialog from "@/components/FilterDialog";
 import HeaderSearch from "@/components/HeaderSearch";
 import ThemeToggle from "@/components/ThemeToggle";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
+import { useUIStore } from "@/stores/uiStore";
 import { cn } from "@/utils/lib";
 import { BookOpen } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
   const { t } = useTranslation("common");
+  const { pathname } = useLocation();
+  const isHomeSearchVisible = useUIStore((s) => s.isHomeSearchVisible);
+  const shouldRenderSearch = pathname === "/" ? !isHomeSearchVisible : true;
 
   return (
     <header
       className={cn(
         "flex w-full",
         "sticky top-0 z-50",
-        "border-b border-(--border) bg-(--bg)/50 backdrop-blur-sm",
+        "border-b border-border bg-bg/50 backdrop-blur-sm",
         "px-4 lg:px-16 py-4 flex items-center justify-between"
       )}
     >
@@ -34,7 +38,7 @@ export default function Header() {
         </span>
       </Link>
       <span className="flex items-center gap-2">
-        <HeaderSearch />
+        <HeaderSearch shouldRender={shouldRenderSearch} />
         <FilterDialog />
         <ThemeToggle />
       </span>
