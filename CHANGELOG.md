@@ -1,3 +1,9 @@
+## [0.4.1](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.4.0...v0.4.1) (2026-03-26)
+
+### Bug Fixes
+
+- **ci:** deploy workflow runs on latest main ref instead of trigger ([ca6627c](https://github.com/m8Cpr/storiescompanion-mhst3/commit/ca6627cdcd026a4c28b3acea0a9b17fe677c2c7f))
+
 ## [0.4.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.3.0...v0.4.0) (2026-03-26)
 
 ### Features
