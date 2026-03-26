@@ -1,7 +1,7 @@
-import { Outlet } from "react-router-dom";
 import Header from "@/components/Header";
-import { useTranslation } from "react-i18next";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
+import { useTranslation } from "react-i18next";
+import { Outlet } from "react-router-dom";
 
 export default function MainLayout() {
   const { t } = useTranslation("common");
@@ -16,8 +16,12 @@ export default function MainLayout() {
         <p className="text-xs">{t(TRANSLATION_KEYS.COMMON.DISCLAIMER)}</p>
         <p className="text-xs text-muted-foreground">
           v{__APP_VERSION__}
-          {__GIT_BRANCH__ !== "main" &&
-            ` · ${__GIT_BRANCH__} · ${__GIT_HASH__}`}
+          {__GIT_BRANCH__ !== "main" && (
+            <>
+              <br />
+              {`${__GIT_BRANCH__} · ${__GIT_COMMIT__} · ${__GIT_HASH__}`}
+            </>
+          )}
         </p>
       </footer>
     </>
