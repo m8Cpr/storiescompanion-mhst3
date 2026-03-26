@@ -1,3 +1,13 @@
+## [0.3.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.2.2...v0.3.0) (2026-03-26)
+
+### Features
+
+- display version in footer ([c9737ed](https://github.com/m8Cpr/storiescompanion-mhst3/commit/c9737eddc14694b9ad5f492d58b3519c94bdbb70))
+
+### Miscellaneous
+
+- **ci:** pipelines should not trigger on PRs or chores ([5384c9c](https://github.com/m8Cpr/storiescompanion-mhst3/commit/5384c9c3bba949ca53423a0ace821f5677b3d2f5))
+
 ## [0.2.2](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.2.1...v0.2.2) (2026-03-25)
 
 ### Bug Fixes
