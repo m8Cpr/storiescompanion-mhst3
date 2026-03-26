@@ -21,7 +21,10 @@ function getGitInfo() {
 const { branch, hash } = getGitInfo();
 
 // https://vite.dev/config/
+const isProd = process.env.NODE_ENV === "production";
+
 export default defineConfig({
+  base: isProd ? "/storiescompanion-mhst3/" : "/",
   server: {
     host: "::",
     port: 8000,
