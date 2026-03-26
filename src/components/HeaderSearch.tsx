@@ -214,7 +214,11 @@ export default function HeaderSearch({ shouldRender }: HeaderSearchProps) {
               : "animate-out fade-out-0",
             "duration-300 fill-mode-forwards"
           )}
-          onClick={collapse}
+          aria-hidden="true"
+          onClick={(e) => {
+            e.stopPropagation();
+            collapse();
+          }}
           onAnimationEnd={backdrop.onAnimationEnd}
         />
       )}
