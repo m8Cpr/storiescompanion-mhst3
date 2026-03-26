@@ -22,7 +22,7 @@ function AppRoutes() {
 
 function App() {
   return (
-    <BrowserRouter basename="/storiescompanion-mhst3">
+    <BrowserRouter basename={__BASE_PATH__}>
       <AppRoutes />
     </BrowserRouter>
   );

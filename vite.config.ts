@@ -1,9 +1,9 @@
-import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
-import svgr from "vite-plugin-svgr";
-import path from "path";
 import { execSync } from "child_process";
+import path from "path";
+import { defineConfig } from "vite";
+import svgr from "vite-plugin-svgr";
 import pkg from "./package.json";
 
 function getGitInfo() {
@@ -18,26 +18,27 @@ function getGitInfo() {
   }
 }
 
-const { branch, hash } = getGitInfo();
+export default defineConfig(({ mode }) => {
+  const base = mode === "production" ? "/storiescompanion-mhst3/" : "/";
+  const { branch, hash } = getGitInfo();
 
-// https://vite.dev/config/
-const isProd = process.env.NODE_ENV === "production";
-
-export default defineConfig({
-  base: isProd ? "/storiescompanion-mhst3/" : "/",
-  server: {
-    host: "::",
-    port: 8000,
-  },
-  plugins: [tailwindcss(), svgr(), react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
+  return {
+    base,
+    server: {
+      host: "::",
+      port: 8000,
     },
-  },
-  define: {
-    __APP_VERSION__: JSON.stringify(pkg.version),
-    __GIT_BRANCH__: JSON.stringify(branch),
-    __GIT_HASH__: JSON.stringify(hash),
-  },
+    plugins: [tailwindcss(), svgr(), react()],
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
+    },
+    define: {
+      __APP_VERSION__: JSON.stringify(pkg.version),
+      __GIT_BRANCH__: JSON.stringify(branch),
+      __GIT_HASH__: JSON.stringify(hash),
+      __BASE_PATH__: JSON.stringify(base),
+    },
+  };
 });
