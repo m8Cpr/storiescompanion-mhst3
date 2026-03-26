@@ -1,3 +1,19 @@
+## [0.4.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.3.0...v0.4.0) (2026-03-26)
+
+### Features
+
+- gh pages release ([885c4e0](https://github.com/m8Cpr/storiescompanion-mhst3/commit/885c4e06a809aa8e2b3174e0a38852a278b6c489))
+
+### Bug Fixes
+
+- **development:** global base url and routing ([eababca](https://github.com/m8Cpr/storiescompanion-mhst3/commit/eababcafea65a17bc5db871777aaf417b71cad34))
+- missing favicon ([a80e2d1](https://github.com/m8Cpr/storiescompanion-mhst3/commit/a80e2d1acabe90ef494ccf9c7d570f2666dbe902))
+
+### Miscellaneous
+
+- **ci:** gh pages actions ([99b78e3](https://github.com/m8Cpr/storiescompanion-mhst3/commit/99b78e3d4621f83ba12a5700d79e32442e908d61))
+- now displaying last commit tile as well ([221a7c6](https://github.com/m8Cpr/storiescompanion-mhst3/commit/221a7c677c9cdfdaf04864511c922139c596933e))
+
 ## [0.3.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.2.2...v0.3.0) (2026-03-26)
 
 ### Features
