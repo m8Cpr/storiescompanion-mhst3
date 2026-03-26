@@ -14,6 +14,11 @@ export default function MainLayout() {
       <footer className="w-full border-t flex items-center text-center gap-2 flex-col py-2 border-(--border)">
         <p className="text-sm">{t(TRANSLATION_KEYS.COMMON.APP_FOOTER)}</p>
         <p className="text-xs">{t(TRANSLATION_KEYS.COMMON.DISCLAIMER)}</p>
+        <p className="text-xs text-muted-foreground">
+          v{__APP_VERSION__}
+          {__GIT_BRANCH__ !== "main" &&
+            ` · ${__GIT_BRANCH__} · ${__GIT_HASH__}`}
+        </p>
       </footer>
     </>
   );
