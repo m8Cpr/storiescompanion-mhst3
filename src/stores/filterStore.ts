@@ -41,7 +41,6 @@ const defaults: FilterState = {
 
 const initialState: FilterState = {
   ...defaults,
-  habitat: "azuria",
   hiddenCategories: ["story", "invasive", "feral", "elderDragon", "endangered"],
 };
 
