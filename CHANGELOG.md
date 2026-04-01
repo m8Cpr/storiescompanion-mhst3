@@ -1,3 +1,24 @@
+## [0.5.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.4.1...v0.5.0) (2026-04-01)
+
+### Features
+
+- dynamic searchbar in header ([16fbe20](https://github.com/m8Cpr/storiescompanion-mhst3/commit/16fbe206d2a822978c62bbdf1fcc17012ec22234))
+- monster name in document title ([0e46b27](https://github.com/m8Cpr/storiescompanion-mhst3/commit/0e46b277065e7b9f23f3e04536c50eb32e0daf86))
+
+### Bug Fixes
+
+- **backdrop:** aria labels and double click event ([667b1c2](https://github.com/m8Cpr/storiescompanion-mhst3/commit/667b1c25d418cfc9ac5fdd24c9a1eef55c3d77b1))
+- updated monsters data ([9a16e78](https://github.com/m8Cpr/storiescompanion-mhst3/commit/9a16e78c4f66d6a920128e8cfded19554b4f2221))
+
+### Miscellaneous
+
+- **filters:** removed azuria as default filter ([e961955](https://github.com/m8Cpr/storiescompanion-mhst3/commit/e9619556849f740aecd8c813f2116417ea271ae8))
+- generic hooks ([cdcb494](https://github.com/m8Cpr/storiescompanion-mhst3/commit/cdcb49424998656c87d0590b7a088adeea3809ba))
+- instant scroll to top when navigating ([bb2d033](https://github.com/m8Cpr/storiescompanion-mhst3/commit/bb2d033c126a7daeba930dfd39552a76c271515d))
+- removed mhs2 growth monster key ([c646449](https://github.com/m8Cpr/storiescompanion-mhst3/commit/c6464494e84b74941dcbf48c711bc7c940c93706))
+- **searchbar:** improvements ([853df51](https://github.com/m8Cpr/storiescompanion-mhst3/commit/853df51e6e447fa998161a421715b60b18cad492))
+- translations for searchbar accessibility ([3bd6d74](https://github.com/m8Cpr/storiescompanion-mhst3/commit/3bd6d7409660be8cb272f2cdabcd282bfcb2ff6c))
+
 ## [0.4.1](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.4.0...v0.4.1) (2026-03-26)
 
 ### Bug Fixes
