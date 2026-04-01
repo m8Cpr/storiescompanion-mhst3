@@ -55,7 +55,7 @@
     ],
     "description": "This Fanged Beast affixes molten metals to its carapace, and the friction resulting from those minerals rubbing together allows it to accumulate heat and cause explosions.",
     "related": {
-      "fights": [36]
+      "fights": [37]
     }
   },
   {
@@ -118,7 +118,7 @@
     ],
     "description": "A Bird Wyvern often seen standing on one leg, giving it the unique appearance of a parasol. Highly territorial, it intimidates trespassers with outstretched wings and an eye-patterned crest.",
     "related": {
-      "fights": [37]
+      "fights": [38]
     }
   },
   {
@@ -238,7 +238,7 @@
       }
     ],
     "related": {
-      "mutations": [55]
+      "mutations": [61]
     }
   },
   {
@@ -414,7 +414,7 @@
       }
     ],
     "related": {
-      "fights": [71]
+      "fights": [77]
     }
   },
   {
@@ -543,7 +543,7 @@
     ],
     "description": "This subspecies of Somnacanth resembles a frighteningly beautiful phantasm veiled in frost. It uses the cold that emanates from its body to freeze surfaces, on which it swiftly chases down prey.",
     "related": {
-      "mutations": [114]
+      "mutations": [120]
     }
   },
   {
@@ -601,7 +601,7 @@
     "howToGet": "Reach Rank A for Rathalos in Habitat Restoration.",
     "related": {
       "fights": [22],
-      "mutations": [31, 103]
+      "mutations": [32, 109]
     }
   },
   {
@@ -673,7 +673,7 @@
       }
     ],
     "related": {
-      "mutations": [109]
+      "mutations": [115]
     }
   },
   {
@@ -764,7 +764,8 @@
       }
     ],
     "related": {
-      "mutations": [81]
+      "fights": [39],
+      "mutations": [87]
     }
   },
   {
@@ -831,7 +832,7 @@
     ],
     "description": "This monster's winged arms enable versatile aerial movement and the prehensile tail allows it to spin liek a top. It can be described as both endearingly inquisitive and insufferably mischievous.",
     "related": {
-      "fights": [38],
+      "fights": [40],
       "mutations": [18]
     }
   },
@@ -901,7 +902,7 @@
       }
     ],
     "related": {
-      "mutations": [30]
+      "mutations": [31]
     }
   },
   {
@@ -964,7 +965,7 @@
       }
     ],
     "related": {
-      "mutations": [60]
+      "mutations": [66]
     }
   },
   {
@@ -1023,7 +1024,7 @@
     ],
     "description": "This Blango pack leader is found on snowy peaks and is recognizable by its giant fangs and whiskers. Twice as large as a Blango, it has far greater strength and mobility.",
     "related": {
-      "fights": [39]
+      "fights": [41]
     }
   },
   {
@@ -1134,7 +1135,7 @@
     "trait": "mutated",
     "howToGet": "Reach Rank S for Diablos in Habitat Restoration in Bountiful Dunes, Tarkuan.",
     "related": {
-      "mutations": [30]
+      "mutations": [31]
     }
   },
   {
@@ -1200,7 +1201,7 @@
       }
     ],
     "related": {
-      "mutations": [127]
+      "mutations": [133]
     }
   },
   {
@@ -1299,6 +1300,48 @@
   },
   {
     "id": 23,
+    "name": "Bound Lunagaron",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedWyvern",
+    "element": "ice",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "enraged": "power",
+        "battleBoundUnleashed": "technical"
+      },
+      "parts": {
+        "tail": ["pierce"],
+        "backFrostArmor": ["pierce"],
+        "hindLegsFrostArmor": ["slash"],
+        "forelegsBattleBound": ["slash"],
+        "headBattleBound": ["blunt"]
+      },
+      "elementalResistance": {
+        "nonElemental": 2,
+        "fire": 0,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -2
+      },
+      "statusResistance": {
+        "poison": 2,
+        "paralysis": 2,
+        "fireblight": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": 2
+      }
+    },
+    "boss": ["story"],
+    "related": {
+      "fights": [94]
+    }
+  },
+  {
+    "id": 24,
     "name": "Brachydios",
     "habitats": ["serathis"],
     "rarity": 6,
@@ -1360,11 +1403,11 @@
       }
     ],
     "related": {
-      "fights": [40]
+      "fights": [42]
     }
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Brute Tigrex",
     "habitats": [],
     "rarity": 6,
@@ -1417,11 +1460,11 @@
     "howToGet": "Reach Rank A for Tigrex in Habitat Restoration.",
     "description": "This black-scaled subspecies of the Tigrex possesses astounding strength and extreme ferociousness. The might of its terrible roar surpasses even that of the regular species.",
     "related": {
-      "mutations": [67, 119]
+      "mutations": [73, 125]
     }
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "Canyne",
     "habitats": ["canaltaTimberland"],
     "rarity": 5,
@@ -1476,7 +1519,7 @@
     "description": "A blue-furred Fanged Beast that is both clever and highly athletic. Relatively gentle for a Fanged Beast, it plays an integral role in Sheparden life as a hunting partner and means of transportation."
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Cephalos",
     "habitats": [],
     "rarity": 1,
@@ -1508,7 +1551,7 @@
     }
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Chatacabra",
     "habitats": ["azuria"],
     "rarity": 1,
@@ -1565,13 +1608,10 @@
         "region": "Azuria"
       }
     ],
-    "description": "Using its long tongue, this Amphibian can grab objects and food from a distance. Its adhesive saliva can also be used to attach rocks and debris to its forelegs, enhancing its combat abilities.",
-    "related": {
-      "fights": [41]
-    }
+    "description": "Using its long tongue, this Amphibian can grab objects and food from a distance. Its adhesive saliva can also be used to attach rocks and debris to its forelegs, enhancing its combat abilities."
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "Deadeye Yian Garuga",
     "habitats": [],
     "rarity": 7,
@@ -1620,11 +1660,11 @@
     "howToGet": "Reach Rank S in a habitat with 3 5-Star and above Monsters.",
     "description": "From among the ferocious Yian Garuga species stands a Deviant with even more love for the fight. Its one remaining eye burns with the fervor of the countless life-and-death struggles it has endured.",
     "related": {
-      "mutations": [126]
+      "mutations": [132]
     }
   },
   {
-    "id": 29,
+    "id": 30,
     "name": "Deviljho",
     "habitats": ["canaltaTimberland", "serathis"],
     "rarity": 6,
@@ -1633,29 +1673,30 @@
     "combatData": {
       "attackPatterns": {
         "default": "power",
-        "enraged": "speed"
+        "enraged": "speed",
+        "starving": "power"
       },
       "parts": {
-        "default": ["slash", "blunt", "pierce"],
-        "body": ["slash", "blunt", "pierce"],
-        "head": ["slash", "blunt", "pierce"],
-        "legs": ["slash"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "legs": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 0,
-        "water": -2,
+        "water": 0,
+        "thunder": -2,
         "ice": 1,
-        "thunder": 0,
         "dragon": -2
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": -1,
+        "poison": -1,
         "paralysis": 1,
-        "sleep": 1,
-        "blast": 1,
-        "bleeding": 2,
-        "blind": 2
+        "fireblight": -1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -2
       }
     },
     "monstie": {
@@ -1672,10 +1713,11 @@
         "speed": 0,
         "initialRes": 0
       }
-    }
+    },
+    "boss": ["optional"]
   },
   {
-    "id": 30,
+    "id": 31,
     "name": "Diablos",
     "habitats": ["tarkuan"],
     "rarity": 5,
@@ -1736,12 +1778,12 @@
       }
     ],
     "related": {
-      "fights": [72],
+      "fights": [78],
       "mutations": [15, 19]
     }
   },
   {
-    "id": 31,
+    "id": 32,
     "name": "Dreadking Rathalos",
     "habitats": [],
     "rarity": 7,
@@ -1789,11 +1831,11 @@
     "trait": "mutated",
     "howToGet": "Reach Rank S for Rathalos in Habitat Restoration in a habitat with 4 or more Flying Wyverns",
     "related": {
-      "mutations": [10, 103]
+      "mutations": [10, 109]
     }
   },
   {
-    "id": 32,
+    "id": 33,
     "name": "Dreadqueen Rathian",
     "habitats": [],
     "rarity": 7,
@@ -1842,11 +1884,11 @@
     "howToGet": "Restore Rathian in a habitat with 3 or More Poisonous Monsters and reach Rank S for Rathian in Habitat Restoration",
     "description": "The tail of this Rathian Deviant bears venom of the deadliest kind. When expelled, the venom forms a majestic purple cloud of miasma that suffocates any unfortunate prey.",
     "related": {
-      "mutations": [97, 104]
+      "mutations": [103, 110]
     }
   },
   {
-    "id": 33,
+    "id": 34,
     "name": "Dual Honed Glavenus",
     "habitats": [],
     "rarity": 0,
@@ -1874,13 +1916,10 @@
         "blind": "-"
       }
     },
-    "boss": ["story"],
-    "related": {
-      "fights": [58, 70]
-    }
+    "boss": ["story"]
   },
   {
-    "id": 34,
+    "id": 35,
     "name": "Ebony Odogaron",
     "habitats": ["serathis"],
     "rarity": 6,
@@ -1936,11 +1975,11 @@
     ],
     "description": "A jet-black subspecies of Odogaron whose fangs and unique claws hold dragon energy, allowing it to reave elemental power from its target.",
     "related": {
-      "mutations": [95]
+      "mutations": [101]
     }
   },
   {
-    "id": 35,
+    "id": 36,
     "name": "Espinas",
     "habitats": ["tarkuan", "azuria"],
     "rarity": 6,
@@ -1949,26 +1988,29 @@
     "combatData": {
       "attackPatterns": {
         "default": "power",
-        "sleep": "power",
         "enraged": "speed"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "wings": ["pierce"],
+        "tail": ["slash"]
+      },
       "elementalResistance": {
-        "nonElemental": 2,
+        "nonElemental": 0,
         "fire": 2,
-        "water": 2,
-        "thunder": 2,
-        "ice": 2,
-        "dragon": 2
+        "water": 0,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -1
       },
       "statusResistance": {
         "poison": 1,
+        "paralysis": 2,
         "fireblight": 1,
-        "paralysis": 1,
-        "sleep": -1,
+        "sleep": 2,
         "blast": -1,
-        "bleeding": 1,
-        "blind": -2
+        "bleeding": 1
       }
     },
     "monstie": {
@@ -1995,12 +2037,13 @@
       }
     ],
     "description": "This fierce Flying Wyvern is distinguished by the red-violent thorns dotting its green carapace. Its blood contains properties that poison and paralyze, so most monsters steer clear of it.",
+    "boss": ["optional"],
     "related": {
-      "fights": [42]
+      "fights": [44]
     }
   },
   {
-    "id": 36,
+    "id": 37,
     "name": "Feral Ajarakan",
     "habitats": [],
     "rarity": 0,
@@ -2040,7 +2083,7 @@
     }
   },
   {
-    "id": 37,
+    "id": 38,
     "name": "Feral Aknosom",
     "habitats": [],
     "rarity": 0,
@@ -2080,7 +2123,49 @@
     }
   },
   {
-    "id": 38,
+    "id": 39,
+    "name": "Feral Barroth",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "bruteWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "mudMantle": "technical"
+      },
+      "parts": {
+        "head": ["blunt"],
+        "tail": ["slash"],
+        "tailMud": ["slash"],
+        "forelegs": ["pierce"],
+        "forelegsMud": ["pierce"],
+        "torsoMud": ["blunt"]
+      },
+      "elementalResistance": {
+        "nonElemental": 2,
+        "fire": 2,
+        "water": -2,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": -1,
+        "paralysis": 1,
+        "fireblight": -2,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1
+      }
+    },
+    "boss": ["feral"],
+    "related": {
+      "fights": [13]
+    }
+  },
+  {
+    "id": 40,
     "name": "Feral Bishaten",
     "habitats": [],
     "rarity": 0,
@@ -2088,24 +2173,30 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "technical",
+        "balancing": "speed"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "wings": ["pierce"],
+        "tail": ["slash"]
+      },
       "elementalResistance": {
-        "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "nonElemental": 0,
+        "fire": -1,
+        "water": 1,
+        "thunder": 2,
+        "ice": -2,
+        "dragon": 1
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -1,
+        "fireblight": -1,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": -1,
+        "bleeding": -1
       }
     },
     "boss": ["feral"],
@@ -2114,7 +2205,7 @@
     }
   },
   {
-    "id": 39,
+    "id": 41,
     "name": "Feral Blangonga",
     "habitats": [],
     "rarity": 0,
@@ -2122,24 +2213,29 @@
     "element": "ice",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "power",
+        "enraged": "speed"
       },
-      "parts": {},
+      "parts": {
+        "fangs": ["blunt"],
+        "forelegsBlightstone": ["pierce"],
+        "torso": ["slash"]
+      },
       "elementalResistance": {
-        "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "nonElemental": 0,
+        "fire": -2,
+        "water": -1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -1,
+        "paralysis": 1,
+        "fireblight": -2,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": -1
       }
     },
     "boss": ["story", "feral"],
@@ -2148,7 +2244,7 @@
     }
   },
   {
-    "id": 40,
+    "id": 42,
     "name": "Feral Brachydios",
     "habitats": [],
     "rarity": 0,
@@ -2185,11 +2281,11 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [23]
+      "fights": [24]
     }
   },
   {
-    "id": 41,
+    "id": 43,
     "name": "Feral Chatacabra",
     "habitats": [],
     "rarity": 0,
@@ -2217,13 +2313,10 @@
         "blind": "-"
       }
     },
-    "boss": ["story", "feral"],
-    "related": {
-      "fights": [27]
-    }
+    "boss": ["story", "feral"]
   },
   {
-    "id": 42,
+    "id": 44,
     "name": "Feral Espinas",
     "habitats": [],
     "rarity": 0,
@@ -2231,33 +2324,120 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "power",
+        "enraged": "speed"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "wings": ["pierce"],
+        "tail": ["slash"]
+      },
       "elementalResistance": {
-        "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "nonElemental": 0,
+        "fire": 2,
+        "water": 1,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -2
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": 1,
+        "paralysis": 1,
+        "fireblight": 1,
+        "sleep": -1,
+        "blast": 1,
+        "bleeding": 1
       }
     },
     "boss": ["feral"],
     "related": {
-      "fights": [35]
+      "fights": [36]
     }
   },
   {
-    "id": 43,
+    "id": 45,
+    "name": "Feral Glavenus",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "bruteWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "enraged": "technical",
+        "tailHeated": "power"
+      },
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "tail": ["slash"],
+        "tailHeated": ["slash"]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -2,
+        "thunder": 1,
+        "ice": 2,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "paralysis": -1,
+        "fireblight": 1,
+        "sleep": -2,
+        "blast": 1,
+        "bleeding": -1
+      }
+    },
+    "boss": ["feral"],
+    "related": {
+      "fights": [64, 76]
+    }
+  },
+  {
+    "id": 46,
+    "name": "Feral Gravios",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "flyingWyvern",
+    "element": "fire",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "enraged": "technical"
+      },
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "stomach": ["slash"],
+        "back": ["pierce"]
+      },
+      "elementalResistance": {
+        "nonElemental": 2,
+        "fire": 1,
+        "water": 1,
+        "thunder": -2,
+        "ice": -1,
+        "dragon": -1
+      },
+      "statusResistance": {
+        "poison": 1,
+        "paralysis": -1,
+        "fireblight": 2,
+        "sleep": 2,
+        "blast": -2,
+        "bleeding": 1
+      }
+    },
+    "boss": ["feral"],
+    "related": {
+      "fights": [66]
+    }
+  },
+  {
+    "id": 47,
     "name": "Feral Great Izuchi",
     "habitats": [],
     "rarity": 0,
@@ -2265,58 +2445,30 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "speed",
+        "enraged": "power"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "torso": ["pierce"],
+        "tail": ["slash"]
+      },
       "elementalResistance": {
-        "fire": 0,
+        "nonElemental": 0,
+        "fire": 2,
         "water": 0,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "thunder": -2,
+        "ice": -1,
+        "dragon": 1
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
-      }
-    },
-    "boss": ["feral"],
-    "related": {
-      "fights": [62]
-    }
-  },
-  {
-    "id": 44,
-    "name": "Feral Gypceros",
-    "habitats": [],
-    "rarity": 0,
-    "eggGroup": "birdWyvern",
-    "element": "nonElemental",
-    "combatData": {
-      "attackPatterns": {
-        "default": "power"
-      },
-      "parts": {},
-      "elementalResistance": {
-        "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
-      },
-      "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -2,
+        "paralysis": 1,
+        "fireblight": -2,
+        "sleep": -2,
+        "blast": -1,
+        "bleeding": 1
       }
     },
     "boss": ["story", "feral"],
@@ -2325,7 +2477,89 @@
     }
   },
   {
-    "id": 45,
+    "id": 48,
+    "name": "Feral Gypceros",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "birdWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "power",
+        "enraged": "technical"
+      },
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "stomach": ["pierce"],
+        "tail": ["slash"]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "poison": 2,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1
+      }
+    },
+    "boss": ["story", "feral"],
+    "related": {
+      "fights": [74]
+    }
+  },
+  {
+    "id": 49,
+    "name": "Feral Magnamalo",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "fangedWyvern",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "speed",
+        "hellblightMantle": "power",
+        "hellblightCritical": "technical"
+      },
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "tail": ["slash"],
+        "torso": ["pierce"],
+        "forelegsHellfireblight": ["pierce"],
+        "headHellfireblight": ["blunt"],
+        "backHellfireblight": ["slash", "pierce", "blunt"]
+      },
+      "elementalResistance": {
+        "nonElemental": 0,
+        "fire": 2,
+        "water": -1,
+        "thunder": 0,
+        "ice": -2,
+        "dragon": 1
+      },
+      "statusResistance": {
+        "poison": -1,
+        "paralysis": -1,
+        "sleep": 1,
+        "blast": 2,
+        "bleeding": 1
+      }
+    },
+    "boss": ["feral"],
+    "related": {
+      "fights": [95]
+    }
+  },
+  {
+    "id": 50,
     "name": "Feral Nerscylla",
     "habitats": [],
     "rarity": 0,
@@ -2361,11 +2595,11 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [74, 94]
+      "fights": [80, 100]
     }
   },
   {
-    "id": 46,
+    "id": 51,
     "name": "Feral Paolumu",
     "habitats": [],
     "rarity": 0,
@@ -2373,33 +2607,38 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "technical",
+        "enraged": "speed"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "torso": ["slash"],
+        "neckPouch": ["pierce"]
+      },
       "elementalResistance": {
-        "fire": 0,
-        "water": 0,
+        "nonElemental": 0,
+        "fire": -2,
+        "water": 1,
+        "thunder": 2,
         "ice": 0,
-        "thunder": 0,
         "dragon": 0
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -1,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": -1,
+        "bleeding": -1
       }
     },
     "boss": ["feral"],
     "related": {
-      "fights": [96]
+      "fights": [102]
     }
   },
   {
-    "id": 47,
+    "id": 52,
     "name": "Feral Rakna-Kadaki",
     "habitats": [],
     "rarity": 0,
@@ -2439,11 +2678,11 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [102]
+      "fights": [108]
     }
   },
   {
-    "id": 48,
+    "id": 53,
     "name": "Feral Somnacanth",
     "habitats": [],
     "rarity": 0,
@@ -2481,11 +2720,11 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [114]
+      "fights": [120]
     }
   },
   {
-    "id": 49,
+    "id": 54,
     "name": "Feral Tetranadon",
     "habitats": [],
     "rarity": 0,
@@ -2493,33 +2732,39 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "power",
+        "stuffed": "technical"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["pierce"],
+        "legs": ["blunt"],
+        "stomach": ["slash", "pierce", "blunt"],
+        "tail": ["slash"]
+      },
       "elementalResistance": {
+        "nonElemental": 0,
         "fire": 0,
-        "water": 0,
+        "water": 2,
+        "thunder": -2,
         "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "dragon": 1
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -2,
+        "paralysis": 2,
+        "sleep": 2,
+        "blast": 2,
+        "bleeding": -1
       }
     },
     "boss": ["feral"],
     "related": {
-      "fights": [117]
+      "fights": [123]
     }
   },
   {
-    "id": 50,
+    "id": 55,
     "name": "Feral Tobi-Kadachi",
     "habitats": [],
     "rarity": 0,
@@ -2527,33 +2772,39 @@
     "element": "thunder",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "speed",
+        "electricCharge": "technical"
       },
-      "parts": {},
+      "parts": {
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["pierce"],
+        "legs": ["slash"],
+        "tail": ["blunt"]
+      },
       "elementalResistance": {
-        "fire": 0,
-        "water": 0,
-        "ice": 0,
-        "thunder": 0,
-        "dragon": 0
+        "nonElemental": 0,
+        "fire": -2,
+        "water": -1,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
       },
       "statusResistance": {
-        "poison": "-",
-        "fireblight": "-",
-        "paralysis": "-",
-        "sleep": "-",
-        "blast": "-",
-        "bleeding": "-",
-        "blind": "-"
+        "poison": -2,
+        "fireblight": -1,
+        "paralysis": 1,
+        "sleep": -1,
+        "blast": -1,
+        "bleeding": 1
       }
     },
     "boss": ["feral"],
     "related": {
-      "fights": [120]
+      "fights": [126]
     }
   },
   {
-    "id": 51,
+    "id": 56,
     "name": "Feral Velocidrome",
     "habitats": [],
     "rarity": 0,
@@ -2581,13 +2832,10 @@
         "blind": "-"
       }
     },
-    "boss": ["feral"],
-    "related": {
-      "fights": [52, 53, 122]
-    }
+    "boss": ["feral"]
   },
   {
-    "id": 52,
+    "id": 57,
     "name": "Feral Velocidrome (Fire)",
     "habitats": [],
     "rarity": 0,
@@ -2614,13 +2862,10 @@
         "bleeding": -2
       }
     },
-    "boss": ["story", "feral"],
-    "related": {
-      "fights": [51, 53, 122]
-    }
+    "boss": ["story", "feral"]
   },
   {
-    "id": 53,
+    "id": 58,
     "name": "Feral Velocidrome (Ice)",
     "habitats": [],
     "rarity": 0,
@@ -2648,13 +2893,10 @@
         "blind": "-"
       }
     },
-    "boss": ["feral"],
-    "related": {
-      "fights": [51, 52, 122]
-    }
+    "boss": ["feral"]
   },
   {
-    "id": 54,
+    "id": 59,
     "name": "Feral Yian Kut-Ku",
     "habitats": [],
     "rarity": 0,
@@ -2682,13 +2924,177 @@
         "blind": "-"
       }
     },
-    "boss": ["feral"],
-    "related": {
-      "fights": [127]
-    }
+    "boss": ["feral"]
   },
   {
-    "id": 55,
+    "id": 60,
+    "name": "Final Boss",
+    "habitats": [],
+    "rarity": 0,
+    "eggGroup": "elderDragon",
+    "element": "nonElemental",
+    "combatData": {
+      "attackPatterns": {
+        "default": "technical",
+        "blightstoneUnleashed": "power",
+        "thirdEncounter": "technical",
+        "blightCrystalFire": "power",
+        "blightCrystalWater": "speed"
+      },
+      "parts": {},
+      "elementalResistance": {
+        "nonElemental": -1,
+        "fire": -2,
+        "water": 2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 0
+      },
+      "statusResistance": {
+        "fireblight": 2,
+        "blast": 2,
+        "poison": 2,
+        "paralysis": 2,
+        "bleeding": 2,
+        "sleep": 2
+      }
+    },
+    "boss": ["story", "elderDragon"],
+    "bossPatterns": [
+      {
+        "state": "Blightstone Protection (First Encounter)",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Blightstone Active",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Grand Scourge",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Blightstone Active",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Grand Upheaval",
+            "type": "power"
+          },
+          {
+            "turn": 5,
+            "move": "Unknown",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Blightstone Protection (Second Encounter)",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Blightflash ExpurgationBlightstone Active",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Blightgale Expurgation (Technical)",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Grand Scourge/Grand Upheaval/Expurgation",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Blightgale Expurgation (Technical)",
+            "type": "power"
+          },
+          {
+            "turn": 5,
+            "move": "Grand Scourge/Grand Upheaval/Expurgation",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Blightstone Unleashed",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Blightgale Expurgation (Power)Grand Purge",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Grand Scourge/Grand Upheaval/Expurgation",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Grand Scourge/Grand Upheaval/Expurgation",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Blightflash ExpurgationReturn to Blightstone Protection",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Third Encounter",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Blight CrystallizationShardshower Expurgation",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Blightgale ExpurgationBlight Crystallization",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Cosmic Scourge/Cosmic Upheaval",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Blightgale Expurgation",
+            "type": "power"
+          },
+          {
+            "turn": 5,
+            "move": "Cosmic Scourge/Cosmic UpheavalBlight Crystallization",
+            "type": "power"
+          },
+          {
+            "turn": 6,
+            "move": "Blightflash Expurgation",
+            "type": "power"
+          },
+          {
+            "turn": 7,
+            "move": "Blightgale Expurgation",
+            "type": "power"
+          },
+          {
+            "turn": 8,
+            "move": "Cosmic Scourge/Cosmic Upheaval",
+            "type": "power"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
     "name": "Fulgur Anjanath",
     "habitats": ["serathis"],
     "rarity": 5,
@@ -2753,7 +3159,7 @@
     }
   },
   {
-    "id": 56,
+    "id": 62,
     "name": "Garangolm",
     "habitats": ["canaltaTimberland", "tarkuan"],
     "rarity": 4,
@@ -2814,7 +3220,7 @@
     "description": "A giant Fanged Beast often mistaken for a pile of boulders. Its bodily fluids can promote plant growth, forming a unique symbiotic relationship with the flora that grows on its body."
   },
   {
-    "id": 57,
+    "id": 63,
     "name": "Gargwa",
     "habitats": [],
     "rarity": 1,
@@ -2846,7 +3252,7 @@
     }
   },
   {
-    "id": 58,
+    "id": 64,
     "name": "Glavenus",
     "habitats": ["tarkuan"],
     "rarity": 5,
@@ -2907,12 +3313,12 @@
       }
     ],
     "related": {
-      "fights": [33, 70],
-      "mutations": [69]
+      "fights": [45, 76],
+      "mutations": [75]
     }
   },
   {
-    "id": 59,
+    "id": 65,
     "name": "Goss Harag",
     "habitats": ["serathis"],
     "rarity": 5,
@@ -2942,8 +3348,8 @@
       },
       "statusResistance": {
         "poison": -1,
-        "paralysis": -2,
-        "fireblight": 2,
+        "fireblight": -2,
+        "paralysis": 2,
         "sleep": 2,
         "blast": -1,
         "bleeding": -1
@@ -2976,7 +3382,7 @@
     "boss": ["story"]
   },
   {
-    "id": 60,
+    "id": 66,
     "name": "Gravios",
     "habitats": ["tarkuan"],
     "rarity": 5,
@@ -3042,11 +3448,12 @@
       }
     ],
     "related": {
+      "fights": [46],
       "mutations": [16]
     }
   },
   {
-    "id": 61,
+    "id": 67,
     "name": "Great Dracophage Bug",
     "habitats": ["serathis"],
     "rarity": 2,
@@ -3078,7 +3485,7 @@
     }
   },
   {
-    "id": 62,
+    "id": 68,
     "name": "Great Izuchi",
     "habitats": ["canaltaTimberland"],
     "rarity": 1,
@@ -3137,11 +3544,11 @@
     ],
     "description": "The leader of an Izuchi pack, this monster is identifiable by its larger build, bristled fur, and scythe-like tail. It rarely acts alone, instead patrolling its territory with two elite Izuchi.",
     "related": {
-      "fights": [43]
+      "fights": [47]
     }
   },
   {
-    "id": 63,
+    "id": 69,
     "name": "Great Poogie",
     "habitats": ["azuria"],
     "rarity": 7,
@@ -3196,7 +3603,7 @@
     "description": "A legendary Poogie possessed of unmatched charisma and grandeur. Some farfetched tales claim this Poogie can summon all the other Poogies in the world with a single call."
   },
   {
-    "id": 64,
+    "id": 70,
     "name": "Great Thunderbug",
     "habitats": [],
     "rarity": 1,
@@ -3228,7 +3635,7 @@
     }
   },
   {
-    "id": 65,
+    "id": 71,
     "name": "Green Nargacuga",
     "habitats": [],
     "rarity": 5,
@@ -3283,11 +3690,11 @@
     "howToGet": "Reach Rank A for Nargacuga in Habitat Restoration",
     "description": "The mottled green fur of this Nargacuga subspecies is speculated to have served as an excellent camouflage in its verdant habitat before it became endangered.",
     "related": {
-      "mutations": [93, 113]
+      "mutations": [99, 119]
     }
   },
   {
-    "id": 66,
+    "id": 72,
     "name": "Green Plesioth",
     "habitats": ["azuria"],
     "rarity": 5,
@@ -3351,11 +3758,11 @@
       }
     },
     "related": {
-      "mutations": [98]
+      "mutations": [104]
     }
   },
   {
-    "id": 67,
+    "id": 73,
     "name": "Grimclaw Tigrex",
     "habitats": [],
     "rarity": 7,
@@ -3404,11 +3811,11 @@
     "howToGet": "Reach Rank S with 4 Power Monsters in one habitat.",
     "description": "For a species already known for its absolute power, this Deviant commands even more compelling strength. Its name refers to the preternaturally sharp claws with which it decimates its prey.",
     "related": {
-      "mutations": [24, 119]
+      "mutations": [25, 125]
     }
   },
   {
-    "id": 68,
+    "id": 74,
     "name": "Gypceros",
     "habitats": ["azuria"],
     "rarity": 2,
@@ -3472,12 +3879,12 @@
       }
     ],
     "related": {
-      "fights": [44],
-      "mutations": [100]
+      "fights": [48],
+      "mutations": [106]
     }
   },
   {
-    "id": 69,
+    "id": 75,
     "name": "Hellblade Glavenus",
     "habitats": [],
     "rarity": 7,
@@ -3526,11 +3933,11 @@
     "howToGet": "Reach Rank S in a Habitat With 4 Sharp Appendage Monsters",
     "description": "Deep within this Glavenus Deviant burns a searing heat. A single sweep of its tail is enough to lay waste to everything before it, even incinerating entire mountains.",
     "related": {
-      "mutations": [58]
+      "mutations": [64]
     }
   },
   {
-    "id": 70,
+    "id": 76,
     "name": "Honed Glavenus",
     "habitats": [],
     "rarity": 0,
@@ -3567,11 +3974,11 @@
     },
     "boss": ["story"],
     "related": {
-      "fights": [33, 58]
+      "fights": [45, 64]
     }
   },
   {
-    "id": 71,
+    "id": 77,
     "name": "Invasive Arzuros",
     "habitats": [],
     "rarity": 0,
@@ -3609,7 +4016,7 @@
     }
   },
   {
-    "id": 72,
+    "id": 78,
     "name": "Invasive Diablos",
     "habitats": [],
     "rarity": 0,
@@ -3644,11 +4051,11 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [30]
+      "fights": [31]
     }
   },
   {
-    "id": 73,
+    "id": 79,
     "name": "Invasive Khezu",
     "habitats": [],
     "rarity": 0,
@@ -3682,11 +4089,11 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [83]
+      "fights": [89]
     }
   },
   {
-    "id": 74,
+    "id": 80,
     "name": "Invasive Nerscylla",
     "habitats": [],
     "rarity": 0,
@@ -3718,11 +4125,11 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [45, 94]
+      "fights": [50, 100]
     }
   },
   {
-    "id": 75,
+    "id": 81,
     "name": "Invasive Odogaron",
     "habitats": [],
     "rarity": 0,
@@ -3756,11 +4163,11 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [95]
+      "fights": [101]
     }
   },
   {
-    "id": 76,
+    "id": 82,
     "name": "Invasive Plesioth",
     "habitats": [],
     "rarity": 0,
@@ -3768,12 +4175,15 @@
     "element": "water",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "technical",
+        "invading": "technical",
+        "enraged": "power"
       },
       "parts": {
-        "leg": ["blunt"],
-        "tail": ["slash"],
-        "back": ["pierce"]
+        "back": ["pierce"],
+        "legs": ["blunt"],
+        "head": ["blunt"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
         "fire": 0,
@@ -3793,12 +4203,74 @@
       }
     },
     "boss": ["invasive"],
+    "bossPatterns": [
+      {
+        "state": "Normal State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Will immediately switch to Normal state after the Head is destroyed in any state",
+            "type": "technical"
+          },
+          {
+            "turn": 2,
+            "move": "Plesioth Dash (Skippable Single-Target Skill)",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Invading State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Submerged Advance (Skippable AoE Skill) → Inflicts Debilitated (Stops stamina regen) to your party for 3 turns",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Aqua Jet (Skippable Single-Target Skill) → Converts to a after destroying the head with a fire attack once",
+            "type": "technical"
+          },
+          {
+            "turn": 3,
+            "move": "Invasive Broadside (Unskippable AoE Skill)",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Enraged State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "power Attack",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Plesioth Dash (Skippable Single-Target Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "power Attack",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Aqua Jet (Skippable Single-Target Skill)",
+            "type": "power"
+          }
+        ]
+      }
+    ],
     "related": {
-      "fights": [98]
+      "fights": [104]
     }
   },
   {
-    "id": 77,
+    "id": 83,
     "name": "Invasive Seregios",
     "habitats": [],
     "rarity": 0,
@@ -3806,12 +4278,14 @@
     "element": "nonElemental",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "technical",
+        "invading": "power",
+        "enraged": "speed"
       },
       "parts": {
         "head": ["blunt"],
         "wings": ["slash"],
-        "leg": ["slash"],
+        "legs": ["slash"],
         "tail": ["pierce"]
       },
       "elementalResistance": {
@@ -3832,12 +4306,74 @@
       }
     },
     "boss": ["invasive"],
+    "bossPatterns": [
+      {
+        "state": "Normal State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Shredding Scales (Skippable AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Thousand Blades",
+            "type": "technical"
+          }
+        ]
+      },
+      {
+        "state": "Invading State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "power Attack",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Scale Shots (Invasive Onslaught Roar)",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Scale Shots (Invasive Onslaught Roar)",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Enraged State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Shredding Scales (Skippable AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Scale Shots (Invasive Onslaught Roar)",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Scale Shots (Invasive Onslaught Roar)",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Scale Shots (Invasive Onslaught Roar)",
+            "type": "power"
+          }
+        ]
+      }
+    ],
     "related": {
-      "fights": [110]
+      "fights": [116]
     }
   },
   {
-    "id": 78,
+    "id": 84,
     "name": "Invasive Shogun Ceanataur",
     "habitats": [],
     "rarity": 0,
@@ -3871,11 +4407,11 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [111]
+      "fights": [117]
     }
   },
   {
-    "id": 79,
+    "id": 85,
     "name": "Invasive Yian Garuga",
     "habitats": [],
     "rarity": 0,
@@ -3883,9 +4419,16 @@
     "element": "fire",
     "combatData": {
       "attackPatterns": {
-        "default": "power"
+        "default": "speed",
+        "mudMantle": "technical"
       },
-      "parts": {},
+      "parts": {
+        "head": ["blunt"],
+        "back": ["slash"],
+        "leg": ["slash"],
+        "wings": ["pierce"],
+        "tail": ["slash"]
+      },
       "elementalResistance": {
         "fire": 0,
         "water": 0,
@@ -3904,12 +4447,49 @@
       }
     },
     "boss": ["invasive"],
+    "bossPatterns": [
+      {
+        "state": "Regular Phase Attack Pattern",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Potent Poison Tail",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Potent Poison Tail",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Territorial RaidEnrage Status",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Enraged Attack Pattern",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Energize/Potent Poison Tail",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Invasive Poison Raid/ Flare BlastNormal State",
+            "type": "power"
+          }
+        ]
+      }
+    ],
     "related": {
-      "fights": [126]
+      "fights": [132]
     }
   },
   {
-    "id": 80,
+    "id": 86,
     "name": "Ivory Lagiacrus",
     "habitats": [],
     "rarity": 6,
@@ -3965,11 +4545,11 @@
     "howToGet": "Reach Rank A for Lagiacrus in Habitat Restoration",
     "description": "A subspecies of Lagiacrus with a beautiful ivory carapace. Its blue shockspikes are far more evolved than that of the regular species and capable of storing vast amounts of electricity.",
     "related": {
-      "mutations": [85]
+      "mutations": [91]
     }
   },
   {
-    "id": 81,
+    "id": 87,
     "name": "Jade Barroth",
     "habitats": ["serathis"],
     "rarity": 3,
@@ -4034,7 +4614,7 @@
     }
   },
   {
-    "id": 82,
+    "id": 88,
     "name": "Kelbi",
     "habitats": [],
     "rarity": 1,
@@ -4060,7 +4640,7 @@
     }
   },
   {
-    "id": 83,
+    "id": 89,
     "name": "Khezu",
     "habitats": ["canaltaTimberland"],
     "rarity": 3,
@@ -4119,12 +4699,12 @@
       }
     ],
     "related": {
-      "fights": [73],
-      "mutations": [105]
+      "fights": [79],
+      "mutations": [111]
     }
   },
   {
-    "id": 84,
+    "id": 90,
     "name": "Kulu-Ya-Ku",
     "habitats": ["tarkuan"],
     "rarity": 2,
@@ -4183,7 +4763,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 91,
     "name": "Lagiacrus",
     "habitats": ["azuria"],
     "rarity": 5,
@@ -4253,11 +4833,11 @@
       }
     ],
     "related": {
-      "mutations": [80]
+      "mutations": [86]
     }
   },
   {
-    "id": 86,
+    "id": 92,
     "name": "Legiana",
     "habitats": ["serathis"],
     "rarity": 4,
@@ -4319,7 +4899,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 93,
     "name": "Ludroth",
     "habitats": ["azuria"],
     "rarity": 1,
@@ -4351,7 +4931,7 @@
     }
   },
   {
-    "id": 88,
+    "id": 94,
     "name": "Lunagaron",
     "habitats": ["serathis"],
     "rarity": 5,
@@ -4404,10 +4984,13 @@
         "region": "Serathis"
       }
     ],
-    "description": "A Fanged Wyvern with distinctive azure scales. Although normally quadrupedal, it change its body composition by inhibiting its thermoregulatory organs to increase heat and enlarge muscles."
+    "description": "A Fanged Wyvern with distinctive azure scales. Although normally quadrupedal, it change its body composition by inhibiting its thermoregulatory organs to increase heat and enlarge muscles.",
+    "related": {
+      "fights": [23]
+    }
   },
   {
-    "id": 89,
+    "id": 95,
     "name": "Magnamalo",
     "habitats": ["serathis"],
     "rarity": 6,
@@ -4467,10 +5050,13 @@
       }
     ],
     "description": "A Fanged Wyvern clad in a heavy carapace. It consumes even the bones of its prey to satiate its voracious appetite, and the hellfire expelled from its body is a byproduct of metabolism.",
-    "boss": ["story"]
+    "boss": ["story"],
+    "related": {
+      "fights": [49]
+    }
   },
   {
-    "id": 90,
+    "id": 96,
     "name": "Malzeno",
     "habitats": ["serathis"],
     "rarity": 7,
@@ -4549,7 +5135,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 97,
     "name": "Mizutsune",
     "habitats": ["canaltaTimberland"],
     "rarity": 5,
@@ -4605,11 +5191,11 @@
     "howToGet": "Force the Invasive Shogun Ceanataur to retreat to acquire a Mizutsune egg.",
     "description": "This leviathan has evolved in such a way as to be particularly mobile on land. After immobilizing its prey with bubbles produced by an internal fluid, it gracefully runs it down.",
     "related": {
-      "mutations": [115]
+      "mutations": [121]
     }
   },
   {
-    "id": 92,
+    "id": 98,
     "name": "Namielle",
     "habitats": [],
     "rarity": 9,
@@ -4651,22 +5237,22 @@
         "turns": [
           {
             "turn": 1,
-            "move": "Glimmer Strike Nami Shot",
+            "move": "Glimmer Strike",
             "type": "technical"
           },
           {
             "turn": 2,
-            "move": "Technical",
+            "move": "(Always a once at the second turn of the battle)",
             "type": "technical"
           },
           {
             "turn": 3,
-            "move": "Nami Shot Nami Shot",
-            "type": "speed"
+            "move": "Nami Shot → Converts into a if Exposed",
+            "type": "technical"
           },
           {
             "turn": 4,
-            "move": "Nami Shot",
+            "move": "Nami Torrent (Unskippable AoE Skill) → Switches to Abyssal Charge state after using Nami Torrent",
             "type": "power"
           }
         ]
@@ -4676,22 +5262,22 @@
         "turns": [
           {
             "turn": 1,
-            "move": "Glimmer Strike",
+            "move": "Glimmer Strike (Skippable AoE Skill)",
             "type": "power"
           },
           {
             "turn": 2,
-            "move": "Nami Shot",
+            "move": "speed Attack",
             "type": "speed"
           },
           {
             "turn": 3,
-            "move": "Nami Torrent",
+            "move": "Nami Torrent (Unskippable AoE Skill)",
             "type": "power"
           },
           {
             "turn": 4,
-            "move": "Nami Blast",
+            "move": "Nami Blast (Unskippable AoE Skill) → Switches to Water Depleted state after using Nami Blast",
             "type": "power"
           }
         ]
@@ -4701,7 +5287,82 @@
         "turns": [
           {
             "turn": 1,
-            "move": "Nami Shot",
+            "move": "Nami Shot → Converts into a if Exposed",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "power Attack",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "power Attack",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Water Mantle",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Nami Shot → Converts into a if Exposed",
+            "type": "technical"
+          },
+          {
+            "turn": 2,
+            "move": "Shock Blitz → Converts into a if Exposed",
+            "type": "technical"
+          },
+          {
+            "turn": 3,
+            "move": "Nami Torrent (Unskippable AoE Skill) → Switches to Abyssal Charge state after using Nami Torrent",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Abyssal Charge",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Glimmer Strike (Skippable AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "speed Attack",
+            "type": "speed"
+          },
+          {
+            "turn": 3,
+            "move": "Nami Torrent (Unskippable AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Nami Blast (Unskippable AoE Skill) → Switches to Water Depleted state after using Nami Blast",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Water Depleted",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Nami Shot → Converts into a if Exposed",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "power Attack",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "power Attack",
             "type": "power"
           }
         ]
@@ -4709,7 +5370,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 99,
     "name": "Nargacuga",
     "habitats": ["canaltaTimberland"],
     "rarity": 4,
@@ -4770,11 +5431,11 @@
       }
     ],
     "related": {
-      "mutations": [65, 113]
+      "mutations": [71, 119]
     }
   },
   {
-    "id": 94,
+    "id": 100,
     "name": "Nerscylla",
     "habitats": ["azuria"],
     "rarity": 3,
@@ -4840,12 +5501,12 @@
       }
     ],
     "related": {
-      "fights": [45, 74],
-      "mutations": [112]
+      "fights": [50, 80],
+      "mutations": [118]
     }
   },
   {
-    "id": 95,
+    "id": 101,
     "name": "Odogaron",
     "habitats": ["tarkuan"],
     "rarity": 5,
@@ -4901,12 +5562,12 @@
     ],
     "description": "This Fanged Wyvern is so aggressive in its wide-ranging hunt for meat that it will attack stronger monsters without hesitation. Its distinctive claws rend grisly gouges into the flesh of loss.",
     "related": {
-      "fights": [75],
-      "mutations": [34]
+      "fights": [81],
+      "mutations": [35]
     }
   },
   {
-    "id": 96,
+    "id": 102,
     "name": "Paolumu",
     "habitats": ["azuria"],
     "rarity": 3,
@@ -4969,11 +5630,11 @@
       }
     ],
     "related": {
-      "fights": [46]
+      "fights": [51]
     }
   },
   {
-    "id": 97,
+    "id": 103,
     "name": "Pink Rathian",
     "habitats": [],
     "rarity": 5,
@@ -5026,11 +5687,11 @@
     "howToGet": "Reach Rank B for Rathian with Habitat Restoration.",
     "description": "The vibrant pink scales of this Rathian subspecies belie a terrible ferocity. It deftly utilizes its toxic tail to corner prey, then closes in for the kill.",
     "related": {
-      "mutations": [32, 104]
+      "mutations": [33, 110]
     }
   },
   {
-    "id": 98,
+    "id": 104,
     "name": "Plesioth",
     "habitats": ["azuria"],
     "rarity": 4,
@@ -5090,12 +5751,12 @@
       }
     },
     "related": {
-      "fights": [76],
-      "mutations": [66]
+      "fights": [82],
+      "mutations": [72]
     }
   },
   {
-    "id": 99,
+    "id": 105,
     "name": "Pukei-Pukei",
     "habitats": ["canaltaTimberland"],
     "rarity": 2,
@@ -5161,7 +5822,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 106,
     "name": "Purple Gypceros",
     "habitats": ["azuria"],
     "rarity": 3,
@@ -5221,11 +5882,11 @@
       }
     ],
     "related": {
-      "mutations": [68]
+      "mutations": [74]
     }
   },
   {
-    "id": 101,
+    "id": 107,
     "name": "Purple Ludroth",
     "habitats": ["canaltaTimberland"],
     "rarity": 3,
@@ -5288,11 +5949,11 @@
       }
     ],
     "related": {
-      "mutations": [108]
+      "mutations": [114]
     }
   },
   {
-    "id": 102,
+    "id": 108,
     "name": "Rakna-Kadaki",
     "habitats": ["tarkuan"],
     "rarity": 5,
@@ -5348,11 +6009,11 @@
     ],
     "description": "Distinctly swathed in its own webbing and attended by several Rachnoid offspring, this Temnoceran almost appears to be part of a royal procession as it strolls about in a gown of pure white.",
     "related": {
-      "fights": [47]
+      "fights": [52]
     }
   },
   {
-    "id": 103,
+    "id": 109,
     "name": "Rathalos",
     "habitats": ["serathis"],
     "rarity": 5,
@@ -5413,11 +6074,11 @@
       }
     ],
     "related": {
-      "mutations": [10, 31]
+      "mutations": [10, 32]
     }
   },
   {
-    "id": 104,
+    "id": 110,
     "name": "Rathian",
     "habitats": ["azuria"],
     "rarity": 4,
@@ -5477,11 +6138,11 @@
       }
     ],
     "related": {
-      "mutations": [32, 97]
+      "mutations": [33, 103]
     }
   },
   {
-    "id": 105,
+    "id": 111,
     "name": "Red Khezu",
     "habitats": ["canaltaTimberland"],
     "rarity": 4,
@@ -5540,11 +6201,11 @@
       }
     ],
     "related": {
-      "mutations": [83]
+      "mutations": [89]
     }
   },
   {
-    "id": 106,
+    "id": 112,
     "name": "Remobra",
     "habitats": ["serathis", "tarkuan"],
     "rarity": 1,
@@ -5576,7 +6237,7 @@
     }
   },
   {
-    "id": 107,
+    "id": 113,
     "name": "Rey Dau",
     "habitats": ["tarkuan"],
     "rarity": 6,
@@ -5585,7 +6246,7 @@
     "combatData": {
       "attackPatterns": {
         "default": "speed",
-        "fulguriteMantleState": "power"
+        "fulguriteMantle": "power"
       },
       "parts": {},
       "elementalResistance": {
@@ -5632,7 +6293,7 @@
     "boss": ["story"]
   },
   {
-    "id": 108,
+    "id": 114,
     "name": "Royal Ludroth",
     "habitats": ["azuria"],
     "rarity": 2,
@@ -5695,11 +6356,11 @@
       }
     ],
     "related": {
-      "mutations": [101]
+      "mutations": [107]
     }
   },
   {
-    "id": 109,
+    "id": 115,
     "name": "Sand Barioth",
     "habitats": [],
     "rarity": 5,
@@ -5764,7 +6425,7 @@
     }
   },
   {
-    "id": 110,
+    "id": 116,
     "name": "Seregios",
     "habitats": ["canaltaTimberland"],
     "rarity": 6,
@@ -5825,11 +6486,11 @@
       }
     ],
     "related": {
-      "fights": [77]
+      "fights": [83]
     }
   },
   {
-    "id": 111,
+    "id": 117,
     "name": "Shogun Ceanataur",
     "habitats": ["tarkuan"],
     "rarity": 3,
@@ -5885,11 +6546,11 @@
     ],
     "description": "A giant Carapaceon found in caves and marshlands, this fully grown form of the Ceanataur has a giant monster's skull on its back and highly-developed pincers that it wields like scythes.",
     "related": {
-      "fights": [78]
+      "fights": [84]
     }
   },
   {
-    "id": 112,
+    "id": 118,
     "name": "Shrouded Nerscylla",
     "habitats": ["tarkuan"],
     "rarity": 4,
@@ -5951,11 +6612,11 @@
       }
     ],
     "related": {
-      "mutations": [94]
+      "mutations": [100]
     }
   },
   {
-    "id": 113,
+    "id": 119,
     "name": "Silverwind Nargacuga",
     "habitats": [],
     "rarity": 7,
@@ -6004,11 +6665,11 @@
     "howToGet": "Restore Nargacuga in a habitat with 3 Wind-Focused Monsters and reach Rank S for Nargacuga in Habitat Restoration",
     "description": "A Nargacuga Deviant that is covered in distinctive silver markings. Quick swings from its tail generate slicing gusts of wind, the phenomenal sight of which earned it its name.",
     "related": {
-      "mutations": [65, 93]
+      "mutations": [71, 99]
     }
   },
   {
-    "id": 114,
+    "id": 120,
     "name": "Somnacanth",
     "habitats": ["canaltaTimberland"],
     "rarity": 4,
@@ -6066,12 +6727,12 @@
     ],
     "description": "A bellicose Leviathan that lives in the water and spreads soporific dust via its neck gills and tail to ensnare prey. When seen under the moonlight, it is said to resemble a maiden or mermaid.",
     "related": {
-      "fights": [48],
+      "fights": [53],
       "mutations": [9]
     }
   },
   {
-    "id": 115,
+    "id": 121,
     "name": "Soulseer Mizutsune",
     "habitats": [],
     "rarity": 7,
@@ -6120,11 +6781,11 @@
     "howToGet": "Reach Rank S in Habitat Restoration with a Zinogre in the same Habitat.",
     "description": "A Mizutsune Deviant that has been rendered blind by past conflicts. Such an affliction would normally spell the end for a monster, but it has been adapted by using bubbles for perception.",
     "related": {
-      "mutations": [91]
+      "mutations": [97]
     }
   },
   {
-    "id": 116,
+    "id": 122,
     "name": "Stygian Zinogre",
     "habitats": [],
     "rarity": 6,
@@ -6179,11 +6840,11 @@
     "howToGet": "Reach Rank A for Zinogre in Habitat Restoration.",
     "description": "A subspecies of Zinogre endowned with dragon-element power. Its jet-black shell and silver-white fur combine with the red glow distinctive of dragons to instill fear in all who see it.",
     "related": {
-      "mutations": [118, 128]
+      "mutations": [124, 134]
     }
   },
   {
-    "id": 117,
+    "id": 123,
     "name": "Tetranadon",
     "habitats": ["canaltaTimberland"],
     "rarity": 3,
@@ -6242,11 +6903,11 @@
     ],
     "description": "The gluttonous Amphibian waits in deep waters for prey, which it will swallow whole along with nearby rocks and dirt. It is also known to flatten prey beneath its crushing weight.",
     "related": {
-      "fights": [49]
+      "fights": [54]
     }
   },
   {
-    "id": 118,
+    "id": 124,
     "name": "Thunderlord Zinogre",
     "habitats": [],
     "rarity": 7,
@@ -6295,11 +6956,11 @@
     "howToGet": "Reach Rank S in a habitat with a a Mizutsune.",
     "description": "A Zinogre Deviant cloaked in dazzling, golden electricity. With its command over blinding lights and crash bolts of lightning, the title \"Thunderlord\" is certainly appropriate.",
     "related": {
-      "mutations": [116, 128]
+      "mutations": [122, 134]
     }
   },
   {
-    "id": 119,
+    "id": 125,
     "name": "Tigrex",
     "habitats": [],
     "rarity": 5,
@@ -6359,11 +7020,11 @@
       }
     ],
     "related": {
-      "mutations": [24, 67]
+      "mutations": [25, 73]
     }
   },
   {
-    "id": 120,
+    "id": 126,
     "name": "Tobi-Kadachi",
     "habitats": ["azuria"],
     "rarity": 3,
@@ -6423,11 +7084,11 @@
       }
     ],
     "related": {
-      "fights": [50]
+      "fights": [55]
     }
   },
   {
-    "id": 121,
+    "id": 127,
     "name": "Velkhana",
     "habitats": ["serathis"],
     "rarity": 7,
@@ -6435,32 +7096,31 @@
     "element": "ice",
     "combatData": {
       "attackPatterns": {
-        "default": "speed",
-        "Ice Mantle": "technical",
-        "Flying": "power"
+        "default": "technical",
+        "iceMantle": "speed",
+        "freezingFogMantle": "power",
+        "exposed": "technical"
       },
       "parts": {
-        "head": ["slash", "blunt"],
-        "body": ["slash", "blunt"],
-        "tail": ["slash"],
-        "wings": ["pierce"],
-        "frostScale": ["blunt"]
+        "mainBody": ["slash", "pierce", "blunt"],
+        "head": ["blunt"],
+        "legs": ["pierce"],
+        "tail": ["slash"]
       },
       "elementalResistance": {
-        "fire": -1,
-        "water": -1,
+        "nonElemental": -1,
+        "fire": -2,
+        "water": 1,
+        "thunder": 0,
         "ice": 2,
-        "thunder": 1,
-        "dragon": -2
+        "dragon": -1
       },
       "statusResistance": {
-        "poison": 1,
-        "fireblight": 2,
-        "paralysis": -1,
-        "sleep": -1,
-        "blast": 2,
-        "bleeding": -1,
-        "blind": 1
+        "poison": -1,
+        "paralysis": 1,
+        "sleep": 1,
+        "blast": -2,
+        "bleeding": 1
       }
     },
     "monstie": {
@@ -6477,10 +7137,11 @@
         "speed": 0,
         "initialRes": 0
       }
-    }
+    },
+    "boss": ["elderDragon"]
   },
   {
-    "id": 122,
+    "id": 128,
     "name": "Velocidrome",
     "habitats": ["azuria"],
     "rarity": 2,
@@ -6535,13 +7196,10 @@
         "area": "Sunpetal Plains",
         "region": "Azuria"
       }
-    ],
-    "related": {
-      "fights": [51, 52, 53]
-    }
+    ]
   },
   {
-    "id": 123,
+    "id": 129,
     "name": "Velociprey",
     "habitats": ["azuria"],
     "rarity": 1,
@@ -6573,7 +7231,7 @@
     }
   },
   {
-    "id": 124,
+    "id": 130,
     "name": "Yama Tsukami",
     "habitats": [],
     "rarity": 0,
@@ -6608,13 +7266,10 @@
         "bleeding": -1
       }
     },
-    "boss": ["elderDragon", "story"],
-    "related": {
-      "fights": [125]
-    }
+    "boss": ["elderDragon"]
   },
   {
-    "id": 125,
+    "id": 131,
     "name": "Yama Tsukami (Green)",
     "habitats": [],
     "rarity": 0,
@@ -6623,7 +7278,8 @@
     "combatData": {
       "attackPatterns": {
         "default": "power",
-        "openMouth": "speed"
+        "openMouth": "speed",
+        "exposed": "power"
       },
       "parts": {
         "mainBody": ["slash", "pierce", "blunt"],
@@ -6641,7 +7297,7 @@
         "dragon": -2
       },
       "statusResistance": {
-        "poison": 2,
+        "poison": -1,
         "paralysis": 2,
         "fireblight": 2,
         "sleep": 2,
@@ -6650,12 +7306,141 @@
       }
     },
     "boss": ["elderDragon"],
-    "related": {
-      "fights": [124]
-    }
+    "bossPatterns": [
+      {
+        "state": "Normal State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Tentacle Vortex (AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Unknown",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Left/Right Overhead Smash",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Unknown",
+            "type": "power"
+          },
+          {
+            "turn": 5,
+            "move": "Steam Surge (AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 6,
+            "move": "Body Press ()",
+            "type": "power"
+          },
+          {
+            "turn": 7,
+            "move": "Repeat moveset from Turns 1 to 6 exchanging the Overhead Smash skills to the unbroken part instead",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Open Mouth State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Boulder Throw (AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Randomly uses Wait-'n-See, or a Single-Target Skill",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Yama Tsukami Pull (AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Repeat moveset from Turns 2 to 4",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Exposed State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Steam Surge (AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Randomly uses any",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Normal State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Unknown",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Unknown",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Open Mouth State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Boulder Throw (AoE Skill)",
+            "type": "power"
+          },
+          {
+            "turn": 2,
+            "move": "Randomly uses or a Single-Target SkillWill only do 1 or Single-Target Skill below 25% HP",
+            "type": "power"
+          },
+          {
+            "turn": 3,
+            "move": "Yama Tsukami Pull (AoE Skill)Will use this skill one turn earlier guaranteed below 25% HP",
+            "type": "power"
+          },
+          {
+            "turn": 4,
+            "move": "Repeat moveset from Turns 2 to 3",
+            "type": "power"
+          }
+        ]
+      },
+      {
+        "state": "Exposed State",
+        "turns": [
+          {
+            "turn": 1,
+            "move": "Randomly uses any",
+            "type": "power"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 126,
+    "id": 132,
     "name": "Yian Garuga",
     "habitats": ["canaltaTimberland"],
     "rarity": 3,
@@ -6718,12 +7503,12 @@
       }
     ],
     "related": {
-      "fights": [79],
-      "mutations": [28]
+      "fights": [85],
+      "mutations": [29]
     }
   },
   {
-    "id": 127,
+    "id": 133,
     "name": "Yian Kut-Ku",
     "habitats": ["azuria"],
     "rarity": 2,
@@ -6785,12 +7570,11 @@
       }
     ],
     "related": {
-      "fights": [54],
       "mutations": [20]
     }
   },
   {
-    "id": 128,
+    "id": 134,
     "name": "Zinogre",
     "habitats": [],
     "rarity": 5,
@@ -6846,7 +7630,7 @@
     "howToGet": "Repel Invasive Odogaron to acquire a Zinogre egg.",
     "description": "Pale-blue sparks course across this Fanged Wyvern's body. With the help of its electrified carapace and shockfur, it can amass profound store of electricity to then enter a supercharged state.",
     "related": {
-      "mutations": [116, 118]
+      "mutations": [122, 124]
     }
   }
 ]
