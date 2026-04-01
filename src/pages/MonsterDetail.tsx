@@ -2,6 +2,7 @@ import { CombatData } from "@/components/monster-details/combat-data/CombatData"
 import IncompleteData from "@/components/monster-details/IncompleteData";
 import { MonsterHeader } from "@/components/monster-details/MonsterHeader";
 import { MonstieInfo } from "@/components/monster-details/monstie-info/MonstieInfo";
+import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 import { useMonsterStore } from "@/stores/monsterStore";
 import { cn } from "@/utils/lib";
@@ -18,6 +19,8 @@ export default function MonsterDetail() {
   const { t } = useTranslation(["common", "monster"]);
 
   const monster = slug ? getBySlug(slug) : undefined;
+
+  useDocumentTitle(monster?.name);
 
   if (!monster) return <NotFound />;
 
