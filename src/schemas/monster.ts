@@ -70,7 +70,6 @@ export type MonstieStats = {
 
 export type MonstieData = {
   attackType: AttackType;
-  growth: string;
   kinshipSkill: string;
   eggColors: string[];
   stats: MonstieStats;

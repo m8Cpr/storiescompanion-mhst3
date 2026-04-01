@@ -32,7 +32,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "Ajarakan Tumble",
       "eggColors": [],
       "stats": {
@@ -91,7 +90,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "",
       "eggColors": [],
       "stats": {
@@ -164,7 +162,6 @@
     ],
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Sea of Mud",
       "eggColors": [],
       "stats": {
@@ -215,7 +212,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "Anja Assault",
       "eggColors": ["pink", "black"],
       "stats": {
@@ -274,7 +270,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Slip 'n Slam",
       "eggColors": ["green", "brown", "gray"],
       "stats": {
@@ -326,7 +321,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "Final Rampage",
       "eggColors": [],
       "stats": {
@@ -387,7 +381,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Hunter's Claw",
       "eggColors": ["blue", "green"],
       "stats": {
@@ -456,7 +449,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Astalos Pulse",
       "eggColors": ["green", "black"],
       "stats": {
@@ -520,7 +512,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "Siren Storm",
       "eggColors": [],
       "stats": {
@@ -583,7 +574,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Sky-High Dive",
       "eggColors": ["blue"],
       "stats": {
@@ -642,7 +632,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Ground Cyclone",
       "eggColors": ["white", "yellow", "orange"],
       "stats": {
@@ -741,7 +730,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "regular",
       "kinshipSkill": "Rushing Charge (Non-Elemental)",
       "eggColors": ["brown", "orange"],
       "stats": {
@@ -801,7 +789,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "Fruit Barrage",
       "eggColors": [],
       "stats": {
@@ -875,7 +862,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "Fiendish Cyclone",
       "eggColors": ["green", "brown"],
       "stats": {
@@ -942,7 +928,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Magma Surge",
       "eggColors": ["gray", "orange"],
       "stats": {
@@ -1001,7 +986,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Snow Dunk",
       "eggColors": [],
       "stats": {
@@ -1060,7 +1044,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Pinecone Barrage",
       "eggColors": [],
       "stats": {
@@ -1118,7 +1101,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Longhorn Upheaval",
       "eggColors": [],
       "stats": {
@@ -1174,7 +1156,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Fireball Expulsion",
       "eggColors": ["green", "yellow"],
       "stats": {
@@ -1236,7 +1217,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "Astalos Saber",
       "eggColors": [],
       "stats": {
@@ -1380,7 +1360,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Brachy Blow",
       "eggColors": ["blue", "green"],
       "stats": {
@@ -1442,7 +1421,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "Rock Smash",
       "eggColors": ["orange", "brown"],
       "stats": {
@@ -1494,7 +1472,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Rising Axel",
       "eggColors": [],
       "stats": {
@@ -1583,7 +1560,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Cyclone Lariat",
       "eggColors": [],
       "stats": {
@@ -1642,7 +1618,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Barrel Roll Shot",
       "eggColors": [],
       "stats": {
@@ -1701,7 +1676,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "slow",
       "kinshipSkill": "Hunger Rage",
       "eggColors": ["green", "orange", "red"],
       "stats": {
@@ -1755,7 +1729,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "Fiendish Cyclone",
       "eggColors": ["brown"],
       "stats": {
@@ -1814,7 +1787,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Meteor Strike",
       "eggColors": [],
       "stats": {
@@ -1866,7 +1838,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Dual Razor",
       "eggColors": [],
       "stats": {
@@ -1952,7 +1923,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Target Acquired (Dragon)",
       "eggColors": [],
       "stats": {
@@ -2015,7 +1985,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Burn It Down",
       "eggColors": [],
       "stats": {
@@ -3132,7 +3101,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "Anja Assault",
       "eggColors": ["gray", "white", "orange", "red"],
       "stats": {
@@ -3192,7 +3160,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Steam Burst",
       "eggColors": [],
       "stats": {
@@ -3290,7 +3257,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "X Blaze",
       "eggColors": ["blue", "red"],
       "stats": {
@@ -3357,7 +3323,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Demonic Ice Spin",
       "eggColors": [],
       "stats": {
@@ -3418,7 +3383,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Magma Surge",
       "eggColors": ["yellow", "white", "gray", "orange"],
       "stats": {
@@ -3517,7 +3481,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Whirlwind Sickle",
       "eggColors": [],
       "stats": {
@@ -3579,7 +3542,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Poogie March",
       "eggColors": [],
       "stats": {
@@ -3672,7 +3634,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Dark Thrash",
       "eggColors": ["green", "yellow"],
       "stats": {
@@ -3744,7 +3705,6 @@
     ],
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Plesioth Splash",
       "eggColors": [],
       "stats": {
@@ -3793,7 +3753,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Tigrexplosion",
       "eggColors": [],
       "stats": {
@@ -3852,7 +3811,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Venom Flash",
       "eggColors": ["blue", "pink"],
       "stats": {
@@ -3915,7 +3873,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Hellblade",
       "eggColors": [],
       "stats": {
@@ -4527,7 +4484,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "Thunderous Blast",
       "eggColors": ["yellow", "blue"],
       "stats": {
@@ -4587,7 +4543,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Rushing Charge (Ice)",
       "eggColors": ["blue", "green"],
       "stats": {
@@ -4676,7 +4631,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "regular",
       "kinshipSkill": "Spark Surprise",
       "eggColors": ["blue", "white", "pink"],
       "stats": {
@@ -4739,7 +4693,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "regular",
       "kinshipSkill": "Eggsplosion",
       "eggColors": ["yellow", "white", "orange"],
       "stats": {
@@ -4801,7 +4754,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "quick",
       "kinshipSkill": "Thunderous Blast",
       "eggColors": ["blue", "red"],
       "stats": {
@@ -4875,7 +4827,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Icicle Realm",
       "eggColors": ["yellow", "white", "blue", "black"],
       "stats": {
@@ -4963,7 +4914,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Mirage Edge",
       "eggColors": [],
       "stats": {
@@ -5028,7 +4978,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Hellfire Crematorium",
       "eggColors": [],
       "stats": {
@@ -5088,7 +5037,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "",
       "eggColors": [],
       "stats": {
@@ -5173,7 +5121,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Moonlight Transience",
       "eggColors": ["red", "pink", "white", "gray"],
       "stats": {
@@ -5407,7 +5354,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Dark Thrash",
       "eggColors": ["pink", "purple", "blue"],
       "stats": {
@@ -5474,7 +5420,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "regular",
       "kinshipSkill": "Predator Needle",
       "eggColors": ["purple", "red", "pink"],
       "stats": {
@@ -5539,7 +5484,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Target Acquired (Non-Elemental)",
       "eggColors": [],
       "stats": {
@@ -5603,7 +5547,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Jet Balloon",
       "eggColors": ["white", "pink"],
       "stats": {
@@ -5669,7 +5612,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Scorching Slice",
       "eggColors": ["pink", "red"],
       "stats": {
@@ -5737,7 +5679,6 @@
     ],
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Plesioth Splash",
       "eggColors": [],
       "stats": {
@@ -5794,7 +5735,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Venom Surprise",
       "eggColors": ["green", "yellow", "white"],
       "stats": {
@@ -5859,7 +5799,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Venom Flash",
       "eggColors": ["purple", "green"],
       "stats": {
@@ -5922,7 +5861,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Moonsault Splash",
       "eggColors": ["pink"],
       "stats": {
@@ -5986,7 +5924,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "Searing Embrace",
       "eggColors": [],
       "stats": {
@@ -6051,7 +5988,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Sky-High Dive",
       "eggColors": ["red", "blue"],
       "stats": {
@@ -6114,7 +6050,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Scorching Slice",
       "eggColors": ["yellow", "white", "green"],
       "stats": {
@@ -6178,7 +6113,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "regular",
       "kinshipSkill": "Spark Surprise",
       "eggColors": ["pink", "red"],
       "stats": {
@@ -6268,7 +6202,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "",
       "eggColors": [],
       "stats": {
@@ -6329,7 +6262,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "regular",
       "kinshipSkill": "Moonsault Splash",
       "eggColors": ["green", "yellow"],
       "stats": {
@@ -6397,7 +6329,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Ground Cyclone",
       "eggColors": ["orange", "red", "pink"],
       "stats": {
@@ -6463,7 +6394,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "regular",
       "kinshipSkill": "Piercing Stars",
       "eggColors": ["yellow", "orange", "red"],
       "stats": {
@@ -6523,7 +6453,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "",
       "eggColors": [],
       "stats": {
@@ -6589,7 +6518,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "regular",
       "kinshipSkill": "Predator Needle",
       "eggColors": ["white", "gray", "yellow"],
       "stats": {
@@ -6647,7 +6575,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Nightmare Blade",
       "eggColors": [],
       "stats": {
@@ -6700,7 +6627,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "",
       "kinshipSkill": "Siren Shell",
       "eggColors": [],
       "stats": {
@@ -6763,7 +6689,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "",
       "kinshipSkill": "Sublime Transience",
       "eggColors": [],
       "stats": {
@@ -6822,7 +6747,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Voltage Crash (Dragon)",
       "eggColors": ["blue", "yellow", "white"],
       "stats": {
@@ -6876,7 +6800,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Final Round",
       "eggColors": [],
       "stats": {
@@ -6938,7 +6861,6 @@
     },
     "monstie": {
       "attackType": "power",
-      "growth": "",
       "kinshipSkill": "Gigavolt Crash",
       "eggColors": [],
       "stats": {
@@ -6996,7 +6918,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Rock Smash",
       "eggColors": ["orange", "blue"],
       "stats": {
@@ -7061,7 +6982,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Kadachi Fury",
       "eggColors": ["blue", "white", "black"],
       "stats": {
@@ -7125,7 +7045,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "slow",
       "kinshipSkill": "Calamity Glacier",
       "eggColors": ["blue", "white", "gray"],
       "stats": {
@@ -7175,7 +7094,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "regular",
       "kinshipSkill": "Velocicrush",
       "eggColors": ["blue", "orange"],
       "stats": {
@@ -7476,7 +7394,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Barrel Charge",
       "eggColors": ["purple", "pink"],
       "stats": {
@@ -7543,7 +7460,6 @@
     },
     "monstie": {
       "attackType": "technical",
-      "growth": "quick",
       "kinshipSkill": "Fireball Expulsion",
       "eggColors": ["pink", "blue"],
       "stats": {
@@ -7612,7 +7528,6 @@
     },
     "monstie": {
       "attackType": "speed",
-      "growth": "quick",
       "kinshipSkill": "Voltage Crash",
       "eggColors": ["blue", "green", "yellow"],
       "stats": {
