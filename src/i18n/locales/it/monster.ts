@@ -96,6 +96,7 @@ export const monster = {
   [MONSTER.BOSS_CATEGORY.story]: "Storia",
   [MONSTER.BOSS_CATEGORY.invasive]: "Invasivo",
   [MONSTER.BOSS_CATEGORY.feral]: "Ferale",
+  [MONSTER.BOSS_CATEGORY.optional]: "Opzionale",
   [MONSTER.BOSS_CATEGORY.elderDragon]: "Drago Anziano",
   // STATO PATTERN D'ATTACCO
   [MONSTER.ATTACK_PATTERN_STATE.default]: "Normale",

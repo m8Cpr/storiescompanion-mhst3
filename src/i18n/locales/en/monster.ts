@@ -95,6 +95,7 @@ export const monster = {
   // BOSS CATEGORY
   [MONSTER.BOSS_CATEGORY.story]: "Story",
   [MONSTER.BOSS_CATEGORY.invasive]: "Invasive",
+  [MONSTER.BOSS_CATEGORY.optional]: "Optional",
   [MONSTER.BOSS_CATEGORY.feral]: "Feral",
   [MONSTER.BOSS_CATEGORY.elderDragon]: "Elder Dragon",
   // ATTACK PATTERN STATE

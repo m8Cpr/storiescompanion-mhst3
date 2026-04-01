@@ -114,6 +114,7 @@ export const TRANSLATION_KEYS = {
       story: "monster.bossCategory.story",
       invasive: "monster.bossCategory.invasive",
       feral: "monster.bossCategory.feral",
+      optional: "monster.bossCategory.optional",
       elderDragon: "monster.bossCategory.elderDragon",
     },
     ATTACK_PATTERN_STATE: {
