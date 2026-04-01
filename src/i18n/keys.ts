@@ -208,7 +208,6 @@ export const TRANSLATION_KEYS = {
       STATUS_RESISTANCE: "monster.detailLabel.statusResistance",
       MONSTIE_DATA: "monster.detailLabel.monstieData",
       ATTACK_TYPE: "monster.detailLabel.attackType",
-      GROWTH: "monster.detailLabel.growth",
       KINSHIP_SKILL: "monster.detailLabel.kinshipSkill",
       RIDING_ACTIONS: "monster.detailLabel.ridingActions",
       BASE_STATS: "monster.detailLabel.baseStats",

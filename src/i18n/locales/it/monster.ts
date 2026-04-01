@@ -192,7 +192,6 @@ export const monster = {
   [MONSTER.DETAIL_LABEL.STATUS_RESISTANCE]: "Resistenza agli Stati",
   [MONSTER.DETAIL_LABEL.MONSTIE_DATA]: "Dati Monstie",
   [MONSTER.DETAIL_LABEL.ATTACK_TYPE]: "Tipo di Attacco",
-  [MONSTER.DETAIL_LABEL.GROWTH]: "Crescita",
   [MONSTER.DETAIL_LABEL.KINSHIP_SKILL]: "Abilità Legame",
   [MONSTER.DETAIL_LABEL.RIDING_ACTIONS]: "Azioni in Sella",
   [MONSTER.DETAIL_LABEL.BASE_STATS]: "Statistiche Base",

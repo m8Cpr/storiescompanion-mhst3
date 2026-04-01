@@ -37,7 +37,6 @@ export function MonstieInfo({
     >
       <MonstieKeyInfo
         attackType={monstie.attackType}
-        growth={monstie.growth}
         kinshipSkill={monstie.kinshipSkill}
       />
 

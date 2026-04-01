@@ -8,13 +8,11 @@ const { MONSTER } = TRANSLATION_KEYS;
 
 interface MonstieKeyInfoProps {
   attackType: AttackType;
-  growth: string;
   kinshipSkill: string;
 }
 
 export function MonstieKeyInfo({
   attackType,
-  growth,
   kinshipSkill,
 }: MonstieKeyInfoProps) {
   const { t } = useTranslation("monster");
@@ -32,16 +30,6 @@ export function MonstieKeyInfo({
             className={cn("size-5", ATTACK_TYPE_COLORS[attackType])}
           />
           {t(MONSTER.ATTACK_TYPE[attackType])}
-        </dd>
-      </div>
-
-      <div>
-        <dt className="text-xs text-muted-foreground uppercase tracking-wider mb-1">
-          {t(MONSTER.DETAIL_LABEL.GROWTH)}
-        </dt>
-
-        <dd className="text-lg font-bold capitalize">
-          {growth.length ? growth : "-"}
         </dd>
       </div>
 
