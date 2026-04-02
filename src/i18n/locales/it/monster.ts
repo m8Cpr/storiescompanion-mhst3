@@ -199,6 +199,10 @@ export const monster = {
   [MONSTER.DETAIL_LABEL.HOW_TO_GET]: "Come Ottenerlo",
   [MONSTER.DETAIL_LABEL.STATE]: "Stato",
   [MONSTER.DETAIL_LABEL.COUNTER]: "Counter:",
+  [MONSTER.DETAIL_LABEL.RELATED_MONSTERS]: "Mostri Correlati",
+  // RELAZIONE
+  [MONSTER.RELATIONSHIP.fights]: "Scontri Correlati",
+  [MONSTER.RELATIONSHIP.mutations]: "Sottospecie & Varianti",
   // LIVELLO DI RESISTENZA
   [MONSTER.RESISTANCE_LEVEL.veryWeak]: "Molto Debole",
   [MONSTER.RESISTANCE_LEVEL.weak]: "Debole",

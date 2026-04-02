@@ -184,6 +184,10 @@ export const TRANSLATION_KEYS = {
       swim: "monster.ridingAction.swim",
       wallClimb: "monster.ridingAction.wallClimb",
     },
+    RELATIONSHIP: {
+      fights: "monster.relationship.fights",
+      mutations: "monster.relationship.mutations",
+    },
     TRAIT: {
       endangered: "monster.trait.endangered",
       mutated: "monster.trait.mutated",
@@ -198,6 +202,7 @@ export const TRANSLATION_KEYS = {
       blind: "monster.statusEffect.blind",
     },
     DETAIL_LABEL: {
+      RELATED_MONSTERS: "monster.detailLabel.relatedMonsters",
       ELEMENT: "monster.detailLabel.element",
       BOSS_SUFFIX: "monster.detailLabel.bossSuffix",
       ATTACK_PATTERNS: "monster.detailLabel.attackPatterns",
