@@ -42,8 +42,8 @@ export type BossPattern = {
 };
 
 export type MonsterRelated = {
-  fights?: number[];
-  mutations?: number[];
+  fights?: string[];
+  mutations?: string[];
 };
 
 export type HabitatLocation = {

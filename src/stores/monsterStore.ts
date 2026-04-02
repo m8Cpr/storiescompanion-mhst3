@@ -27,9 +27,15 @@ for (const m of allMonsters) {
 type MonsterStore = {
   monsterList: Monster[];
   getBySlug: (slug: string) => Monster | undefined;
+  groupByFights: (slugs: string[]) => Monster[];
+  groupByMutations: (slugs: string[]) => Monster[];
 };
 
 export const useMonsterStore = create<MonsterStore>(() => ({
   monsterList: [...monsterMap.values()],
   getBySlug: (slug) => monsterMap.get(slug),
+  groupByFights: (slugs) =>
+    slugs.map((s) => monsterMap.get(s)).filter((m): m is Monster => !!m),
+  groupByMutations: (slugs) =>
+    slugs.map((s) => monsterMap.get(s)).filter((m): m is Monster => !!m),
 }));

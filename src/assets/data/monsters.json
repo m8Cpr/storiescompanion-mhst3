@@ -54,7 +54,7 @@
     ],
     "description": "This Fanged Beast affixes molten metals to its carapace, and the friction resulting from those minerals rubbing together allows it to accumulate heat and cause explosions.",
     "related": {
-      "fights": [37]
+      "fights": ["feral-ajarakan"]
     }
   },
   {
@@ -116,7 +116,7 @@
     ],
     "description": "A Bird Wyvern often seen standing on one leg, giving it the unique appearance of a parasol. Highly territorial, it intimidates trespassers with outstretched wings and an eye-patterned crest.",
     "related": {
-      "fights": [38]
+      "fights": ["feral-aknosom"]
     }
   },
   {
@@ -234,7 +234,7 @@
       }
     ],
     "related": {
-      "mutations": [61]
+      "mutations": ["fulgur-anjanath"]
     }
   },
   {
@@ -407,7 +407,7 @@
       }
     ],
     "related": {
-      "fights": [77]
+      "fights": ["invasive-arzuros"]
     }
   },
   {
@@ -476,7 +476,7 @@
       }
     ],
     "related": {
-      "mutations": [21]
+      "mutations": ["boltreaver-astalos"]
     }
   },
   {
@@ -534,7 +534,7 @@
     ],
     "description": "This subspecies of Somnacanth resembles a frighteningly beautiful phantasm veiled in frost. It uses the cold that emanates from its body to freeze surfaces, on which it swiftly chases down prey.",
     "related": {
-      "mutations": [120]
+      "mutations": ["somnacanth"]
     }
   },
   {
@@ -590,8 +590,8 @@
     "trait": "mutated",
     "howToGet": "Reach Rank A for Rathalos in Habitat Restoration.",
     "related": {
-      "fights": [22],
-      "mutations": [32, 109]
+      "fights": ["bound-azure-rathalos"],
+      "mutations": ["dreadking-rathalos", "rathalos"]
     }
   },
   {
@@ -662,7 +662,7 @@
       }
     ],
     "related": {
-      "mutations": [115]
+      "mutations": ["sand-barioth"]
     }
   },
   {
@@ -752,8 +752,8 @@
       }
     ],
     "related": {
-      "fights": [39],
-      "mutations": [87]
+      "fights": ["feral-barroth"],
+      "mutations": ["jade-barroth"]
     }
   },
   {
@@ -819,8 +819,8 @@
     ],
     "description": "This monster's winged arms enable versatile aerial movement and the prehensile tail allows it to spin liek a top. It can be described as both endearingly inquisitive and insufferably mischievous.",
     "related": {
-      "fights": [40],
-      "mutations": [18]
+      "fights": ["feral-bishaten"],
+      "mutations": ["blood-orange-bishaten"]
     }
   },
   {
@@ -888,7 +888,7 @@
       }
     ],
     "related": {
-      "mutations": [31]
+      "mutations": ["diablos"]
     }
   },
   {
@@ -950,7 +950,7 @@
       }
     ],
     "related": {
-      "mutations": [66]
+      "mutations": ["gravios"]
     }
   },
   {
@@ -1008,7 +1008,7 @@
     ],
     "description": "This Blango pack leader is found on snowy peaks and is recognizable by its giant fangs and whiskers. Twice as large as a Blango, it has far greater strength and mobility.",
     "related": {
-      "fights": [41]
+      "fights": ["feral-blangonga"]
     }
   },
   {
@@ -1066,7 +1066,7 @@
     ],
     "description": "The subspecies shares the curved horns, beaked mouth, and winged arms of the regular Bishaten, but as the name suggests, its body is mottled with unique, fiery-red patches.",
     "related": {
-      "mutations": [14]
+      "mutations": ["bishaten"]
     }
   },
   {
@@ -1117,7 +1117,7 @@
     "trait": "mutated",
     "howToGet": "Reach Rank S for Diablos in Habitat Restoration in Bountiful Dunes, Tarkuan.",
     "related": {
-      "mutations": [31]
+      "mutations": ["diablos"]
     }
   },
   {
@@ -1182,7 +1182,7 @@
       }
     ],
     "related": {
-      "mutations": [133]
+      "mutations": ["yian-kut-ku"]
     }
   },
   {
@@ -1234,7 +1234,7 @@
     "howToGet": "Restore Astalos in a Habitat with 3 Lightning Monsters and reach Rank S for Astalos in Habitat Restoration",
     "description": "An Astalos Deviant especially known for unleashing electric bolts as blue as the sky. Its highly developed shockshells produce spheres of electromagnetic energy to trap its foes.",
     "related": {
-      "mutations": [8]
+      "mutations": ["astalos"]
     }
   },
   {
@@ -1275,7 +1275,7 @@
     },
     "boss": ["story"],
     "related": {
-      "fights": [10]
+      "fights": ["azure-rathalos"]
     }
   },
   {
@@ -1317,7 +1317,7 @@
     },
     "boss": ["story"],
     "related": {
-      "fights": [94]
+      "fights": ["lunagaron"]
     }
   },
   {
@@ -1382,7 +1382,7 @@
       }
     ],
     "related": {
-      "fights": [42]
+      "fights": ["feral-brachydios"]
     }
   },
   {
@@ -1438,7 +1438,7 @@
     "howToGet": "Reach Rank A for Tigrex in Habitat Restoration.",
     "description": "This black-scaled subspecies of the Tigrex possesses astounding strength and extreme ferociousness. The might of its terrible roar surpasses even that of the regular species.",
     "related": {
-      "mutations": [73, 125]
+      "mutations": ["grimclaw-tigrex", "tigrex"]
     }
   },
   {
@@ -1635,7 +1635,7 @@
     "howToGet": "Reach Rank S in a habitat with 3 5-Star and above Monsters.",
     "description": "From among the ferocious Yian Garuga species stands a Deviant with even more love for the fight. Its one remaining eye burns with the fervor of the countless life-and-death struggles it has endured.",
     "related": {
-      "mutations": [132]
+      "mutations": ["yian-garuga"]
     }
   },
   {
@@ -1751,8 +1751,8 @@
       }
     ],
     "related": {
-      "fights": [78],
-      "mutations": [15, 19]
+      "fights": ["invasive-diablos"],
+      "mutations": ["black-diablos", "bloodbath-diablos"]
     }
   },
   {
@@ -1803,7 +1803,7 @@
     "trait": "mutated",
     "howToGet": "Reach Rank S for Rathalos in Habitat Restoration in a habitat with 4 or more Flying Wyverns",
     "related": {
-      "mutations": [10, 109]
+      "mutations": ["azure-rathalos", "rathalos"]
     }
   },
   {
@@ -1855,7 +1855,7 @@
     "howToGet": "Restore Rathian in a habitat with 3 or More Poisonous Monsters and reach Rank S for Rathian in Habitat Restoration",
     "description": "The tail of this Rathian Deviant bears venom of the deadliest kind. When expelled, the venom forms a majestic purple cloud of miasma that suffocates any unfortunate prey.",
     "related": {
-      "mutations": [103, 110]
+      "mutations": ["pink-rathian", "rathian"]
     }
   },
   {
@@ -1945,7 +1945,7 @@
     ],
     "description": "A jet-black subspecies of Odogaron whose fangs and unique claws hold dragon energy, allowing it to reave elemental power from its target.",
     "related": {
-      "mutations": [101]
+      "mutations": ["odogaron"]
     }
   },
   {
@@ -2008,7 +2008,7 @@
     "description": "This fierce Flying Wyvern is distinguished by the red-violent thorns dotting its green carapace. Its blood contains properties that poison and paralyze, so most monsters steer clear of it.",
     "boss": ["optional"],
     "related": {
-      "fights": [44]
+      "fights": ["feral-espinas"]
     }
   },
   {
@@ -2048,7 +2048,7 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [1]
+      "fights": ["ajarakan"]
     }
   },
   {
@@ -2088,7 +2088,7 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [2]
+      "fights": ["aknosom"]
     }
   },
   {
@@ -2130,7 +2130,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [13]
+      "fights": ["barroth"]
     }
   },
   {
@@ -2170,7 +2170,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [14]
+      "fights": ["bishaten"]
     }
   },
   {
@@ -2209,7 +2209,7 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [17]
+      "fights": ["blangonga"]
     }
   },
   {
@@ -2250,7 +2250,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [24]
+      "fights": ["brachydios"]
     }
   },
   {
@@ -2321,7 +2321,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [36]
+      "fights": ["espinas"]
     }
   },
   {
@@ -2362,7 +2362,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [64, 76]
+      "fights": ["glavenus", "honed-glavenus"]
     }
   },
   {
@@ -2402,7 +2402,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [66]
+      "fights": ["gravios"]
     }
   },
   {
@@ -2442,7 +2442,7 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [68]
+      "fights": ["great-izuchi"]
     }
   },
   {
@@ -2482,7 +2482,7 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [74]
+      "fights": ["gypceros"]
     }
   },
   {
@@ -2524,7 +2524,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [95]
+      "fights": ["magnamalo"]
     }
   },
   {
@@ -2564,7 +2564,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [80, 100]
+      "fights": ["invasive-nerscylla", "nerscylla"]
     }
   },
   {
@@ -2603,7 +2603,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [102]
+      "fights": ["paolumu"]
     }
   },
   {
@@ -2647,7 +2647,7 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [108]
+      "fights": ["rakna-kadaki"]
     }
   },
   {
@@ -2689,7 +2689,7 @@
     },
     "boss": ["story", "feral"],
     "related": {
-      "fights": [120]
+      "fights": ["somnacanth"]
     }
   },
   {
@@ -2729,7 +2729,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [123]
+      "fights": ["tetranadon"]
     }
   },
   {
@@ -2769,7 +2769,7 @@
     },
     "boss": ["feral"],
     "related": {
-      "fights": [126]
+      "fights": ["tobi-kadachi"]
     }
   },
   {
@@ -3123,7 +3123,7 @@
       }
     ],
     "related": {
-      "mutations": [4]
+      "mutations": ["anjanath"]
     }
   },
   {
@@ -3279,8 +3279,8 @@
       }
     ],
     "related": {
-      "fights": [45, 76],
-      "mutations": [75]
+      "fights": ["feral-glavenus", "honed-glavenus"],
+      "mutations": ["hellblade-glavenus"]
     }
   },
   {
@@ -3412,8 +3412,8 @@
       }
     ],
     "related": {
-      "fights": [46],
-      "mutations": [16]
+      "fights": ["feral-gravios"],
+      "mutations": ["black-gravios"]
     }
   },
   {
@@ -3507,7 +3507,7 @@
     ],
     "description": "The leader of an Izuchi pack, this monster is identifiable by its larger build, bristled fur, and scythe-like tail. It rarely acts alone, instead patrolling its territory with two elite Izuchi.",
     "related": {
-      "fights": [47]
+      "fights": ["feral-great-izuchi"]
     }
   },
   {
@@ -3651,7 +3651,7 @@
     "howToGet": "Reach Rank A for Nargacuga in Habitat Restoration",
     "description": "The mottled green fur of this Nargacuga subspecies is speculated to have served as an excellent camouflage in its verdant habitat before it became endangered.",
     "related": {
-      "mutations": [99, 119]
+      "mutations": ["nargacuga", "silverwind-nargacuga"]
     }
   },
   {
@@ -3718,7 +3718,7 @@
       }
     },
     "related": {
-      "mutations": [104]
+      "mutations": ["plesioth"]
     }
   },
   {
@@ -3770,7 +3770,7 @@
     "howToGet": "Reach Rank S with 4 Power Monsters in one habitat.",
     "description": "For a species already known for its absolute power, this Deviant commands even more compelling strength. Its name refers to the preternaturally sharp claws with which it decimates its prey.",
     "related": {
-      "mutations": [25, 125]
+      "mutations": ["brute-tigrex", "tigrex"]
     }
   },
   {
@@ -3837,8 +3837,8 @@
       }
     ],
     "related": {
-      "fights": [48],
-      "mutations": [106]
+      "fights": ["feral-gypceros"],
+      "mutations": ["purple-gypceros"]
     }
   },
   {
@@ -3890,7 +3890,7 @@
     "howToGet": "Reach Rank S in a Habitat With 4 Sharp Appendage Monsters",
     "description": "Deep within this Glavenus Deviant burns a searing heat. A single sweep of its tail is enough to lay waste to everything before it, even incinerating entire mountains.",
     "related": {
-      "mutations": [64]
+      "mutations": ["glavenus"]
     }
   },
   {
@@ -3931,7 +3931,7 @@
     },
     "boss": ["story"],
     "related": {
-      "fights": [45, 64]
+      "fights": ["feral-glavenus", "glavenus"]
     }
   },
   {
@@ -3969,7 +3969,7 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [7]
+      "fights": ["arzuros"]
     }
   },
   {
@@ -4008,7 +4008,7 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [31]
+      "fights": ["diablos"]
     }
   },
   {
@@ -4046,7 +4046,7 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [89]
+      "fights": ["khezu"]
     }
   },
   {
@@ -4082,7 +4082,7 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [50, 100]
+      "fights": ["feral-nerscylla", "nerscylla"]
     }
   },
   {
@@ -4120,7 +4120,7 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [101]
+      "fights": ["odogaron"]
     }
   },
   {
@@ -4223,7 +4223,7 @@
       }
     ],
     "related": {
-      "fights": [104]
+      "fights": ["plesioth"]
     }
   },
   {
@@ -4326,7 +4326,7 @@
       }
     ],
     "related": {
-      "fights": [116]
+      "fights": ["seregios"]
     }
   },
   {
@@ -4364,7 +4364,7 @@
     },
     "boss": ["invasive"],
     "related": {
-      "fights": [117]
+      "fights": ["shogun-ceanataur"]
     }
   },
   {
@@ -4442,7 +4442,7 @@
       }
     ],
     "related": {
-      "fights": [132]
+      "fights": ["yian-garuga"]
     }
   },
   {
@@ -4501,7 +4501,7 @@
     "howToGet": "Reach Rank A for Lagiacrus in Habitat Restoration",
     "description": "A subspecies of Lagiacrus with a beautiful ivory carapace. Its blue shockspikes are far more evolved than that of the regular species and capable of storing vast amounts of electricity.",
     "related": {
-      "mutations": [91]
+      "mutations": ["lagiacrus"]
     }
   },
   {
@@ -4565,7 +4565,7 @@
       }
     ],
     "related": {
-      "mutations": [13]
+      "mutations": ["barroth"]
     }
   },
   {
@@ -4653,8 +4653,8 @@
       }
     ],
     "related": {
-      "fights": [79],
-      "mutations": [111]
+      "fights": ["invasive-khezu"],
+      "mutations": ["red-khezu"]
     }
   },
   {
@@ -4785,7 +4785,7 @@
       }
     ],
     "related": {
-      "mutations": [86]
+      "mutations": ["ivory-lagiacrus"]
     }
   },
   {
@@ -4879,6 +4879,9 @@
         "bleeding": 1,
         "blind": 1
       }
+    },
+    "related": {
+      "mutations": ["purple-ludroth", "royal-ludroth"]
     }
   },
   {
@@ -4936,7 +4939,7 @@
     ],
     "description": "A Fanged Wyvern with distinctive azure scales. Although normally quadrupedal, it change its body composition by inhibiting its thermoregulatory organs to increase heat and enlarge muscles.",
     "related": {
-      "fights": [23]
+      "fights": ["bound-lunagaron"]
     }
   },
   {
@@ -5001,7 +5004,7 @@
     "description": "A Fanged Wyvern clad in a heavy carapace. It consumes even the bones of its prey to satiate its voracious appetite, and the hellfire expelled from its body is a byproduct of metabolism.",
     "boss": ["story"],
     "related": {
-      "fights": [49]
+      "fights": ["feral-magnamalo"]
     }
   },
   {
@@ -5138,7 +5141,7 @@
     "howToGet": "Force the Invasive Shogun Ceanataur to retreat to acquire a Mizutsune egg.",
     "description": "This leviathan has evolved in such a way as to be particularly mobile on land. After immobilizing its prey with bubbles produced by an internal fluid, it gracefully runs it down.",
     "related": {
-      "mutations": [121]
+      "mutations": ["soulseer-mizutsune"]
     }
   },
   {
@@ -5377,7 +5380,7 @@
       }
     ],
     "related": {
-      "mutations": [71, 119]
+      "mutations": ["green-nargacuga", "silverwind-nargacuga"]
     }
   },
   {
@@ -5446,8 +5449,8 @@
       }
     ],
     "related": {
-      "fights": [50, 80],
-      "mutations": [118]
+      "fights": ["feral-nerscylla", "invasive-nerscylla"],
+      "mutations": ["shrouded-nerscylla"]
     }
   },
   {
@@ -5506,8 +5509,8 @@
     ],
     "description": "This Fanged Wyvern is so aggressive in its wide-ranging hunt for meat that it will attack stronger monsters without hesitation. Its distinctive claws rend grisly gouges into the flesh of loss.",
     "related": {
-      "fights": [81],
-      "mutations": [35]
+      "fights": ["invasive-odogaron"],
+      "mutations": ["ebony-odogaron"]
     }
   },
   {
@@ -5573,7 +5576,7 @@
       }
     ],
     "related": {
-      "fights": [51]
+      "fights": ["feral-paolumu"]
     }
   },
   {
@@ -5629,7 +5632,7 @@
     "howToGet": "Reach Rank B for Rathian with Habitat Restoration.",
     "description": "The vibrant pink scales of this Rathian subspecies belie a terrible ferocity. It deftly utilizes its toxic tail to corner prey, then closes in for the kill.",
     "related": {
-      "mutations": [33, 110]
+      "mutations": ["dreadqueen-rathian", "rathian"]
     }
   },
   {
@@ -5692,8 +5695,8 @@
       }
     },
     "related": {
-      "fights": [82],
-      "mutations": [72]
+      "fights": ["invasive-plesioth"],
+      "mutations": ["green-plesioth"]
     }
   },
   {
@@ -5821,7 +5824,7 @@
       }
     ],
     "related": {
-      "mutations": [74]
+      "mutations": ["gypceros"]
     }
   },
   {
@@ -5887,7 +5890,7 @@
       }
     ],
     "related": {
-      "mutations": [114]
+      "mutations": ["ludroth", "royal-ludroth"]
     }
   },
   {
@@ -5946,7 +5949,7 @@
     ],
     "description": "Distinctly swathed in its own webbing and attended by several Rachnoid offspring, this Temnoceran almost appears to be part of a royal procession as it strolls about in a gown of pure white.",
     "related": {
-      "fights": [52]
+      "fights": ["feral-rakna-kadaki"]
     }
   },
   {
@@ -6010,7 +6013,7 @@
       }
     ],
     "related": {
-      "mutations": [10, 32]
+      "mutations": ["azure-rathalos", "dreadking-rathalos"]
     }
   },
   {
@@ -6073,7 +6076,7 @@
       }
     ],
     "related": {
-      "mutations": [33, 103]
+      "mutations": ["dreadqueen-rathian", "pink-rathian"]
     }
   },
   {
@@ -6135,7 +6138,7 @@
       }
     ],
     "related": {
-      "mutations": [89]
+      "mutations": ["khezu"]
     }
   },
   {
@@ -6288,7 +6291,7 @@
       }
     ],
     "related": {
-      "mutations": [107]
+      "mutations": ["ludroth", "purple-ludroth"]
     }
   },
   {
@@ -6352,7 +6355,7 @@
     "trait": "mutated",
     "howToGet": "Reach Rank S for Barioth in Habitat Restoration.",
     "related": {
-      "mutations": [11]
+      "mutations": ["barioth"]
     }
   },
   {
@@ -6416,7 +6419,7 @@
       }
     ],
     "related": {
-      "fights": [83]
+      "fights": ["invasive-seregios"]
     }
   },
   {
@@ -6475,7 +6478,7 @@
     ],
     "description": "A giant Carapaceon found in caves and marshlands, this fully grown form of the Ceanataur has a giant monster's skull on its back and highly-developed pincers that it wields like scythes.",
     "related": {
-      "fights": [84]
+      "fights": ["invasive-shogun-ceanataur"]
     }
   },
   {
@@ -6540,7 +6543,7 @@
       }
     ],
     "related": {
-      "mutations": [100]
+      "mutations": ["nerscylla"]
     }
   },
   {
@@ -6592,7 +6595,7 @@
     "howToGet": "Restore Nargacuga in a habitat with 3 Wind-Focused Monsters and reach Rank S for Nargacuga in Habitat Restoration",
     "description": "A Nargacuga Deviant that is covered in distinctive silver markings. Quick swings from its tail generate slicing gusts of wind, the phenomenal sight of which earned it its name.",
     "related": {
-      "mutations": [71, 99]
+      "mutations": ["green-nargacuga", "nargacuga"]
     }
   },
   {
@@ -6653,8 +6656,8 @@
     ],
     "description": "A bellicose Leviathan that lives in the water and spreads soporific dust via its neck gills and tail to ensnare prey. When seen under the moonlight, it is said to resemble a maiden or mermaid.",
     "related": {
-      "fights": [53],
-      "mutations": [9]
+      "fights": ["feral-somnacanth"],
+      "mutations": ["aurora-somnacanth"]
     }
   },
   {
@@ -6706,7 +6709,7 @@
     "howToGet": "Reach Rank S in Habitat Restoration with a Zinogre in the same Habitat.",
     "description": "A Mizutsune Deviant that has been rendered blind by past conflicts. Such an affliction would normally spell the end for a monster, but it has been adapted by using bubbles for perception.",
     "related": {
-      "mutations": [97]
+      "mutations": ["mizutsune"]
     }
   },
   {
@@ -6764,7 +6767,7 @@
     "howToGet": "Reach Rank A for Zinogre in Habitat Restoration.",
     "description": "A subspecies of Zinogre endowned with dragon-element power. Its jet-black shell and silver-white fur combine with the red glow distinctive of dragons to instill fear in all who see it.",
     "related": {
-      "mutations": [124, 134]
+      "mutations": ["thunderlord-zinogre", "zinogre"]
     }
   },
   {
@@ -6826,7 +6829,7 @@
     ],
     "description": "The gluttonous Amphibian waits in deep waters for prey, which it will swallow whole along with nearby rocks and dirt. It is also known to flatten prey beneath its crushing weight.",
     "related": {
-      "fights": [54]
+      "fights": ["feral-tetranadon"]
     }
   },
   {
@@ -6878,7 +6881,7 @@
     "howToGet": "Reach Rank S in a habitat with a a Mizutsune.",
     "description": "A Zinogre Deviant cloaked in dazzling, golden electricity. With its command over blinding lights and crash bolts of lightning, the title \"Thunderlord\" is certainly appropriate.",
     "related": {
-      "mutations": [122, 134]
+      "mutations": ["stygian-zinogre", "zinogre"]
     }
   },
   {
@@ -6941,7 +6944,7 @@
       }
     ],
     "related": {
-      "mutations": [25, 73]
+      "mutations": ["brute-tigrex", "grimclaw-tigrex"]
     }
   },
   {
@@ -7004,7 +7007,7 @@
       }
     ],
     "related": {
-      "fights": [55]
+      "fights": ["feral-tobi-kadachi"]
     }
   },
   {
@@ -7420,8 +7423,8 @@
       }
     ],
     "related": {
-      "fights": [85],
-      "mutations": [29]
+      "fights": ["invasive-yian-garuga"],
+      "mutations": ["deadeye-yian-garuga"]
     }
   },
   {
@@ -7486,7 +7489,7 @@
       }
     ],
     "related": {
-      "mutations": [20]
+      "mutations": ["blue-yian-kut-ku"]
     }
   },
   {
@@ -7545,7 +7548,7 @@
     "howToGet": "Repel Invasive Odogaron to acquire a Zinogre egg.",
     "description": "Pale-blue sparks course across this Fanged Wyvern's body. With the help of its electrified carapace and shockfur, it can amass profound store of electricity to then enter a supercharged state.",
     "related": {
-      "mutations": [122, 124]
+      "mutations": ["stygian-zinogre", "thunderlord-zinogre"]
     }
   }
 ]
