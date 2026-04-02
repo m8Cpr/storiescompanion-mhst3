@@ -23,6 +23,8 @@ export type RidingAction = keyof typeof TRANSLATION_KEYS.MONSTER.RIDING_ACTION;
 
 export type MonsterTrait = keyof typeof TRANSLATION_KEYS.MONSTER.TRAIT;
 
+export type Relationship = keyof MonsterRelated;
+
 export type HabitatDetail = {
   area: string;
   region: string;

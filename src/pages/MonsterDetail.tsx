@@ -2,10 +2,12 @@ import { CombatData } from "@/components/monster-details/combat-data/CombatData"
 import IncompleteData from "@/components/monster-details/IncompleteData";
 import { MonsterHeader } from "@/components/monster-details/MonsterHeader";
 import { MonstieInfo } from "@/components/monster-details/monstie-info/MonstieInfo";
+import RelatedSection from "@/components/monster-details/related-section/RelatedSection";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 import { TRANSLATION_KEYS } from "@/i18n/keys";
 import { useMonsterStore } from "@/stores/monsterStore";
 import { cn } from "@/utils/lib";
+import { logger } from "@/utils/logger";
 import { ArrowLeft } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
@@ -19,6 +21,8 @@ export default function MonsterDetail() {
   const { t } = useTranslation(["common", "monster"]);
 
   const monster = slug ? getBySlug(slug) : undefined;
+
+  logger.info("[monster] - currently displaying", monster);
 
   useDocumentTitle(monster?.name);
 
@@ -57,6 +61,8 @@ export default function MonsterDetail() {
           howToGet={monster.howToGet}
         />
       )}
+
+      <RelatedSection monster={monster} />
     </>
   );
 }
