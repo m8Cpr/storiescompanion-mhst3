@@ -54,6 +54,7 @@ function AttackPatternItem({ state, attack }: AttackPatternItemProps) {
         "max-lg:grid-cols-1 max-lg:col-span-1",
         "p-3 border border-border rounded-lg bg-card"
       )}
+      title={translatedState}
     >
       <dl className="min-w-0 self-start">
         <dt className="text-sm text-muted-foreground">

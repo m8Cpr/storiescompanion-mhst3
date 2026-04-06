@@ -170,6 +170,10 @@ export const TRANSLATION_KEYS = {
       openMouth: "monster.attackPatternState.openMouth",
       overheatedThroat: "monster.attackPatternState.overheatedThroat",
       rachnoids: "monster.attackPatternState.rachnoids",
+      blightstoneUnleashed: "monster.attackPatternState.blightstoneUnleashed",
+      thirdEncounter: "monster.attackPatternState.thirdEncounter",
+      blightCrystalFire: "monster.attackPatternState.blightCrystalFire",
+      blightCrystalWater: "monster.attackPatternState.blightCrystalWater",
     },
     RIDING_ACTION: {
       breath: "monster.ridingAction.breath",

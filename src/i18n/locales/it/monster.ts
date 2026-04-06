@@ -156,6 +156,13 @@ export const monster = {
   [MONSTER.ATTACK_PATTERN_STATE.openMouth]: "Bocca Aperta",
   [MONSTER.ATTACK_PATTERN_STATE.overheatedThroat]: "Surriscaldato (Gola)",
   [MONSTER.ATTACK_PATTERN_STATE.rachnoids]: "Racnidi",
+  [MONSTER.ATTACK_PATTERN_STATE.blightstoneUnleashed]:
+    "Morbopietra (Scatenata)",
+  [MONSTER.ATTACK_PATTERN_STATE.thirdEncounter]: "Terzo Incontro",
+  [MONSTER.ATTACK_PATTERN_STATE.blightCrystalFire]:
+    "Morbopietra invasiva (Fuoco)",
+  [MONSTER.ATTACK_PATTERN_STATE.blightCrystalWater]:
+    "Morbopietra invasiva (Acqua)",
   // AZIONI IN SELLA
   [MONSTER.RIDING_ACTION.breath]: "Soffio",
   [MONSTER.RIDING_ACTION.fly]: "Volo",
