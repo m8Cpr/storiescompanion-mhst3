@@ -154,6 +154,11 @@ export const monster = {
   [MONSTER.ATTACK_PATTERN_STATE.openMouth]: "Open Mouth",
   [MONSTER.ATTACK_PATTERN_STATE.overheatedThroat]: "Overheated (Throat)",
   [MONSTER.ATTACK_PATTERN_STATE.rachnoids]: "Rachnoids",
+  [MONSTER.ATTACK_PATTERN_STATE.blightstoneUnleashed]:
+    "Blightstone (Unleashed)",
+  [MONSTER.ATTACK_PATTERN_STATE.thirdEncounter]: "Third Encounter",
+  [MONSTER.ATTACK_PATTERN_STATE.blightCrystalFire]: "Blight Crystal (Fire)",
+  [MONSTER.ATTACK_PATTERN_STATE.blightCrystalWater]: "Blight Crystal (Water)",
   // RIDING ACTION
   [MONSTER.RIDING_ACTION.breath]: "Breath",
   [MONSTER.RIDING_ACTION.fly]: "Fly",
