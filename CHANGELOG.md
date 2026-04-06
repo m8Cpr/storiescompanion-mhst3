@@ -1,3 +1,19 @@
+## [0.6.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.5.0...v0.6.0) (2026-04-06)
+
+### Features
+
+- related monsters section - mutations and fights ([b87aad4](https://github.com/m8Cpr/storiescompanion-mhst3/commit/b87aad4f6924b99dc4f8fd03bd900c49bbac4712))
+
+### Bug Fixes
+
+- minor translations fixes ([7f20a17](https://github.com/m8Cpr/storiescompanion-mhst3/commit/7f20a17d96f7b071d2a0d3229654af8480b7f550))
+
+### Miscellaneous
+
+- relations use slugs instead of ids ([4d73a90](https://github.com/m8Cpr/storiescompanion-mhst3/commit/4d73a9000f70fa25a4ab156baca675f1d8fee3f2))
+- removed deprecated baseurl ([1ca90fb](https://github.com/m8Cpr/storiescompanion-mhst3/commit/1ca90fb6fc021e8376675e77e74c83ed01243355))
+- translations for relationships ([a141e79](https://github.com/m8Cpr/storiescompanion-mhst3/commit/a141e79756198c083dc01bad557808abc5e424d8))
+
 ## [0.5.0](https://github.com/m8Cpr/storiescompanion-mhst3/compare/v0.4.1...v0.5.0) (2026-04-01)
 
 ### Features
